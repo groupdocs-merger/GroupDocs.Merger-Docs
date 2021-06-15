@@ -3,7 +3,7 @@ id: features-overview
 url: merger/java/features-overview
 title: Features Overview
 weight: 1
-description: ""
+description: "This is an overview of GroupDocs.Merger for Java library features and capabilities"
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: False

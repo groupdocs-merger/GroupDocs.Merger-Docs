@@ -3,7 +3,7 @@ id: home
 url: merger/net
 title: GroupDocs.Merger for .NET
 weight: 1
-description: ""
+description: "Use GroupDocs.Merger for .NET to merge several documents into one, split single document to multiple and organize documents in different ways."
 keywords: 
 productName: GroupDocs.Merger for .NET
 hideChildren: True

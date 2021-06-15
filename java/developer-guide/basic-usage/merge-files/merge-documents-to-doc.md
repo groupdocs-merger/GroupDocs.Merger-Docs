@@ -3,7 +3,7 @@ id: merge-documents-to-doc
 url: merger/java/merge-documents-to-doc
 title: Merge documents to DOC
 weight: 6
-description: ""
+description: "This section describes how to import OLE objects into Word DOC/DOCX documents using Java"
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: False

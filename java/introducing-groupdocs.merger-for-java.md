@@ -3,7 +3,7 @@ id: introducing-groupdocs-merger-for-java
 url: merger/java/introducing-groupdocs-merger-for-java
 title: Introducing GroupDocs.Merger for Java
 weight: 1
-description: ""
+description: "Introduction to GroupDocs.Merger for Java - what is it and why to use"
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: False

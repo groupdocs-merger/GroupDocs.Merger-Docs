@@ -3,7 +3,7 @@ id: supported-document-formats
 url: merger/net/supported-document-formats
 title: Supported Document Types
 weight: 2
-description: ""
+description: "This section describes GroupDocs.Merger for .NET supported document types"
 keywords: 
 productName: GroupDocs.Merger for .NET
 hideChildren: False

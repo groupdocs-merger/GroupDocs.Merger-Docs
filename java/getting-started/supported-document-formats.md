@@ -3,7 +3,7 @@ id: supported-document-formats
 url: merger/java/supported-document-formats
 title: Supported Document Types
 weight: 2
-description: ""
+description: "This section describes GroupDocs.Merger for Java supported document types"
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: False

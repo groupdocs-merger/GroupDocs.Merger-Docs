@@ -3,7 +3,7 @@ id: evaluation-limitations-and-licensing-of-groupdocs-merger
 url: merger/java/evaluation-limitations-and-licensing-of-groupdocs-merger
 title: Evaluation Limitations and Licensing of GroupDocs.Merger
 weight: 5
-description: ""
+description: "This article explains evaluation limitations and licensing of GroupDocs.Merger for Java"
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: False

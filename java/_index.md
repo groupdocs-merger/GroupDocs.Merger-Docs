@@ -3,7 +3,7 @@ id: home
 url: merger/java
 title: GroupDocs.Merger for Java
 weight: 1
-description: ""
+description: "Use GroupDocs.Merger for Java to merge several documents into one, split single document to multiple and organize documents in different ways."
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: True

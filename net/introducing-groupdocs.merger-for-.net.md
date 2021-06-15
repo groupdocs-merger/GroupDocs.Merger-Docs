@@ -3,7 +3,7 @@ id: introducing-groupdocs-merger-for-net
 url: merger/net/introducing-groupdocs-merger-for-net
 title: Introducing GroupDocs.Merger for .NET
 weight: 1
-description: ""
+description: "Introduction to GroupDocs.Merger for .NET - what is it and why to use"
 keywords: 
 productName: GroupDocs.Merger for .NET
 hideChildren: False
