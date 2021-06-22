@@ -21,7 +21,7 @@ There are a few fixed bugs and improvements in this regular monthly release. The
 
 | Key | Summary | Category |
 | --- | --- | --- |
-| MERGERNET-1010 | Expand IJoinOptions with FileType property and involve it to Join method | Improvement |
+| MERGERNET-1104 | Expand IJoinOptions with FileType property and involve it to Join method | Improvement |
 | MERGERNET-1105 | GeneratePreview fails under linux | Bug |
 
 ## Public API and Backward Incompatible Changes
