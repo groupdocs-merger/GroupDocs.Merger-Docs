@@ -14,9 +14,9 @@ hideChildren: False
 
 There are a few fixed bugs and improvements in this regular monthly release. The most notable are:
 
+*   Object reference not set to an instance of an object;
 *   The surrogate pair (0xD83D, 0xD83D) is invalid. A high surrogate character (0xD800 - 0xDBFF) must always be paired with a low surrogate character (0xDC00 - 0xDFFF);
 *   The method or operation is not implemented;
-*   Object reference not set to an instance of an object;
 *   Failed to detect file type;
 *   PowerPoint Slides size changed after merging;
 *   Expanded IJoinOptions with FileType property and involved it to Join method;
@@ -37,6 +37,6 @@ There are a few fixed bugs and improvements in this regular monthly release. The
 
 ## Public API and Backward Incompatible Changes
 
-{{< alert style="info" >}}This section lists public API changes that were introduced in GroupDocs.Merger for Java 21.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in GroupDocs.Merger which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.{{< /alert >}}
+{{< alert style="info" >}}This section lists public API changes that were introduced in GroupDocs.Merger for Java 21.7. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in GroupDocs.Merger which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.{{< /alert >}}
 
 ### None.
