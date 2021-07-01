@@ -19,9 +19,6 @@ There are a few fixed bugs and improvements in this regular monthly release. The
 *   The method or operation is not implemented;
 *   Failed to detect file type;
 *   PowerPoint Slides size changed after merging;
-*   Expanded IJoinOptions with FileType property and involved it to Join method;
-*   GeneratePreview fails under linux.
-
 
 ## Full List of Issues Covering all Changes in this Release
 
@@ -32,8 +29,6 @@ There are a few fixed bugs and improvements in this regular monthly release. The
 | MERGERNET-1054 | The method or operation is not implemented | Bug |
 | MERGERNET-1078 | Failed to detect file type | Bug |
 | MERGERNET-1079 | PowerPoint Slides size changed after merging | Bug |
-| MERGERNET-1104 | Expand IJoinOptions with FileType property and involve it to Join method | Improvement |
-| MERGERNET-1105 | GeneratePreview fails under linux | Bug |
 
 ## Public API and Backward Incompatible Changes
 
