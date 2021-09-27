@@ -14,16 +14,16 @@ hideChildren: False
 
 There are a few fixed bugs in this regular monthly release. The most notable are:
 
-* 	Linux error: known incorrect sRGB profile.
 *   Expanded IJoinOptions with FileType property and involved it to Join method;
+* 	Linux error: known incorrect sRGB profile.
 *   GeneratePreview fails under linux.
 
 ## Full List of Issues Covering all Changes in this Release
 
 | Key | Summary | Category |
 | --- | --- | --- |
-| MERGERNET-884 | Linux error: known incorrect sRGB profile | Bug |
 | MERGERNET-1104 | Expand IJoinOptions with FileType property and involve it to Join method | Improvement |
+| MERGERNET-884 | Linux error: known incorrect sRGB profile | Bug |
 | MERGERNET-1105 | GeneratePreview fails under linux | Bug |
 
 ## Public API and Backward Incompatible Changes
