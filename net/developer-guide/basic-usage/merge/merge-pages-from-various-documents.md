@@ -2,7 +2,7 @@
 id: merge-pages-from-various-documents
 url: merger/net/merge-pages-from-various-documents
 title: Merge pages from various documents
-weight: 4
+weight: 100
 description: "This article explains how to merge some pages from different documents into single PDF, DOCX, Excel or PowerPoint document using GroupDocs.Merger for .NET."
 keywords: Merge PDF pages into one PDF document, Combine document pages into single document, Merge pages into document using GroupDocs.Merger for .NET
 productName: GroupDocs.Merger for .NET

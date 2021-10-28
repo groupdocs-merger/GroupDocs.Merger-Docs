@@ -1,0 +1,71 @@
+---
+id: merge-xlsb
+url: merger/net/merge/xlsb
+title: Merge XLSB
+description: "Learn how to merge XLSB files, combine XLSB files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
+keywords: Merge XLSB files in C#, Combine XLSB files programmatically
+productName: GroupDocs.Merger for .NET
+weight: 1
+structuredData:
+    productCode: merger
+    productPlatform: net
+    appName: Merge XLSB files in C#
+    appDescription: Merge XLSB in a quick and efficient way using C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+    howTo:
+        name: How to merge XLSB files in C# 
+        description: Learn how to merge XLSB files in C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+        url: merger/net/merge/[TRGT_LWR]/#how-to-merge-[TRGT_LWR]-files-in-c
+        steps:
+        - name: Load source XLSB files 
+          text: Create an instance of Merger class and pass source XLSB file path as a constructor parameter. You may specify absolute or relative file path as per your requirements. 
+          imageUrl: merger/net/images/merge-files-step-1.png
+          imageHeight: 157
+          imageWidth: 645
+        - name: Add other XLSB files
+          text: Add other XLSB files you want to merge into a single document with Join method of Merger class.
+          imageUrl: merger/net/images/merge-files-step-2.png
+          imageHeight: 144
+          imageWidth: 603
+        - name: Merge XLSB files and save result 
+          text: Call Merger class Save method and pass the filename for the resultant XLSB file as parameter.
+          imageUrl: merger/net/images/merge-files-step-3.png
+          imageHeight: 151
+          imageWidth: 646
+---
+
+## How to merge XLSB files in C#
+
+[GroupDocs.Merger](https://products.groupdocs.com/merger/net) allows developers to merge XLSB files when it's needed to organize multiple
+ XLSB files into single document or send fewer attachments etc. And you can do this without any third-party software or manual work involved.
+ With GroupDocs.Merger it is possible to combine XLSB documents of any size and structure - all text, images, tables, graphs, forms and other content will be preserved.
+
+The following example demonstrates how to merge XLSB files with several lines of C# code:
+
+* Create an instance of [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class and pass source XLSB file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another XLSB file to merge with [Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join/index) method. Repeat this step for other XLSB documents you want to merge.
+* Call [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class [Save](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/save/index) method and specify the filename for the merged XLSB file as parameter.
+
+```csharp
+// Load the source XLSB file
+using (Merger merger = new Merger(@"c:\sample1.xlsb"))
+{
+    // Add another XLSB file to merge
+    merger.Join(@"c:\sample2.xlsb");
+    // Merge XLSB files ans save result
+    merger.Save(@"c:\merged.xlsb");
+}
+```
+
+### About XLSB File Format 
+
+XLSB file format specifies the Excel Binary File Format, which is a collection of records and structures that specify Excel workbook content. The content can include unstructured or semi-structured tables of numbers, text, or both numbers and text, formulas, external data connections, charts and images. Unlike XLSX (which is based on Open XML file format), the XLSB represents binary Excel workbook file.
+
+### Code Examples
+
+Please find more [use-cases and complete C# sources]({{< ref "merger/net/developer-guide/examples-and-demos.md" >}}) of our backend and frontend examples and try them for free!
+
+### Merge XLSB Live Demo 
+
+GroupDocs.Merger for .NET provides an online [**XLSB Merger App**](https://products.groupdocs.app/merger/xlsb), which allows you to try it for free and check its quality and accuracy.
+
+[!["Merge XLSB"](merger/net/images/merge/merge-xlsb.png)](https://products.groupdocs.app/merger/xlsb)
