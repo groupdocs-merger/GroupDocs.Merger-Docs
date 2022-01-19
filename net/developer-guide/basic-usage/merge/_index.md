@@ -8,16 +8,19 @@ keywords: Merge files, Combine files, Merge documents
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---
+
+If you decide to write from scratch a program for merging multiple documents into a single file, it’s not going to be a cakewalk. Even for those file types that have open-sourced their specifications, it could be a tricky and time-consuming process. You will have to learn all the format's peculiar properties, write your code and then check how it works over a wide range of files with different content, layout, internal structure, formatting etc.
+
+When talking about proprietary formats the initial task becomes even more difficult - big companies don’t want you to know how everything works inside. Therefore, if you want to combine different files into one the possible solution is to reverse engineer needed formats.
+
+Happily it’s not the only way to solve the task because GroupDocs.Merger for .NET library has already done the most difficult part of the work for you and provides a simple and convenient API to merge multiple files into one programmatically.
+
+All you have to do is to reference GroupDocs.Merger for .NET inside your project and write a couple lines of C# code. The list of supported file formats that you can merge together is quite wide and you can find it [here]({{< ref "merger/net/getting-started/supported-document-formats.md" >}}).
+  
 {{< alert style="info" >}}
 **Try online**  
   
-You can try to merge files online and download results for free using GroupDocs.Merger [Live Demo](https://products.groupdocs.app/merger/total)
+You can try to merge files online and download results for free using GroupDocs.Merger [Live Demo](https://products.groupdocs.app/merger)
 {{< /alert >}}
 
-**[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** allows to merge multiple documents into single document nice and easy. The result will contain the content of all source documents with all data, styles and formatting. Here are the simple steps to merge several documents of any [supported format]({{< ref "merger/net/getting-started/supported-document-formats.md" >}}):
-
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Call [Join](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/join/methods/2) method and pass next merged document file path or stream to it. Repeat this step for every merged document.
-*   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method specifying file path to save resultant document.
-
-Please learn more about how to merge PDF, Microsoft Word, Microsoft PowerPoint or Excel files from the articles listed below:
+Please check the articles listed below to learn more about how to merge PDF or Microsoft Word documents, Microsoft PowerPoint presentation or Excel spreadsheets and other file types.
