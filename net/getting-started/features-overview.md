@@ -7,53 +7,54 @@ description: "This section decsribes how to get started with GroupDocs.Merger fo
 keywords: 
 productName: GroupDocs.Merger for .NET
 hideChildren: False
+toc: true
 ---
-GroupDocs.Merger allows you to join multiple documents and manipulate single document structure across wide range of [supported document types]({{< ref "merger/net/getting-started/supported-document-formats.md" >}}). Below, the short list of possible actions:
+GroupDocs.Merger allows you to join multiple documents and manipulate single document structure across wide range of [supported document types]({{< ref "merger/net/getting-started/supported-document-formats.md" >}}). Below, the short list of possible actions:
 
 ## Multiple document operations
 
-#### Join Documents
+### Join Documents
 
-This feature lets you merge two or more documents into one document, join specific pages or page ranges from several source documents into single resultant document.
+This feature lets you merge two or more documents into one document, join specific pages or page ranges from several source documents into single resultant document.
 
 ## Single document operations
 
-#### Split Document
+### Split Document
 
-**Split** operation allows to divide a source document to several resultant documents.
+**Split** operation allows to divide a source document to several resultant documents.
 
-#### Move Page
+### Move Page
 
-**MovePage** allows to move page to another position within a document. 
+**MovePage** allows to move page to another position within a document.
 
-#### Remove Pages
+### Remove Pages
 
-**RemovePages** feature provides an ability to remove single page or a collection of specific page numbers from the source document. 
+**RemovePages** feature provides an ability to remove single page or a collection of specific page numbers from the source document.
 
-#### Rotate Pages
+### Rotate Pages
 
-**RotatePages** operation lets you rotate pages within document. You can rotate pages by setting rotation angle to 90,180 or 270 degrees. 
+**RotatePages** operation lets you rotate pages within document. You can rotate pages by setting rotation angle to 90,180 or 270 degrees.
 
-#### Swap Page
+### Swap Pages
 
-**SwapPages** operation allows to swap two pages positions within the source document. The result is a new document where two pages have their positions exchanged.
+**SwapPages** operation allows to swap two pages positions within the source document. The result is a new document where two pages have their positions exchanged.
 
-#### Extract Pages
+### Extract Pages
 
-**ExtractPages** feature allows to extract specified page or page ranges from source document. The result is a new document that contains only specified pages from the source document.
+**ExtractPages** feature allows to extract specified page or page ranges from source document. The result is a new document that contains only specified pages from the source document.
 
-#### Change Pages Orientation
+### Change Pages Orientation
 
-**ChangeOrientation** operation lets you set page orientation (portrait, landscape) for specific or all pages of the document.
+**ChangeOrientation** operation lets you set page orientation (portrait, landscape) for specific or all pages of the document.
 
 ## Document security operations
 
 GroupDocs.Merger API allows to manage document password-protection through the following security operations:
 
-*   Check for password-protection;
-*   Set document password if document is not protected with password;
-*   Update password if document is password-protected already;
-*   Remove password if document is password-protected. 
+* Check for password-protection;
+* Set document password if document is not protected with password;
+* Update password if document is password-protected already;
+* Remove password if document is password-protected.
 
 ## Document information extraction
 
@@ -66,10 +67,10 @@ Document preview feature allows to generate image representations of document pa
 
 Supported image formats for document preview are:
 
-*   PNG;
-*   JPG;
-*   BMP.
+* PNG;
+* JPG;
+* BMP.
 
-## Logging while processing document 
+## Logging while processing document
 
 GroupDocs.Merger allows to log document manipulation processes info through [ILogger](https://apireference.groupdocs.com/net/merger/groupdocs.merger.logging/ilogger) interface. There is ability to use built-in [ConsoleLogger](https://apireference.groupdocs.com/net/merger/groupdocs.merger.logging/consolelogger) or implement own logging logic.

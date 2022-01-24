@@ -7,6 +7,7 @@ description: "This article describes how to run GroupDocs.Merger for .NET code e
 keywords: 
 productName: GroupDocs.Merger for .NET
 hideChildren: False
+toc: true
 ---
 {{< alert style="warning" >}}Before running an example make sure that GroupDocs.Merger has been installed successfully.{{< /alert >}}
 

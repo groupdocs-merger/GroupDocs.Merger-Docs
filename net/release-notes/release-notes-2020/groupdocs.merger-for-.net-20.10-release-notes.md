@@ -35,6 +35,6 @@ There are a few new other features in this regular monthly release. The most not
 **[Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join)** method of the GroupDocs.Merger for .NET product was expanded, please refer to the following documentation articles for more details: 
 
 *   [Supported Document Types]({{< ref "merger/net/getting-started/supported-document-formats.md" >}});
-*   [Merge documents to PDF]({{< ref "merger/net/developer-guide/basic-usage/merge/merge-documents-to-pdf.md" >}});
-*   [Merge documents to DOC]({{< ref "merger/net/developer-guide/basic-usage/merge/merge-documents-to-doc.md" >}});
-*   [Split document]({{< ref "merger/net/developer-guide/basic-usage/single-document-operations/split-document.md" >}}).
+*   [Merge documents to PDF]({{< ref "merger/net/developer-guide/merge/merge-documents-to-pdf.md" >}});
+*   [Merge documents to DOC]({{< ref "merger/net/developer-guide/merge/merge-documents-to-doc.md" >}});
+*   [Split document]({{< ref "merger/net/developer-guide/single-document-operations/split-document.md" >}}).

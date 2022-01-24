@@ -37,4 +37,4 @@ There are a few new other features in this regular monthly release. The most not
 **[ImportDocument](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/importdocument)** method was added to GroupDocs.Merger for .NET product, please refer to the following documentation articles for more details: 
 
 *   [Supported Document Types]({{< ref "merger/net/getting-started/supported-document-formats.md" >}})
-*   [Import documents]({{< ref "merger/net/developer-guide/basic-usage/import-documents/_index.md" >}}).
+*   [Import documents]({{< ref "merger/net/developer-guide/import-documents/_index.md" >}}).

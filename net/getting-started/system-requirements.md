@@ -7,6 +7,7 @@ description: "This article explains GroupDocs.Merger for .NET system requirement
 keywords: 
 productName: GroupDocs.Merger for .NET
 hideChildren: False
+toc: true
 ---
 ## Overview
 
