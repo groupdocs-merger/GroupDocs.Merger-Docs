@@ -4,7 +4,7 @@ url: merger/net/merge/open-document
 title: Merge Open Document files
 description: "Learn how to merge Open Document files, combine ODT, ODS, ODP files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
 productName: GroupDocs.Merger for .NET
-weight: 1
+weight: 24
 structuredData:
     productCode: merger
     productPlatform: net
@@ -67,7 +67,7 @@ using (Merger merger = new Merger(@"c:\sample1.odt"))
 }
 ```
 
-NOTE:###############################################################3
+NOTE: You may merge other Open Document formats like ODP, OTP and ODS in the same way as shown above. For this provide files by specifying their names with extension.
 
 ### Code Examples
 
