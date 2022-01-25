@@ -1,6 +1,6 @@
 ---
-id: merge-spreadsheet
-url: merger/net/merge/spreadsheet
+id: merge-excel
+url: merger/net/merge/excel
 title: Merge Excel spreadsheets
 linkTitle: Merge Excel
 weight: 4

@@ -1,6 +1,6 @@
 ---
-id: evaluation-limitations-and-licensing-of-groupdocs-merger
-url: merger/net/evaluation-limitations-and-licensing-of-groupdocs-merger
+id: licensing-and-subscription
+url: merger/net/licensing-and-subscription
 title: Licensing and  Subscription
 weight: 5
 description: "This article explains evaluation limitations and licensing of GroupDocs.Merger for .NET"
