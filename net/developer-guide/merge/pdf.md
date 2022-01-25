@@ -33,7 +33,7 @@ structuredData:
           imageWidth: 646
 ---
 
-## How to merge PDF files in C#
+## How to merge PDF files in C\#
 
 [GroupDocs.Merger](https://products.groupdocs.com/merger/net) allows developers to merge PDF files when it's needed to organize multiple
  PDF files into single document or send fewer attachments etc. And you can do this without any third-party software or manual work involved.
@@ -56,7 +56,7 @@ using (Merger merger = new Merger(@"c:\sample1.pdf"))
 }
 ```
 
-### About PDF File Format 
+### About PDF File Format
 
 Portable Document Format (PDF) is a type of document created by Adobe back in 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.
 
@@ -64,7 +64,7 @@ Portable Document Format (PDF) is a type of document created by Adobe back in 19
 
 Please find more [use-cases and complete C# sources]({{< ref "merger/net/examples-and-demos.md" >}}) of our backend and frontend examples and try them for free!
 
-### Merge PDF Live Demo 
+### Merge PDF Live Demo
 
 GroupDocs.Merger for .NET provides an online [**PDF Merger App**](https://products.groupdocs.app/merger/pdf), which allows you to try it for free and check its quality and accuracy.
 

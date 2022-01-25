@@ -29,17 +29,3 @@ using (Merger merger = new Merger(@"c:\sample.xlsx"))
     merger.Save(@"c:\result.xlsx");
 }
 ```
-
-## More resources
-### Advanced Usage Topics 
-To learn more about document merging features, please refer the [advanced usage section]({{< ref "merger/net/developer-guide/_index.md" >}}).
-
-### GitHub Examples 
-You may easily run the code above and see the feature in action in our GitHub examples:
-*   [GroupDocs.Merger for .NET examples, plugins and showcase](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET)    
-*   [GroupDocs.Merger for Java examples, plugins and showcase](https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java)    
-
-### Free Online App
-
-Along with full featured .NET library we provide simple, but powerful free Apps.  
-You are welcome to merge your documents with our free online **[GroupDocs Merger App](https://products.groupdocs.app/merger)**.
