@@ -71,7 +71,7 @@ NOTE: You may merge other Open Document formats like ODP, OTP and ODS in the sam
 
 ### Code Examples
 
-Please find more [use-cases and complete C# sources]({{< ref "merger/net/examples-and-demos.md" >}}) of our backend and frontend examples and try them for free!
+Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!
 
 ### Merge ODT Live Demo
 

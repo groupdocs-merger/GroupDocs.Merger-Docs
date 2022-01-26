@@ -62,7 +62,7 @@ TeX is a language that comprises of programming as well as mark-up features, use
 
 ### Code Examples
 
-Please find more [use-cases and complete C# sources]({{< ref "merger/net/examples-and-demos.md" >}}) of our backend and frontend examples and try them for free!
+Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!
 
 ### Merge TEX Live Demo 
 

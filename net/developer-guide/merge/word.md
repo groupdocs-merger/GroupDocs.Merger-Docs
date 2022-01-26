@@ -68,7 +68,7 @@ using (Merger merger = new Merger(@"c:\sample1.rtf"))
 
 ### Code Examples
 
-Please find more [use-cases and complete C# sources](https://docs.groupdocs.com/merger/net/examples-and-demos/) of our backend and frontend examples and try them for free!
+Please find more [use-cases and complete C# sources](https://docs.groupdocs.com/merger/net/showcases/) of our backend and frontend examples and try them for free!
 
 ### Merge Word files Live Demo
 

@@ -21,14 +21,14 @@ By using GroupDocs.Merger for .NET you can merge multiple files into one file, s
 <div class="row">
 	<div class="col-md-4">
 		<p><b>About GroupDocs.Merger</b></p>
-			<hr><p>LICENSING</p></hr>
+			<hr><p>OVERVIEW</p></hr>
 			<ul>
-				<!-- <li><a href='{{< ref "product-overview" >}}'>Product Overview</a></li> -->
-				<li><a href='{{< ref "merger/net/getting-started/evaluation-limitations-and-licensing-of-groupdocs-merger.md" >}}'>Licensing and Subscription</a></li>
-			</ul>            
-			<p>OVERVIEW</p>
+				<li><a href='{{< ref "product-overview" >}}'>Product Overview</a></li>
+				<li><a href='{{< ref "merger/net/getting-started/supported-document-formats.md" >}}'>Supported Document Formats</a></li>
+			</ul>
+			<p>LICENSING</p>
 			<ul>
-                <li><a href='{{< ref "merger/net/getting-started/supported-document-formats.md" >}}'>Supported Document Formats</a></li>				
+                <li><a href='{{< ref "merger/net/getting-started/licensing-and-subscription.md" >}}'>Licensing and Subscription</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">
