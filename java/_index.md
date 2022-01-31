@@ -8,19 +8,65 @@ keywords:
 productName: GroupDocs.Merger for Java
 hideChildren: True
 ---
-{{< alert style="info" >}}
-![](merger/java/images/home.png) **Welcome to the GroupDocs.Merger for Java**  
-GroupDocs.Merger for Java allows trimming and swapping of pages. It also manages document protection. Moreover, API allows to merge two documents of same format into single. 
-{{< /alert >}}
+<img src="merger/java/images/home.png" alt="groupdocs-merger-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
-## GroupDocs.Merger for Java Resources
-Following are the links to some useful resources you may need to accomplish your tasks.
-*   [GroupDocs.Merger for Java Online Documentation]({{< ref "merger/java" >}})
-*   [GroupDocs.Merger for Java Features]({{< ref "merger/java/getting-started/features-overview.md" >}})
-*   [GroupDocs.Merger for Java Limitations]({{< ref "merger/java/getting-started/evaluation-limitations-and-licensing-of-groupdocs.merger.md" >}})
-*   [GroupDocs.Merger for Java Release Notes]({{< ref "merger/java/release-notes/_index.md" >}})
-*   [GroupDocs.Merger for Java Product Page](https://products.groupdocs.com/merger/java)
-*   [D](https://artifact.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)[ownload GroupDocs.Merger for Java](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger)
-*   [GroupDocs.Merger for Java API Reference Guide](https://apireference.groupdocs.com/java/merger)
-*   [GroupDocs.Merger for Java Free Support Forum](https://forum.groupdocs.com/c/merger)
-*   [GroupDocs.Merger for Java Paid Support Helpdesk](https://helpdesk.groupdocs.com/)
+GroupDocs.Merger for Java is a cross-platform class library that empowers your applications with file merge features.
+
+GroupDocs.Merger supports most of the popular document formats such as PDF, DOCX, XLSX, PPTX, EPUB and others.
+
+By using GroupDocs.Merger for Java you can merge multiple files into one file, split single file into several files, reorder, rotate and remove document pages  and no third-party applications required!
+
+------
+
+<div class="row">
+	<div class="col-md-4">
+		<p><b>About GroupDocs.Merger</b></p>
+			<hr><p>OVERVIEW</p></hr>
+			<ul>
+				<li><a href='{{< ref "product-overview" >}}'>Product Overview</a></li>
+				<li><a href='{{< ref "merger/java/getting-started/supported-document-formats.md" >}}'>Supported Document Formats</a></li>
+			</ul>
+			<p>LICENSING</p>
+			<ul>
+                <li><a href='{{< ref "merger/java/getting-started/licensing-and-subscription.md" >}}'>Licensing and Subscription</a></li>
+			</ul>
+	</div>
+	<div class="col-md-4">
+		<p><b>Get Started</b></p>
+			<hr><p>GETTING STARTED</p></hr>
+			<ul>
+				<li><a href='{{< ref "merger/java/getting-started" >}}'>Getting Started</a></li>
+				<li><a href='{{< ref "merger/java/getting-started/system-requirements.md" >}}'>System Requirements</a></li>
+				<li><a href='{{< ref "merger/java/getting-started/installation.md" >}}'>Installation</a></li>
+			</ul>
+			<p>LEARN</p>
+			<ul>
+				<li><a href='{{< ref "merger/java/getting-started/how-to-run-examples.md" >}}'>How to Run Examples</a></li>
+			</ul>
+			<p>DOWNLOAD</p>
+			<ul>
+				<li><a href="https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger">GroupDocs.Merger for Java Repository</a></li>
+				</li><li><a href="https://downloads.groupdocs.com/merger/java">GroupDocs.Merger for Java Downloads</a></li>
+				<li><a href="https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java">Download Examples and Demos from GitHub</a></li>
+			</ul>
+	</div>
+	<div class="col-md-4">
+		<p><b>RESOURCES</b></p>
+			<hr><p>GUIDE</p></hr>
+			<ul>
+				<li><a href='{{< ref "merger/java/developer-guide/merge-files" >}}'>Merge Files</a></li>
+				<li><a href='{{< ref "merger/java/developer-guide/single-document-operations/split-document.md" >}}'>Split Document</a></li>
+				<li><a href='{{< ref "merger/java/developer-guide/single-document-operations/remove-pages.md" >}}'>Remove Document Pages</a></li>
+				<li><a href="https://apireference.groupdocs.com/merger/java">GroupDocs.Merger for Java API Reference</a></li>
+			</ul>
+			<p>WHAT'S NEW?</p>
+			<ul>
+				<li><a href='{{< ref "merger/java/release-notes" >}}'>GroupDocs.Merger for .NET Release Notes</a></li>
+			</ul>
+			<p>TECHNICAL SUPPORT</p>
+			<ul>
+				<li><a href="https://forum.groupdocs.com/">GroupDocs Free Support Forum</a></li>
+				<li><a href="https://helpdesk.groupdocs.com/">GroupDocs Paid Support Helpdesk</a></li>
+			</ul>
+	</div>
+</div>

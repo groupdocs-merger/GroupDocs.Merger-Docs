@@ -7,7 +7,14 @@ description: "This section decsribes how to get started with GroupDocs.Merger fo
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: False
+toc: true
 ---
+{{< alert style="warning" >}}Before running an example make sure that GroupDocs.Merger has been installed successfully.{{< /alert >}}
+
+We offer multiple solutions on how you can run GroupDocs.Merger examples, by building your own or using our back-end or front-end examples out-of-the-box.
+
+Please choose one from the following list:
+
 ## Download from GitHub
 
 The complete examples package of **GroupDocs.Merger** is hosted on [Github](https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java). You can either download the ZIP file or clone the repository of Github using your favorite Github client.
@@ -18,9 +25,9 @@ In case you download the ZIP file, extract the folders on your local disk. The e
 
 Open Eclipse (or IntelliJ) and import the project to get started with it. Archived project file can also be imported.Follow the given steps to run the application:
 
-*   Go to project properties.
-*   Click on Java Build Path.
-*   Go to Libraries and external Jars (GroupDocs.Merger.jar).
+* Go to project properties.
+* Click on Java Build Path.
+* Go to Libraries and external Jars (GroupDocs.Merger.jar).
 
 ![](merger/java/images/how-to-run-examples_1.png)
 

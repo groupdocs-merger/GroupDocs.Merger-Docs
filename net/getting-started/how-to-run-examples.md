@@ -15,28 +15,29 @@ We offer multiple solutions on how you can run GroupDocs.Merger examples, by bui
 
 Please choose one from the following list:
 
-
 ## Build project from scratch
 
-*   Open Visual Studio and go to **File** -> **New** -> **Project**.
-*   Select appropriate project type - Console App, ASP.NET Web Application etc.
-*   Install **GroupDocs.Merger for .NET** from Nuget or official GroupDocs website following this [guide]({{< ref "merger/net/getting-started/installation.md" >}}).
-*   Code your first application with **GroupDocs.Merger for .NET** like this    
+* Open Visual Studio and go to **File** -> **New** -> **Project**.
+* Select appropriate project type - Console App, ASP.NET Web Application etc.
+* Install **GroupDocs.Merger for .NET** from Nuget or official GroupDocs website following this [guide]({{< ref "merger/net/getting-started/installation.md" >}}).
+* Code your first application with **GroupDocs.Merger for .NET** like this
+  
     ```csharp
     // The path to the documents directory.
     string firstDocPath = @"C:\sample.docx"; // NOTE: Put here actual path for your document
     string secondDocPath = @"C:\sample2.docx"; // NOTE: Put here actual path for your document
     string outputPath = @"C:\output\result.docx";
-    
+  
     // Join two documents and save into result.docx.
     using (Merger merger = new Merger(firstDocPath))
     {
     	merger.Join(secondDocPath);
         merger.Save(outputPath);
-    }    
-    ```    
-*   Build and Run your project. 
-*   Signed document will appear inside *"C:\\output\\"* directory.
+    }  
+    ```  
+
+* Build and Run your project.
+* Signed document will appear inside *"C:\\output\\"* directory.
 
 ## Run back-end examples
 

@@ -2,7 +2,7 @@
 id: migration-notes
 url: merger/java/migration-notes
 title: Migration Notes
-weight: 3
+weight: 100
 description: "How to migrate from earlier versions of GroupDocs.Merger for Java"
 keywords: 
 productName: GroupDocs.Merger for Java

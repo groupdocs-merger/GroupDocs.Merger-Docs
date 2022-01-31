@@ -1,12 +1,13 @@
 ---
 id: installation
 url: merger/java/installation
-title: Development Environment Installation and Configuration
+title: Installation
 weight: 4
 description: "This guide explains how to install GroupDocs.Merger for Java to your environment"
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: False
+toc: True
 ---
 ## Installation from GroupDocs Repository using Maven
 
@@ -35,7 +36,7 @@ Then define GroupDocs.Merger for Java API dependency in your `pom.xml` as fol
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-merger</artifactId>
-        <version>19.12</version> 
+        <version>19.12</version>
     </dependency>
 </dependencies>
 ```
@@ -46,7 +47,7 @@ After performing above-mentioned steps, GroupDocs.Merger for Java dependency wil
 
 You can follow the steps below to reference GroupDocs.Merger for Java downloaded from official website [Downloads section](https://downloads.groupdocs.com/merger/java):
 
-1.  Unpack zip archive .
-2.  Switch to **lib** folder.
-3.  Run **install.bat** (for Windows) or **install.sh** (for Linux) file to install the library in your local maven repository.
-4.  After this you should add the merger **dependency** block to your *pom.xm*l project file.
+1. Unpack zip archive .
+2. Switch to **lib** folder.
+3. Run **install.bat** (for Windows) or **install.sh** (for Linux) file to install the library in your local maven repository.
+4. After this you should add the merger **dependency** block to your *pom.xm*l project file.

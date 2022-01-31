@@ -39,5 +39,5 @@ There are a few new other features in this regular monthly release. The most not
 **[ImportDocument](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions))** method was added to GroupDocs.Merger for Java product, please refer to the following documentation articles for more details: 
 
 *   [Supported Document Types]({{< ref "merger/java/getting-started/supported-document-formats.md" >}})
-*   [Import documents]({{< ref "merger/java/developer-guide/basic-usage/import-documents/_index.md" >}})
-*   [Merge documents to PDF]({{< ref "merger/java/developer-guide/basic-usage/merge-files/merge-documents-to-pdf.md" >}}).
+*   [Import documents]({{< ref "merger/java/developer-guide/import-documents/_index.md" >}})
+*   [Merge documents to PDF]({{< ref "merger/java/developer-guide/merge-files/merge-documents-to-pdf.md" >}}).
