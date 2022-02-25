@@ -1,6 +1,6 @@
 ---
 id: groupdocs-merger-for-java-22-2-release-notes
-url: merger/java/groupdocs-merger-for-net-22-2-release-notes
+url: merger/java/groupdocs-merger-for-java-22-2-release-notes
 title: GroupDocs.Merger for Java 22.2 Release Notes
 weight: 120
 description: ""
