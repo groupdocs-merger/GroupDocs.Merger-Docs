@@ -53,7 +53,7 @@ using (Merger merger = new Merger(@"c:\sample1.ppsx"))
 {
     // Add another PPSX file to merge
     merger.Join(@"c:\sample2.ppsx");
-    // Merge PPSX files ans save result
+    // Merge PPSX files and save result
     merger.Save(@"c:\merged.ppsx");
 }
 ```

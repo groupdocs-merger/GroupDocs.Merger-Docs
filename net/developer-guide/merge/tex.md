@@ -51,7 +51,7 @@ using (Merger merger = new Merger(@"c:\sample1.tex"))
 {
     // Add another TEX file to merge
     merger.Join(@"c:\sample2.tex");
-    // Merge TEX files ans save result
+    // Merge TEX files and save result
     merger.Save(@"c:\merged.tex");
 }
 ```

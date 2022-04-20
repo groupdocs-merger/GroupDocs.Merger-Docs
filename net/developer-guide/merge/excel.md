@@ -60,7 +60,7 @@ using (Merger merger = new Merger(@"c:\sample1.xlsx"))
 {
     // Add another XLSX file to merge
     merger.Join(@"c:\sample2.xlsx");
-    // Merge XLSX files ans save result
+    // Merge XLSX files and save result
     merger.Save(@"c:\merged.xlsx");
 }
 ```

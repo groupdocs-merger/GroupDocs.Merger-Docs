@@ -48,7 +48,7 @@ using (Merger merger = new Merger(@"c:\sample1.epub"))
 {
     // Add another EPUB file to merge
     merger.Join(@"c:\sample2.epub");
-    // Merge EPUB files ans save result
+    // Merge EPUB files and save result
     merger.Save(@"c:\merged.epub");
 }
 ```

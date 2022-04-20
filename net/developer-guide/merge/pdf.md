@@ -51,7 +51,7 @@ using (Merger merger = new Merger(@"c:\sample1.pdf"))
 {
     // Add another PDF file to merge
     merger.Join(@"c:\sample2.pdf");
-    // Merge PDF files ans save result
+    // Merge PDF files and save result
     merger.Save(@"c:\merged.pdf");
 }
 ```

@@ -19,7 +19,7 @@ Common plain text file extensions and associated file formats include **TXT**, *
 
 Docx is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions, but not with the earlier versions of MS Word which support DOC file extensions
 
-Below is code snippet in C# that demonstrates how to merge DOCX files into single files.
+Below is code snippet in C# that demonstrates how to merge DOCX files into single file.
 
 ```csharp
 // Load the source DOCX file
@@ -27,8 +27,28 @@ using (Merger merger = new Merger(@"c:\sample1.docx"))
 {
     // Add another DOCX file to merge
     merger.Join(@"c:\sample2.docx");
-    // Merge DOCX files ans save result
+    // Merge DOCX files and save result
     merger.Save(@"c:\merged.docx");
+}
+```
+  
+## How to merge Word documents without starting from a new page
+
+There is an additional option for Word document joining that allows to merge those documents without page breaking between them, i.e. the last page of the initial document will be merged with the first page of the next document as one page.
+
+Below is code snippet in C# that demonstrates how to merge DOC files into single file without starting from a new page.
+
+```csharp
+// Load the source DOC file
+using (Merger merger = new Merger(@"c:\sample1.doc"))
+{
+    // Define Word join options
+    WordJoinOptions joinOptions = new WordJoinOptions();
+    joinOptions.Mode = WordJoinMode.Continuous;
+    // Add another DOC file to merge
+    merger.Join(@"c:\sample2.doc", joinOptions);
+    // Merge DOC files and save result
+    merger.Save(@"c:\merged.doc");
 }
 ```
 
@@ -44,7 +64,7 @@ using (Merger merger = new Merger(@"c:\sample1.txt"))
 {
     // Add another TXT file to merge
     merger.Join(@"c:\sample2.txt");
-    // Merge TXT files ans save result
+    // Merge TXT files and save result
     merger.Save(@"c:\merged.txt");
 }
 ```
@@ -61,7 +81,7 @@ using (Merger merger = new Merger(@"c:\sample1.rtf"))
 {
     // Add another RTF file to merge
     merger.Join(@"c:\sample2.rtf");
-    // Merge RTF files ans save result
+    // Merge RTF files and save result
     merger.Save(@"c:\merged.rtf");
 }
 ```

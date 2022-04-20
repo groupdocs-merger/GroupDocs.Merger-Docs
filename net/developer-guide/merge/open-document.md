@@ -62,7 +62,7 @@ using (Merger merger = new Merger(@"c:\sample1.odt"))
 {
     // Add another ODT file to merge
     merger.Join(@"c:\sample2.odt");
-    // Merge ODT files ans save result
+    // Merge ODT files and save result
     merger.Save(@"c:\merged.odt");
 }
 ```

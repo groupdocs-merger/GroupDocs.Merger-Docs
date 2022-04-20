@@ -53,7 +53,7 @@ using (Merger merger = new Merger(@"c:\sample1.txt"))
 {
     // Add another TXT file to merge
     merger.Join(@"c:\sample2.txt");
-    // Merge TXT files ans save result
+    // Merge TXT files and save result
     merger.Save(@"c:\merged.txt");
 }
 ```

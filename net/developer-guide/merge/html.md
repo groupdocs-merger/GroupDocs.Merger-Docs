@@ -51,7 +51,7 @@ using (Merger merger = new Merger(@"c:\sample1.html"))
 {
     // Add another HTML file to merge
     merger.Join(@"c:\sample2.html");
-    // Merge HTML files ans save result
+    // Merge HTML files and save result
     merger.Save(@"c:\merged.html");
 }
 ```
