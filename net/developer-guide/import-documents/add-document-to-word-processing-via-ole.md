@@ -4,7 +4,7 @@ url: merger/net/add-document-to-word-processing-via-ole
 title: Add document to Word processing via OLE
 weight: 2
 description: "This article explains how to add document to Word processing via OLE with GroupDocs.Merger within your .NET applications."
-keywords: 
+keywords: Word processing via OLE, Object Linking and Embedding, PowerPoint presentation
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---

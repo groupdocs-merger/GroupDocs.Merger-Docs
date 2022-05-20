@@ -4,7 +4,7 @@ url: merger/net/load-document-from-local-disk
 title: Load document from local disk
 weight: 1
 description: "This article explains how to load PDF, Word, Excel, PowerPoint documents from local disk when using GroupDocs.Merger for .NET."
-keywords: Load document from local disk, Load document from file path, Load document with GroupDocs.Merger
+keywords: Load document from local disk, Load document from file path, Load document with GroupDocs.Merger, PDF, Word, Excel, PowerPoint
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---

@@ -4,7 +4,7 @@ url: merger/net/how-to-add-attachment-to-pdf-document
 title: How to add attachment to PDF document
 weight: 1
 description: "This article explains how to add attachment to PDF document with GroupDocs.Merger within your .NET applications."
-keywords: 
+keywords: add attachment, add attachment to PDF document,  Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, images, audio, video files
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---

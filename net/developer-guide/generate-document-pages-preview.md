@@ -3,7 +3,7 @@ id: generate-document-pages-preview
 url: merger/net/generate-document-pages-preview
 title: Generate document pages preview
 weight: 7
-description: "Following this guide you will learn how to generate PDF, Word, Excel, PowerPoint documents thumbnails and preview document pages using GroupDocs.Merger for .NET API."
+description: "Following this guide you will learn how to generate PDF, Word (DOC, DOCX), Excel(XLS, XLSX), PowerPoint(PPT, PPTX) documents thumbnails and preview document pages using GroupDocs.Merger for .NET API."
 keywords: Preview document pages, Document pages as PNG, document pages as JPG, Document preview
 productName: GroupDocs.Merger for .NET
 hideChildren: False

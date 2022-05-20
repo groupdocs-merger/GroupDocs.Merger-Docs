@@ -4,7 +4,7 @@ url: merger/net/add-document-to-spreadsheet-via-ole
 title: Add document to Spreadsheet via OLE
 weight: 4
 description: "This article explains how to add document to Spreadsheet via OLE with GroupDocs.Merger within your .NET applications."
-keywords: 
+keywords: add document to Spreadsheet, add document
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---

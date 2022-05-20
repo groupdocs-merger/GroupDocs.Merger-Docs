@@ -3,15 +3,15 @@ id: features-overview
 url: merger/net/features-overview
 title: Features Overview
 weight: 1
-description: "This section decsribes how to get started with GroupDocs.Merger for .NET library"
-keywords: 
+description: "This artice decsribes the features of GroupDocs.Merger for .NET library. It allows you to Merge PDF, Merge JPG, Split Document, Move Page, Swap Pages of the documents."
+keywords: Merge PDF, Merge JPG, Split Document, Move Page, Swap Pages
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 toc: true
 ---
 GroupDocs.Merger allows you to join multiple documents and manipulate single document structure across wide range of [supported document types]({{< ref "merger/net/getting-started/supported-document-formats.md" >}}). Below, the short list of possible actions:
 
-## Multiple document operations
+## Multiple document operations 
 
 ### Join Documents
 
