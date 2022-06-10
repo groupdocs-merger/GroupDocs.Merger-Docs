@@ -4,7 +4,7 @@ url: merger/net/add-document-to-presentation-via-ole
 title: Add document to Presentation via OLE
 weight: 3
 description: "This article explains how to add document to Presentation via OLE with GroupDocs.Merger within your .NET applications."
-keywords: 
+keywords: add document to Presentation, What is OLE object for Presentation
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---

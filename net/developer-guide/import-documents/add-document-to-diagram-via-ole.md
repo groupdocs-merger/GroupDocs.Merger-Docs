@@ -4,7 +4,7 @@ url: merger/net/add-document-to-diagram-via-ole
 title: Add document to Diagram via OLE
 weight: 5
 description: "This article explains how to add document to Diagram via OLE with GroupDocs.Merger within your .NET applications."
-keywords: 
+keywords: add document to Diagram via OLE
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---
