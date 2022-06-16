@@ -9,6 +9,31 @@ productName: GroupDocs.Merger for .NET
 weight: 2
 hideChildren: True
 toc: True
+structuredData:
+    productCode: merger
+    productPlatform: net
+    appName: Merge DOCX files in C#
+    appDescription: Merge DOCX in a quick and efficient way using C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+    howTo:
+        name: How to merge DOCX files in C# 
+        description: Learn how to merge DOCX files in C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+        url: merger/net/merge/[TRGT_LWR]/#how-to-merge-[TRGT_LWR]-files-in-c
+        steps:
+        - name: Load source DOCX files 
+          text: Create an instance of Merger class and pass source DOCX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements. 
+          imageUrl: merger/net/images/merge-files-step-1.png
+          imageHeight: 157
+          imageWidth: 645
+        - name: Add other DOCX files
+          text: Add other DOCX files you want to merge into a single document with Join method of Merger class.
+          imageUrl: merger/net/images/merge-files-step-2.png
+          imageHeight: 144
+          imageWidth: 603
+        - name: Merge DOCX files and save result 
+          text: Call Merger class Save method and pass the filename for the resultant DOCX file as parameter.
+          imageUrl: merger/net/images/merge-files-step-3.png
+          imageHeight: 151
+          imageWidth: 646
 ---
 
 A word processing file contains user information in plain text or rich text format. A **plain text** file format contains unformatted text and no font or page settings can be applied. In contrast, a **rich text** file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing.

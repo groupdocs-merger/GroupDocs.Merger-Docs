@@ -7,6 +7,8 @@ description: "This article explains how to merge files of PDF, Microsoft Word, E
 keywords: Merge files, Combine files, Merge documents
 productName: GroupDocs.Merger for .NET
 hideChildren: False
+structuredData:
+    showOrganization: True
 ---
 
 If you decide to write from scratch a program for merging multiple documents into a single file, it’s not going to be a cakewalk. Even for those file types that have open-sourced their specifications, it could be a tricky and time-consuming process. You will have to learn all the format's peculiar properties, write your code and then check how it works over a wide range of files with different content, layout, internal structure, formatting etc.

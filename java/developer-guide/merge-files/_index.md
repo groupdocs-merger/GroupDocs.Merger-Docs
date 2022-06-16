@@ -7,6 +7,8 @@ description: "This article explains how to merge files of PDF, Microsoft Word, E
 keywords: Merge files, Combine files, Merge documents, Merge document with GroupDocs.Merger for Java
 productName: GroupDocs.Merger for Java
 hideChildren: False
+structuredData:
+    showOrganization: True
 ---
 [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to merge two or more documents into single resultant document. The result will contain the content of all source documents with all data, styles and formatting.
 

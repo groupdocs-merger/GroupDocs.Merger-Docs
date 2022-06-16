@@ -7,6 +7,8 @@ description: "Use GroupDocs.Merger for Java to merge several documents into one,
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: True
+structuredData:
+    showOrganization: True
 ---
 <img src="merger/java/images/home.png" alt="groupdocs-merger-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 

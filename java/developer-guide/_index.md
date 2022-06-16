@@ -7,6 +7,8 @@ description: "This Developer Guide explains GroupDocs.Merger for Java file merge
 keywords: GroupDocs.Merger Developer Guide, GroupDocs.Merger Java Developer Guide, GroupDocs.Merger Developer Guide Java, Using GroupDocs.Merger for Java, GroupDocs.Merger for Java
 productName: GroupDocs.Merger for Java
 hideChildren: False
+structuredData:
+    showOrganization: True
 ---
 {{< alert style="info" >}}
 This section describes some basic and advanced use cases of GroupDocs.Merger for Java. Please refer to [GitHub repository](https://github.com/groupdocs-merger/GroupDocs.Merger-for-Java) for more examples and samples.

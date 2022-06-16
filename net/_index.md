@@ -7,6 +7,8 @@ description: "Use GroupDocs.Merger for .NET to merge several documents into one,
 keywords: 
 productName: GroupDocs.Merger for .NET
 hideChildren: True
+structuredData:
+    showOrganization: True
 ---
 <img src="merger/net/images/home.png" alt="groupdocs-merger-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
