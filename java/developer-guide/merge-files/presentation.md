@@ -7,7 +7,34 @@ description: "This article explains how to merge PowerPoint presentations, combi
 keywords: Merge PowerPoint, Merge Presentations, Merge PPT, Merge PPTX, Merge PPSX, Merge PPS, Join PowerPoint, Combine PowerPoint with GroupDocs.Merger for Java
 productName: GroupDocs.Merger for Java
 hideChildren: False
+structuredData:
+    productCode: merger
+    productPlatform: java
+    appName: Merge PPTX files in Java
+    appDescription: Merge PPTX in a quick and efficient way using Java language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+    howTo:
+        name: How to merge PPTX files in Java 
+        description: Learn how to merge PPTX files in Java language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+        url: merger/java/merge/[TRGT_LWR]/#how-to-merge-[TRGT_LWR]-files-in-java
+        steps:
+        - name: Load source PPTX files 
+          text: Create an instance of Merger class and pass source PPTX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements. 
+          imageUrl: merger/java/images/merge-files-step-1.png
+          imageHeight: 159
+          imageWidth: 603
+        - name: Add other PPTX files
+          text: Add other PPTX files you want to merge into a single document with Join method of Merger class.
+          imageUrl: merger/java/images/merge-files-step-2.png
+          imageHeight: 159
+          imageWidth: 603
+        - name: Merge PPTX files and save result 
+          text: Call Merger class Save method and pass the filename for the resultant PPTX file as parameter.
+          imageUrl: merger/java/images/merge-files-step-3.png
+          imageHeight: 159
+          imageWidth: 603
 ---
+
+## How to merge PPTX presentations
 
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/java)** exposes powerful and easy to use API to merge PowerPoint and Open Document presentations of PPT, PPTX, PPS, PPSX and ODP, OTP formats. Presentations can be combined as a whole or on a page by page basis depending on your requirements. The big advantage of GroupDocs.Merger is that presentations can be merged programmatically without any third-party software installed (like Microsoft PowerPoint or Open Office) or manual work.  
 GroupDocs.Merger combines presentations with all their content with no quality and data loss - text formatting, comments, animations, smart arts, shapes, etc.  
@@ -22,7 +49,11 @@ GroupDocs.Merger API provides different overloads of [join](https://apireferenc
 The following example demonstrates how to merge presentations with several lines of code:
 
 ```java
-Merger merger = new Merger(@"c:\presentation1.ppt"); 
-merger.join(@"c:\presentation2.ppt");
-merger.save(@"c:\merged.ppt");
+Merger merger = new Merger(@"c:\presentation1.pptx"); 
+merger.join(@"c:\presentation2.pptx");
+merger.save(@"c:\merged.pptx");
 ```
+
+### Code Examples
+
+Please find more [use-cases and complete Java sources]({{< ref "merger/java/showcases.md" >}}) of our backend and frontend examples and try them for free!

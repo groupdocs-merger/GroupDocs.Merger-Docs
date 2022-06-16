@@ -35,6 +35,7 @@ structuredData:
 ---
 
 ## How to merge PDF files in Java
+
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/java)** allows you to merge PDF files when it's needed to organize multiple PDFs into single document or send fewer attachments etc. And you can do this without any third-party software or manual work involved.  
 With GroupDocs.Merger it is possible to combine PDF documents of any size and structure - all text, images, tables, graphs, forms and other content will be preserved.   
 Supported PDF format versions are 1.2, 1.3, 1.4, 1.5, 1.6 and 1.7.
