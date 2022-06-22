@@ -63,6 +63,8 @@ using (Merger merger = new Merger(@"c:\sample1.jpg"))
 This section describes how to merge different image file formats using GroupDocs.Merger API. Please look at the articles listed below:
 
 * [How to merge JPG images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-jpg-images-using-csharp.md" >}})
+* [How to merge PNG images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-png-images-using-csharp.md" >}})
+* [How to merge BMP images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-bmp-images-using-csharp.md" >}})
 
 ### Code Examples
 
