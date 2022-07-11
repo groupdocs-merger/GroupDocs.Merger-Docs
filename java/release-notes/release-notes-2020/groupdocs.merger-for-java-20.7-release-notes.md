@@ -40,4 +40,4 @@ There are a few new other features in this regular monthly release. The most not
 
 *   [Supported Document Types]({{< ref "merger/java/getting-started/supported-document-formats.md" >}})
 *   [Import documents]({{< ref "merger/java/developer-guide/import-documents/_index.md" >}})
-*   [Merge documents to PDF]({{< ref "merger/java/developer-guide/merge-files/merge-documents-to-pdf.md" >}}).
+*   [Merge documents to PDF]({{< ref "merger/java/developer-guide/merge/merge-documents-to-pdf.md" >}}).

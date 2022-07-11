@@ -34,7 +34,7 @@ GroupDocs.Merger for Java features can be divided into two main areas.
 
 #### Multiple document operations
 
-["File merge"]({{< ref "merger/java/developer-guide/merge-files" >}}) is the one main features of GroupDocs.Merger that allows you to combine several files together into a single files.
+["File merge"]({{< ref "merger/java/developer-guide/merge" >}}) is the one main features of GroupDocs.Merger that allows you to combine several files together into a single files.
 
 You can merge whole documents or particular pages from your documents by using only GroupDocs.Merger for Java class-library.
 

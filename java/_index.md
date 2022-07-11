@@ -56,7 +56,7 @@ By using GroupDocs.Merger for Java you can merge multiple files into one file, s
 		<p><b>RESOURCES</b></p>
 			<hr><p>GUIDE</p></hr>
 			<ul>
-				<li><a href='{{< ref "merger/java/developer-guide/merge-files" >}}'>Merge Files</a></li>
+				<li><a href='{{< ref "merger/java/developer-guide/merge" >}}'>Merge Files</a></li>
 				<li><a href='{{< ref "merger/java/developer-guide/single-document-operations/split-document.md" >}}'>Split Document</a></li>
 				<li><a href='{{< ref "merger/java/developer-guide/single-document-operations/remove-pages.md" >}}'>Remove Document Pages</a></li>
 				<li><a href="https://apireference.groupdocs.com/merger/java">GroupDocs.Merger for Java API Reference</a></li>
