@@ -4,7 +4,7 @@ url: merger/java/add-document-to-presentation-via-ole
 title: Add document to Presentation via OLE
 weight: 3
 description: "This article explains how to add document to Presentation via OLE with GroupDocs.Merger within your Java applications."
-keywords: 
+keywords: add document to Presentation, What is OLE object for Presentation
 productName: GroupDocs.Merger for Java
 hideChildren: False
 ---
@@ -25,7 +25,6 @@ Here are the steps for it:
 The following code sample demonstrates how to add other single document as embedded document to Presentation:
 
 ```java
-
 int pageNumber = 2;
 OlePresentationOptions oleSlidesOptions = new OlePresentationOptions("c:\embedded.pdf", pageNumber);
 oleSlidesOptions.setX(10);

@@ -2,13 +2,13 @@
 id: merge-pages-from-various-documents
 url: merger/java/merge-pages-from-various-documents
 title: Merge pages from various documents
-weight: 4
+weight: 100
 description: "This article explains how to merge some pages from different documents into single PDF, DOCX, Excel or PowerPoint document using GroupDocs.Merger for Java."
 keywords: Merge PDF pages into one PDF document, Combine document pages into single document, Merge pages into document using GroupDocs.Merger for Java
 productName: GroupDocs.Merger for Java
 hideChildren: False
 ---
-[**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to merge the source document with specific document pages from joined document into one resultant document by specifying desired page numbers or page ranges. Joined documents should be of the same format.
+**[GroupDocs.Merger](https://products.groupdocs.com/merger/java)** allows to merge the source document with specific document pages from joined document into one resultant document by specifying desired page numbers or page ranges. Joined documents should be of the same format.
 
 Here are the steps to join several document parts:
 

@@ -36,7 +36,7 @@ Then define GroupDocs.Merger for Java API dependency in your `pom.xml` as fol
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-merger</artifactId>
-        <version>19.12</version>
+        <version>22.7</version>
     </dependency>
 </dependencies>
 ```

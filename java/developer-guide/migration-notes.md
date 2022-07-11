@@ -9,6 +9,7 @@ productName: GroupDocs.Merger for Java
 hideChildren: False
 ---
 ### Why To Migrate?  
+
 Here are the key reasons to use the new updated API provided by GroupDocs.Merger for Java since version 19.12:
 *   [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class introduced as a **single entry point** to manage the document processing of any supported file format (instead of **DocumentHander** class from previous versions).     
 *   Product architecture was redesigned from scratch in order to **decreased memory usage** (from 10% to 400% approx. depending on document type).    

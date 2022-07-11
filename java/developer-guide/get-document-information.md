@@ -3,8 +3,8 @@ id: get-document-information
 url: merger/java/get-document-information
 title: Get document information
 weight: 2
-description: "This article explains how to detect document file type and calculate pages count when merge PDF, Word, Excel, PowerPoint files with GroupDocs.Merger for Java."
-keywords: 
+description: "This article explains how to detect document file type and calculate pages count when merge PDF, Word(DOC, DOCX), Excel(XLS, XLSX), PowerPoint(PPT, PPTX) files with GroupDocs.Merger for Java."
+keywords: Word, DOC, DOCX, Excel, XLS, XLSX, PowerPoint, PPT, PPTX
 productName: GroupDocs.Merger for Java
 hideChildren: False
 ---

@@ -4,7 +4,7 @@ url: merger/java/add-document-to-word-processing-via-ole
 title: Add document to Word processing via OLE
 weight: 2
 description: "This article explains how to add document to Word processing via OLE with GroupDocs.Merger within your Java applications."
-keywords: 
+keywords: Word processing via OLE, Object Linking and Embedding, PowerPoint presentation
 productName: GroupDocs.Merger for Java
 hideChildren: False
 ---
@@ -29,10 +29,8 @@ oleWordsOptions.setWidth(300);
 oleWordsOptions.setHeight(300);
 
 Merger merger = new Merger("c:\sample.docx");
-{
-    merger.importDocument(oleWordsOptions);
-    merger.save("c:\output\result.docx");
-}
 
+merger.importDocument(oleWordsOptions);
+merger.save("c:\output\result.docx");
 
 ```

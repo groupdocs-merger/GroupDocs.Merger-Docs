@@ -4,7 +4,7 @@ url: merger/java/how-to-add-attachment-to-pdf-document
 title: How to add attachment to PDF document
 weight: 1
 description: "This article explains how to add attachment to PDF document with GroupDocs.Merger within your Java applications."
-keywords: 
+keywords: add attachment, add attachment to PDF document,  Microsoft Word documents, Excel spreadsheets, PowerPoint presentations, images, audio, video files
 productName: GroupDocs.Merger for Java
 hideChildren: False
 ---
@@ -31,5 +31,4 @@ Merger merger = new Merger("c:\sample.pdf");
     merger.importDocument(olePdfOptions);
     merger.save("c:\document-with-attachment.pdf");
 }
-
 ```

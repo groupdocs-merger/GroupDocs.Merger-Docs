@@ -2,7 +2,7 @@
 id: merge-documents-to-pdf
 url: merger/java/merge-documents-to-pdf
 title: Merge documents to PDF
-weight: 5
+weight: 102
 description: "This section describes how to import OLE objects into PDF documents using Java"
 keywords: 
 productName: GroupDocs.Merger for Java
