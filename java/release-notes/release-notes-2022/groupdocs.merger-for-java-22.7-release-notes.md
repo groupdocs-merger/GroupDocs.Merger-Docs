@@ -16,7 +16,7 @@ hideChildren: False
 There are few bugs in this regular monthly release. The most notable are:
 
 *   Implemented image joining: JPG, BMP, PNG;
-*   Implemented merging of Word documents without starting from a new page.
+*   Implemented merging of Word documents without starting from a new page;
 *   Save method with FilePath parameter doesn't work as expected.
 
 ## Full List of Issues Covering all Changes in this Release
