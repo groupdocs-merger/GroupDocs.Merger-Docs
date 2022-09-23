@@ -39,8 +39,8 @@ hideChildren: true
                 <h4>{{< icon-large "book" >}} Developer Guide</h4>
                 <p>Articles and guidelines for basic and advanced development</p>
                 <ul style="text-align: left;list-style:none">
-                    <li>{{< icon "file-alt" >}} <a href='{{< ref "/merger/net/developer-guide/merge" >}}'>Merge Files</a></li>
-                    <li>{{< icon "file-alt" >}} <a href='{{< ref "/merger/net/developer-guide/split-document" >}}'>Split File</a></li>
+                    <li>{{< icon "file-alt" >}} <a href='{{< ref "/merger/net/developer-guide/merge.md" >}}'>Merge Files</a></li>
+                    <li>{{< icon "file-alt" >}} <a href='{{< ref "/merger/net/developer-guide/single-document-operations/split-document.md" >}}'>Split File</a></li>
                 </ul>
             </div>
         </div>
@@ -69,7 +69,7 @@ hideChildren: true
                 <p>Articles and guidelines for basic and advanced development</p>
                 <ul style="text-align: left;list-style:none">
                     <li>{{< icon "file-alt" >}} <a href='{{< ref "/merger/net/developer-guide/merge" >}}'>Merge Files</a></li>
-                    <li>{{< icon "file-alt" >}} <a href='{{< ref "/merger/net/developer-guide/split-document" >}}'>Split File</a></li>
+                    <li>{{< icon "file-alt" >}} <a href='{{< ref "/merger/net/developer-guide/single-document-operations/split-document.md" >}}'>Split File</a></li>
                 </ul>
             </div>
         </div>
