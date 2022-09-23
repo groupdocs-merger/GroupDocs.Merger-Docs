@@ -44,13 +44,13 @@ Please choose one from the following list:
 The complete examples package of **GroupDocs.Merger** is hosted on [GitHub](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET). You can either download the ZIP file from [here](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET/archive/master.zip) or clone the repository of GitHub using your favourite git client.  
 In case you download the ZIP file, extract the folders on your local disk. The extracted files and folders will look like following image:
 
-![](merger/net/images/how-to-run-examples.png)
+![](/merger/net/images/how-to-run-examples.png)
 
 In extracted files and folders, you can find CSharp solution file. The project is created in **Microsoft Visual Studio 2019**. The **Resources** folder contains all the sample document and image files used in the examples.  
 To run the examples, open the solution file in Visual Studio and build the project. To add missing references of **GroupDocs.Merger** see [Development Environment, Installation and Configuration]({{< ref "merger/net/getting-started/installation.md" >}}). All the functions are called from **RunExamples.cs**.
 Un-comment the function you want to run and comment the rest.
 
-![](merger/net/images/how-to-run-examples_1.png)
+![](/merger/net/images/how-to-run-examples_1.png)
 
 ## Contribute
 

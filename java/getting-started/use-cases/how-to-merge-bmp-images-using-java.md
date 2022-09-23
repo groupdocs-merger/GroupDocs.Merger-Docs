@@ -52,9 +52,9 @@ You can follow the steps below to reference GroupDocs.Merger for Java downloaded
 
 ### Source BMP images
 
-!["Sample1.bmp"](merger/java/images/jpg/sample1.jpg)
-!["Sample2.bmp"](merger/java/images/jpg/sample2.jpg)
-!["Sample3.bmp"](merger/java/images/jpg/sample3.jpg)
+!["Sample1.bmp"](/merger/java/images/jpg/sample1.jpg)
+!["Sample2.bmp"](/merger/java/images/jpg/sample2.jpg)
+!["Sample3.bmp"](/merger/java/images/jpg/sample3.jpg)
 
 ### How to merge BMP files in vertical mode
 
@@ -81,7 +81,7 @@ merger.save("c:\merged.bmp");
 
 ### Result merged BMP image
 
-!["Merged.bmp"](merger/java/images/jpg/merged_vertical.jpg)
+!["Merged.bmp"](/merger/java/images/jpg/merged_vertical.jpg)
 
 ### Code Examples
 

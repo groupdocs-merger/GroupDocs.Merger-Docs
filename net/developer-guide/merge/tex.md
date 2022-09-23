@@ -68,4 +68,4 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 GroupDocs.Merger for .NET provides an online [**TEX Merger App**](https://products.groupdocs.app/merger/tex), which allows you to try it for free and check its quality and accuracy.
 
-[!["Merge TEX"](merger/net/images/merge/merge-tex.png)](https://products.groupdocs.app/merger/tex)
+[!["Merge TEX"](/merger/net/images/merge/merge-tex.png)](https://products.groupdocs.app/merger/tex)

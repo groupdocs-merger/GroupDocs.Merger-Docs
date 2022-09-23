@@ -68,4 +68,4 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 GroupDocs.Merger for .NET provides an online [**PDF Merger App**](https://products.groupdocs.app/merger/pdf), which allows you to try it for free and check its quality and accuracy.
 
-[!["Merge PDF"](merger/net/images/merge/merge-pdf.png)](https://products.groupdocs.app/merger/pdf)
+[!["Merge PDF"](/merger/net/images/merge/merge-pdf.png)](https://products.groupdocs.app/merger/pdf)

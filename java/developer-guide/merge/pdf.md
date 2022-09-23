@@ -67,4 +67,4 @@ Please find more [use-cases and complete Java sources]({{< ref "merger/java/show
 
 GroupDocs.Merger for Java provides an online [**PDF Merger App**](https://products.groupdocs.app/merger/pdf), which allows you to try it for free and check its quality and accuracy.
 
-[!["Merge PDF"](merger/java/images/merge/merge-pdf.png)](https://products.groupdocs.app/merger/pdf)
+[!["Merge PDF"](/merger/java/images/merge/merge-pdf.png)](https://products.groupdocs.app/merger/pdf)

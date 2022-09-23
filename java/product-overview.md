@@ -8,7 +8,7 @@ productName: GroupDocs.Merger for Java
 toc: True
 ---
 
-<img src="merger/java/images/home.png" alt="groupdocs-merger-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/merger/java/images/home.png" alt="groupdocs-merger-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 GroupDocs.Merger for Java is a cross-platform class library that empowers your applications with file merge features.
 

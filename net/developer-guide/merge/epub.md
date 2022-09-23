@@ -65,4 +65,4 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 GroupDocs.Merger for .NET provides an online [**EPUB Merger App**](https://products.groupdocs.app/merger/epub), which allows you to try it for free and check its quality and accuracy.
 
-[!["Merge EPUB"](merger/net/images/merge/merge-epub.png)](https://products.groupdocs.app/merger/epub)
+[!["Merge EPUB"](/merger/net/images/merge/merge-epub.png)](https://products.groupdocs.app/merger/epub)

@@ -50,9 +50,9 @@ PM> Install-Package GroupDocs.Merger
 
 ### Source PNG images
 
-!["Sample1.png"](merger/net/images/jpg/sample1.jpg)
-!["Sample2.png"](merger/net/images/jpg/sample2.jpg)
-!["Sample3.png"](merger/net/images/jpg/sample3.jpg)
+!["Sample1.png"](/merger/net/images/jpg/sample1.jpg)
+!["Sample2.png"](/merger/net/images/jpg/sample2.jpg)
+!["Sample3.png"](/merger/net/images/jpg/sample3.jpg)
 
 ### How to merge PNG files in horizontal mode
 
@@ -80,7 +80,7 @@ using (Merger merger = new Merger(@"c:\sample1.png"))
 
 ### Result merged PNG image
 
-!["Merged.png"](merger/net/images/jpg/merged_horizontal.jpg)
+!["Merged.png"](/merger/net/images/jpg/merged_horizontal.jpg)
 
 ### Code Examples
 

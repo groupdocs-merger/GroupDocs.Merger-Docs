@@ -52,9 +52,9 @@ You can follow the steps below to reference GroupDocs.Merger for Java downloaded
 
 ### Source PNG images
 
-!["Sample1.png"](merger/java/images/jpg/sample1.jpg)
-!["Sample2.png"](merger/java/images/jpg/sample2.jpg)
-!["Sample3.png"](merger/java/images/jpg/sample3.jpg)
+!["Sample1.png"](/merger/java/images/jpg/sample1.jpg)
+!["Sample2.png"](/merger/java/images/jpg/sample2.jpg)
+!["Sample3.png"](/merger/java/images/jpg/sample3.jpg)
 
 ### How to merge PNG files in horizontal mode
 
@@ -81,7 +81,7 @@ merger.save("c:\merged.png");
 
 ### Result merged PNG image
 
-!["Merged.png"](merger/java/images/jpg/merged_horizontal.jpg)
+!["Merged.png"](/merger/java/images/jpg/merged_horizontal.jpg)
 
 ### Code Examples
 

@@ -50,9 +50,9 @@ PM> Install-Package GroupDocs.Merger
 
 ### Source BMP images
 
-!["Sample1.bmp"](merger/net/images/jpg/sample1.jpg)
-!["Sample2.bmp"](merger/net/images/jpg/sample2.jpg)
-!["Sample3.bmp"](merger/net/images/jpg/sample3.jpg)
+!["Sample1.bmp"](/merger/net/images/jpg/sample1.jpg)
+!["Sample2.bmp"](/merger/net/images/jpg/sample2.jpg)
+!["Sample3.bmp"](/merger/net/images/jpg/sample3.jpg)
 
 ### How to merge BMP files in vertical mode
 
@@ -80,7 +80,7 @@ using (Merger merger = new Merger(@"c:\sample1.bmp"))
 
 ### Result merged BMP image
 
-!["Merged.bmp"](merger/net/images/jpg/merged_vertical.jpg)
+!["Merged.bmp"](/merger/net/images/jpg/merged_vertical.jpg)
 
 ### Code Examples
 

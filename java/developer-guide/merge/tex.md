@@ -67,4 +67,4 @@ Please find more [use-cases and complete Java sources]({{< ref "merger/java/show
 
 GroupDocs.Merger for Java provides an online [**TEX Merger App**](https://products.groupdocs.app/merger/tex), which allows you to try it for free and check its quality and accuracy.
 
-[!["Merge TEX"](merger/java/images/merge/merge-tex.png)](https://products.groupdocs.app/merger/tex)
+[!["Merge TEX"](/merger/java/images/merge/merge-tex.png)](https://products.groupdocs.app/merger/tex)

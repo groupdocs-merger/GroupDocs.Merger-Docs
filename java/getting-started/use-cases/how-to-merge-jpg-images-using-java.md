@@ -52,9 +52,9 @@ You can follow the steps below to reference GroupDocs.Merger for Java downloaded
 
 ### Source JPG images
 
-!["Sample1.jpg"](merger/java/images/jpg/sample1.jpg)
-!["Sample2.jpg"](merger/java/images/jpg/sample2.jpg)
-!["Sample3.jpg"](merger/java/images/jpg/sample3.jpg)
+!["Sample1.jpg"](/merger/java/images/jpg/sample1.jpg)
+!["Sample2.jpg"](/merger/java/images/jpg/sample2.jpg)
+!["Sample3.jpg"](/merger/java/images/jpg/sample3.jpg)
 
 ### How to merge JPG files as photo collage
 
@@ -83,7 +83,7 @@ merger.save("c:\merged.jpg");
 
 ### Result merged JPG image
 
-!["Merged.jpg"](merger/java/images/jpg/merged_grid.jpg)
+!["Merged.jpg"](/merger/java/images/jpg/merged_grid.jpg)
 
 ### Code Examples
 

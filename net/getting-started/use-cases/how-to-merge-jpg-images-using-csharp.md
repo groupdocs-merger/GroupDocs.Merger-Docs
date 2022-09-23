@@ -50,9 +50,9 @@ PM> Install-Package GroupDocs.Merger
 
 ### Source JPG images
 
-!["Sample1.jpg"](merger/net/images/jpg/sample1.jpg)
-!["Sample2.jpg"](merger/net/images/jpg/sample2.jpg)
-!["Sample3.jpg"](merger/net/images/jpg/sample3.jpg)
+!["Sample1.jpg"](/merger/net/images/jpg/sample1.jpg)
+!["Sample2.jpg"](/merger/net/images/jpg/sample2.jpg)
+!["Sample3.jpg"](/merger/net/images/jpg/sample3.jpg)
 
 ### How to merge JPG files as photo collage
 
@@ -82,7 +82,7 @@ using (Merger merger = new Merger(@"c:\sample1.jpg"))
 
 ### Result merged JPG image
 
-!["Merged.jpg"](merger/net/images/jpg/merged_grid.jpg)
+!["Merged.jpg"](/merger/net/images/jpg/merged_grid.jpg)
 
 ### Code Examples
 

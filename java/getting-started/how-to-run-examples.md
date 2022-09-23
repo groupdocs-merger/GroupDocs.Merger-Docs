@@ -21,7 +21,7 @@ The complete examples package of **GroupDocs.Merger** is hosted on [Github](h
 
 In case you download the ZIP file, extract the folders on your local disk. The extracted files and folders will look like following image:
 
-![](merger/java/images/how-to-run-examples.png)
+![](/merger/java/images/how-to-run-examples.png)
 
 Open Eclipse (or IntelliJ) and import the project to get started with it. Archived project file can also be imported.Follow the given steps to run the application:
 
@@ -29,7 +29,7 @@ Open Eclipse (or IntelliJ) and import the project to get started with it. Archiv
 * Click on Java Build Path.
 * Go to Libraries and external Jars (GroupDocs.Merger.jar).
 
-![](merger/java/images/how-to-run-examples_1.png)
+![](/merger/java/images/how-to-run-examples_1.png)
 
 ## Contribute
 

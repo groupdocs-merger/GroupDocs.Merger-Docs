@@ -64,4 +64,4 @@ Please find more [use-cases and complete java sources]({{< ref "merger/java/show
 
 GroupDocs.Merger for Java provides an online [**EPUB Merger App**](https://products.groupdocs.app/merger/epub), which allows you to try it for free and check its quality and accuracy.
 
-[!["Merge EPUB"](merger/java/images/merge/merge-epub.png)](https://products.groupdocs.app/merger/epub)
+[!["Merge EPUB"](/merger/java/images/merge/merge-epub.png)](https://products.groupdocs.app/merger/epub)
