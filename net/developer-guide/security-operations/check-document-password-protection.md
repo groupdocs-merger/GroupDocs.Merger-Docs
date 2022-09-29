@@ -12,8 +12,8 @@ hideChildren: False
 
 Here are the steps to check document password-protection:
 
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Call [IsPasswordSet](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/ispasswordset) method.
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Call [IsPasswordSet](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/ispasswordset) method.
 
 The following code sample demonstrates how to check document password-protection.
 

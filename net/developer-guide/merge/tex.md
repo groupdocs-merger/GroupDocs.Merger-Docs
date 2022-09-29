@@ -41,9 +41,9 @@ structuredData:
 
 The following example demonstrates how to merge TEX files with several lines of C# code:
 
-* Create an instance of [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class and pass source TEX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another TEX file to merge with [Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join/index) method. Repeat this step for other TEX documents you want to merge.
-* Call [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class [Save](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/save/index) method and specify the filename for the merged TEX file as parameter.
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass source TEX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another TEX file to merge with [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join) method. Repeat this step for other TEX documents you want to merge.
+* Call [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged TEX file as parameter.
 
 ```csharp
 // Load the source TEX file

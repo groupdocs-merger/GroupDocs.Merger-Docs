@@ -12,10 +12,10 @@ hideChildren: False
 
  Here are the steps to join several document parts:
 
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Instantiate [JoinOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/joinoptions) object and specify desired page numbers or page range to join;
-*   Call [Join](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/join/methods/3) method and pass joined document file path or stream to it specifying [JoinOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/joinoptions) object as parameter. Repeat this step for every joined document part.
-*   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method specifying file path to save resultant document.
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Instantiate [JoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/joinoptions) object and specify desired page numbers or page range to join;
+*   Call [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join_3) method and pass joined document file path or stream to it specifying [JoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/joinoptions) object as parameter. Repeat this step for every joined document part.
+*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to join document parts:
 

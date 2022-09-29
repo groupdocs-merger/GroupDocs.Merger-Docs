@@ -10,10 +10,10 @@ hideChildren: False
 ---
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** allows to remove password from password-protected document. Here are the steps to remove document password:
 
-*   Initialize [LoadOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/loadoptions) class specifying current password;
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream and pass [LoadOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/loadoptions) object to it;
-*   Call [RemovePassword](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/removepassword) method;
-*   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method specifying file path to save resultant document.
+*   Initialize [LoadOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/loadoptions) class specifying current password;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream and pass [LoadOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/loadoptions) object to it;
+*   Call [RemovePassword](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/removepassword) method;
+*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to remove document password:
 

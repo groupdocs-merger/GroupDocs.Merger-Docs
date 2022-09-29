@@ -11,10 +11,10 @@ hideChildren: False
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** provides an ability to remove single page or a collection of specific page numbers from the source document.   
 Here are the steps to remove document page(s):
 
-*   Initialise [RemoveOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/removeoptions) class with page numbers to remove;
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Call [RemovePages](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/removepages) method and pass [RemoveOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/removeoptions) object to it;
-*   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method and pass desired file path to save resultant document.
+*   Initialise [RemoveOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/removeoptions) class with page numbers to remove;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Call [RemovePages](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/removepages) method and pass [RemoveOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/removeoptions) object to it;
+*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates how to remove document pages:
 

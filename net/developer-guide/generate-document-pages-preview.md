@@ -8,24 +8,24 @@ keywords: Preview document pages, Document pages as PNG, document pages as JPG, 
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---
-**[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** provides [PreviewOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/previewoptions) class to specify different options to manage preview of document pages.  
+**[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** provides [PreviewOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/previewoptions) class to specify different options to manage preview of document pages.  
   
 Here are the steps to generate document preview with GroupDocs.Merger:
-*   Create new instance of [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class and pass source document path as a constructor parameter.    
-*   Instantiate the [PreviewOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/previewoptions) object with:    
-    *   delegate for each page stream creation (see event handler [CreatePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/createpagestream));         
+*   Create new instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass source document path as a constructor parameter.    
+*   Instantiate the [PreviewOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/previewoptions) object with:    
+    *   delegate for each page stream creation (see event handler [CreatePageStream](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.common/createpagestream));         
     *   image preview format - PNG / JPG / BMP;        
     *   page numbers to process;        
     *   custom size of preview images (if needed).           
 {{< alert style="info" >}} 
-Stream that were created by [CreatePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/createpagestream) delegate will be disposed automatically once after generation of preview image. If you need to implement custom image preview stream disposing you have to pass additional argument [ReleasePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/releasepagestream) to clean up resources.  
+Stream that were created by [CreatePageStream](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.common/createpagestream) delegate will be disposed automatically once after generation of preview image. If you need to implement custom image preview stream disposing you have to pass additional argument [ReleasePageStream](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.common/releasepagestream) to clean up resources.  
 {{< /alert >}}     
-*   Call [GeneratePreview](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/generatepreview) method of [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class instance and pass [PreviewOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/previewoptions) to it.
+*   Call [GeneratePreview](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/generatepreview) method of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class instance and pass [PreviewOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/previewoptions) to it.
     
 
 ## CreatePageStream delegate implementation
 
-GroupDocs.Merger expects [CreatePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/createpagestream) delegate to obtain each page stream for image preview generation process
+GroupDocs.Merger expects [CreatePageStream](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.common/createpagestream) delegate to obtain each page stream for image preview generation process
 
 ```csharp
 private static Stream CreatePageStream(int pageNumber)
@@ -109,6 +109,6 @@ private static void ReleasePageStream(int pageNumber, Stream pageStream)
 ```
 
 {{< alert style="info" >}}
-NOTE: Stream that was created over [CreatePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/createpagestream) delegate will be disposed automatically once after generation of preview image. If you need to implement custom image preview stream disposing you have to pass additional argument [ReleasePageStream](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.common/releasepagestream) to clean up resources.
+NOTE: Stream that was created over [CreatePageStream](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.common/createpagestream) delegate will be disposed automatically once after generation of preview image. If you need to implement custom image preview stream disposing you have to pass additional argument [ReleasePageStream](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.common/releasepagestream) to clean up resources.
 {{< /alert >}}
 

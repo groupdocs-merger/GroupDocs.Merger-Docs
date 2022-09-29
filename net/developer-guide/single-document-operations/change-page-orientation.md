@@ -12,10 +12,10 @@ hideChildren: False
 
 Here are the steps to change page orientation:
 
-*   Initialize [OrientationOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/orientationoptions) class with desired orientation mode and page numbers;
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Call [ChangeOrientation](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/changeorientation) method and pass [OrientationOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/orientationoptions) object to it;
-*   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method specifying file path to save resultant document.
+*   Initialize [OrientationOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/orientationoptions) class with desired orientation mode and page numbers;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Call [ChangeOrientation](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/changeorientation) method and pass [OrientationOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/orientationoptions) object to it;
+*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to change page orientation:
 

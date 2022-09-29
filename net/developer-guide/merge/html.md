@@ -41,9 +41,9 @@ When you need to merge multiple HTML pages into a single file you can do this  w
 
 The following in an example of how to merge HTML files programmatically:
 
-* Create an instance of [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class and pass source HTML file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another HTML file to merge with [Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join/index) method. Repeat this step for other HTML documents you want to merge.
-* Call [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class [Save](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/save/index) method and specify the filename for the merged HTML file as parameter.
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass source HTML file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another HTML file to merge with [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join) method. Repeat this step for other HTML documents you want to merge.
+* Call [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged HTML file as parameter.
 
 ```csharp
 // Load the source HTML file

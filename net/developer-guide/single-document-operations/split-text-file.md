@@ -11,9 +11,9 @@ hideChildren: False
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** allows to split text file into several resultant text files. The default behaviour is to split each line into separate file.  
 Here are the steps on how to split text file as described:
 
-*   Initialize [TextSplitOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/textsplitoptions) class with output files path format, desired [TextSplitMode](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/textsplitmode) and line numbers;
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Call [Split](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/split/methods/1) method and pass [TextSplitOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/textsplitoptions) object to itfor saving resultant text files.
+*   Initialize [TextSplitOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/textsplitoptions) class with output files path format, desired [TextSplitMode](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/textsplitmode) and line numbers;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Call [Split](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/split/#split_1) method and pass [TextSplitOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/textsplitoptions) object to itfor saving resultant text files.
 
 ## Split text file to several one-line files (by exact line numbers)
 

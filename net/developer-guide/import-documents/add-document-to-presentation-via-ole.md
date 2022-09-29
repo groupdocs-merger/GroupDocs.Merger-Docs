@@ -17,10 +17,10 @@ The "Object Linking and Embedding" technology helps to embed some other document
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** provides an ability to add other single document as embedded document to Presentation.   
 Here are the steps for it:
 
-*   Initialise [OlePresentationOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/olepresentationoptions) class with embedded file path and page number;
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Call [ImportDocument](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/importdocument) method and pass [OlePresentationOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/olepresentationoptions) object to it;
-*   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method and pass desired file path to save resultant document.
+*   Initialise [OlePresentationOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/olepresentationoptions) class with embedded file path and page number;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Call [ImportDocument](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/importdocument) method and pass [OlePresentationOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/olepresentationoptions) object to it;
+*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates how to add other single document as embedded document to Presentation:
 

@@ -38,9 +38,9 @@ structuredData:
 You can easily combine multiple EPUB files into one using [GroupDocs.Merger](https://products.groupdocs.com/merger/net) library API and all the files content will be preserved.
 The following example demonstrates how to merge EPUB files with several lines of C# code:
 
-* Create an instance of [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class and pass source EPUB file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another EPUB file to merge with [Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join/index) method. Repeat this step for other EPUB documents you want to merge.
-* Call [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) class [Save](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/save/index) method and specify the filename for the merged EPUB file as parameter.
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass source EPUB file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another EPUB file to merge with [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join) method. Repeat this step for other EPUB documents you want to merge.
+* Call [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged EPUB file as parameter.
 
 ```csharp
 // Load the source EPUB file

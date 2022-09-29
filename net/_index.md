@@ -55,7 +55,7 @@ By using GroupDocs.Merger for .NET you can merge multiple files into one file, s
 	<li><a href='{{< ref "merger/net/developer-guide/merge" >}}'>Merge Files</a></li>
 	<li><a href='{{< ref "merger/net/developer-guide/single-document-operations/split-document.md" >}}'>Split Document</a></li>
 	<li><a href='{{< ref "merger/net/developer-guide/single-document-operations/remove-pages.md" >}}'>Remove Document Pages</a></li>
-	<li><a href="https://apireference.groupdocs.com/merger/net">GroupDocs.Merger for .NET API Reference</a></li>
+	<li><a href="https://reference.groupdocs.com/merger/net">GroupDocs.Merger for .NET API Reference</a></li>
 </ul>
 <p>WHAT'S NEW?</p>
 <ul>

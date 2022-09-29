@@ -9,9 +9,9 @@ productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** allows to get document information which includes:
-*   [Type](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.result/documentinfo/properties/type) - indicates document file type, extension, format name etc.
-*   [PageCount](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.result/documentinfo/properties/pagecount) - indicates count of pages for text processing document, worksheets in a spreadsheet or slides in a presentation;
-*   [Page info](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.result/ipageinfo) - describes properties for each document page. For example, height and width in pixels when document page is previewed as image, page number, visibility etc.
+*   [Type](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.result/documentinfo/type) - indicates document file type, extension, format name etc.
+*   [PageCount](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.result/documentinfo/pagecount) - indicates count of pages for text processing document, worksheets in a spreadsheet or slides in a presentation;
+*   [Page info](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.result/ipageinfo) - describes properties for each document page. For example, height and width in pixels when document page is previewed as image, page number, visibility etc.
 
 The following code sample demonstrates how to get document information.
 ```csharp

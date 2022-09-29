@@ -17,9 +17,9 @@ Please check the guide below and learn how to add PDF document attachment in 3 s
 
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** provides an ability to add PDF document attachment. Here are the steps for it:
 
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Call [ImportDocument](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/importdocument) method and pass [PdfAttachmentOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/pdfattachmentoptions) object to it with a file path to document that is being embedded into PDF;
-*   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method and pass desired file path to save resultant document.
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Call [ImportDocument](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/importdocument) method and pass [PdfAttachmentOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pdfattachmentoptions) object to it with a file path to document that is being embedded into PDF;
+*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates how to add add PowerPoint presentation attachment to PDF document:
 

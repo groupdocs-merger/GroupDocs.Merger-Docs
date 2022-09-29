@@ -12,10 +12,10 @@ hideChildren: False
 
 Here are the steps to extract document pages:
 
-*   Initialize [ExtractOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/extractoptions) class with page numbers that should appear in the resultant document;
-*   Instantiate [Merger](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger) object with source document path or stream;
-*   Call [ExtractPages](https://apireference.groupdocs.com/net/merger/groupdocs.merger/merger/methods/extractpages) method and pass [ExtractOptions](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain.options/extractoptions) object to it;
-*   Call [Save](https://apireference.groupdocs.com/net/merger/groupdocs.merger.merger/save/methods/1) method specifying file path to save resultant document.
+*   Initialize [ExtractOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/extractoptions) class with page numbers that should appear in the resultant document;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Call [ExtractPages](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/extractpages) method and pass [ExtractOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/extractoptions) object to it;
+*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to extract document pages **by specifying exact page numbers**:
 

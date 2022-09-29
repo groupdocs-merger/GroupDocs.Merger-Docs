@@ -10,8 +10,8 @@ hideChildren: False
 ---
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** allows to get the list of all [supported file types]({{< ref "merger/net/getting-started/supported-document-formats.md" >}}) by following the below steps:
 
-*   Call [GetSupportedFileTypes](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain/filetype/methods/getsupportedfiletypes) of [FileType](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain/filetype) class;
-*   Enumerate through the collection of [FileType](https://apireference.groupdocs.com/net/merger/groupdocs.merger.domain/filetype) objects.
+*   Call [GetSupportedFileTypes](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain/filetype/getsupportedfiletypes) of [FileType](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain/filetype) class;
+*   Enumerate through the collection of [FileType](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain/filetype) objects.
 
 The following code sample demonstrates how to get supported file formats list.
 

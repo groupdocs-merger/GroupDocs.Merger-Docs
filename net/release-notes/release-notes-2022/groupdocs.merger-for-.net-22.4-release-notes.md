@@ -31,7 +31,7 @@ There are new features in this regular monthly release. The most notable are:
 
 ### The existing Join method of the Merger class was expanded
 
-The existing **[Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join/index)** method of the GroupDocs.Merger for .NET product was expanded, please refer to the following documentation articles for more details:
+The existing **[Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join)** method of the GroupDocs.Merger for .NET product was expanded, please refer to the following documentation articles for more details:
 
 *   [How to merge image files]({{< ref "merger/net/developer-guide/merge/images.md" >}});
 *   [How to merge Word documents without starting from a new page]({{< ref "merger/net/developer-guide/merge/word.md#how-to-merge-word-documents-without-starting-from-a-new-page" >}}).
