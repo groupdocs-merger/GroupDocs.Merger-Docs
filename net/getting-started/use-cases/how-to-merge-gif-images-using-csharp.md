@@ -1,19 +1,19 @@
 ---
-id: how-to-merge-bmp-images-using-csharp
-url: merger/net/getting-started/use-cases/how-to-merge-bmp-images-using-csharp
-title: How to merge BMP images using C#
-description: "Learn how to merge BMP image files, combine BMP image files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
-keywords: Merge BMP image files in C#, Combine BMP image files programmatically
+id: how-to-merge-gif-images-using-csharp
+url: merger/net/getting-started/use-cases/how-to-merge-gif-images-using-csharp
+title: How to merge GIF images using C#
+description: "Learn how to merge GIF image files, combine GIF image files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
+keywords: Merge GIF image files in C#, Combine GIF image files programmatically
 productName: GroupDocs.Merger for .NET
-weight: 3
+weight: 4
 structuredData:
     productCode: merger
     productPlatform: net
-    appName: Merge BMP image files in C#
-    appDescription: Merge BMP image in a quick and efficient way using C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+    appName: Merge GIF image files in C#
+    appDescription: Merge GIF image in a quick and efficient way using C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
     howTo:
-        name: How to merge BMP image files in C# 
-        description: Learn how to merge BMP image files in C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+        name: How to merge GIF image files in C# 
+        description: Learn how to merge GIF image files in C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
         url: merger/net/merge/[TRGT_LWR]/#how-to-merge-[TRGT_LWR]-files-in-c
         steps:
         - name: Load source image files 
@@ -33,13 +33,13 @@ structuredData:
           imageWidth: 646
 ---
 
-## BMP Merger .NET API
+## GIF Merger .NET API
 
-[GroupDocs.Merger](https://products.groupdocs.com/merger/net) allows developers to combine multiple BMP documents in the preferred order and save them as a single file.
+[GroupDocs.Merger](https://products.groupdocs.com/merger/net) allows developers to combine multiple GIF documents in the preferred order and save them as a single file.
 
-## About BMP File Format
+## About GIF File Format
 
-Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths.
+GIF, Graphics Interchange Format, is a raster file format designed for relatively basic images that appear mainly on the internet. Each file can support up to 8 bits per pixel and can contain 256 indexed colors. GIF files also allow images or frames to be combined, creating basic animations.
 
 ### Download and Configure
 
@@ -48,15 +48,15 @@ Use the [downloads section](https://downloads.groupdocs.com/merger/net) to downl
 PM> Install-Package GroupDocs.Merger
 ```
 
-### Source BMP images
+### Source GIF images
 
-!["Sample1.bmp"](/merger/net/images/jpg/sample1.jpg)
-!["Sample2.bmp"](/merger/net/images/jpg/sample2.jpg)
-!["Sample3.bmp"](/merger/net/images/jpg/sample3.jpg)
+!["Sample1.gif"](/merger/net/images/jpg/sample1.jpg)
+!["Sample2.gif"](/merger/net/images/jpg/sample2.jpg)
+!["Sample3.gif"](/merger/net/images/jpg/sample3.jpg)
 
-### How to merge BMP files in vertical mode
+### How to merge GIF files in horizontal mode
 
-The following example demonstrates how to merge image files in vertical mode with several lines of C# code:
+The following example demonstrates how to merge image files in horizontal mode with several lines of C# code:
 
 * Create an instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass source image file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
 * Create an instance of [ImageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/imagejoinoptions) class and pass enum value of [ImageJoinMode](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/imagejoinmode) as a constructor parameter.
@@ -65,27 +65,27 @@ The following example demonstrates how to merge image files in vertical mode wi
 
 ```csharp
 // Load the source image file
-using (Merger merger = new Merger(@"c:\sample1.bmp"))
+using (Merger merger = new Merger(@"c:\sample1.gif"))
 {
-    // Define image join options with vertical join mode
-    ImageJoinOptions joinOptions = new ImageJoinOptions(ImageJoinMode.Vertical);
+    // Define image join options with horizontal join mode
+    ImageJoinOptions joinOptions = new ImageJoinOptions(ImageJoinMode.Horizontal);
     // Add another image file to merge
-    merger.Join(@"c:\sample2.bmp", joinOptions);
+    merger.Join(@"c:\sample2.gif", joinOptions);
     // Add next image file to merge
-    merger.Join(@"c:\sample3.bmp", joinOptions);
+    merger.Join(@"c:\sample3.gif", joinOptions);
     // Merge image files and save result
-    merger.Save(@"c:\merged.bmp");
+    merger.Save(@"c:\merged.gif");
 }
 ```
 
-### Result merged BMP image
+### Result merged GIF image
 
-!["Merged.bmp"](/merger/net/images/jpg/merged_vertical.jpg)
+!["Merged.png"](/merger/net/images/jpg/merged_horizontal.jpg)
 
 ### Code Examples
 
 Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!
 
-### Merge BMP Live Demo
+### Merge GIF Live Demo
 
-GroupDocs.Merger for .NET provides an online [**BMP Merger App**](https://products.groupdocs.app/merger/images/bmp), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for .NET provides an online [**GIF Merger App**](https://products.groupdocs.app/merger/images/gif), which allows you to try it for free and check its quality and accuracy.

@@ -5,7 +5,7 @@ title: Merge HTML
 description: "Learn how to merge HTML files, combine HTML files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge HTML files in C#, Combine HTML files programmatically
 productName: GroupDocs.Merger for .NET
-weight: 1
+weight: 10
 structuredData:
     productCode: merger
     productPlatform: net

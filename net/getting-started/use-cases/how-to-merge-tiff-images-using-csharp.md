@@ -1,19 +1,19 @@
 ---
-id: how-to-merge-bmp-images-using-csharp
-url: merger/net/getting-started/use-cases/how-to-merge-bmp-images-using-csharp
-title: How to merge BMP images using C#
-description: "Learn how to merge BMP image files, combine BMP image files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
-keywords: Merge BMP image files in C#, Combine BMP image files programmatically
+id: how-to-merge-tiff-images-using-csharp
+url: merger/net/getting-started/use-cases/how-to-merge-tiff-images-using-csharp
+title: How to merge TIFF images using C#
+description: "Learn how to merge TIFF image files, combine TIFF image files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
+keywords: Merge TIFF image files in C#, Combine TIFF image files programmatically
 productName: GroupDocs.Merger for .NET
-weight: 3
+weight: 6
 structuredData:
     productCode: merger
     productPlatform: net
-    appName: Merge BMP image files in C#
-    appDescription: Merge BMP image in a quick and efficient way using C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+    appName: Merge TIFF image files in C#
+    appDescription: Merge TIFF image in a quick and efficient way using C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
     howTo:
-        name: How to merge BMP image files in C# 
-        description: Learn how to merge BMP image files in C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
+        name: How to merge TIFF image files in C# 
+        description: Learn how to merge TIFF image files in C# language and GroupDocs.Merger for .NET API, without the use of any third-party software like Microsoft or Open Office.
         url: merger/net/merge/[TRGT_LWR]/#how-to-merge-[TRGT_LWR]-files-in-c
         steps:
         - name: Load source image files 
@@ -33,13 +33,13 @@ structuredData:
           imageWidth: 646
 ---
 
-## BMP Merger .NET API
+## TIFF Merger .NET API
 
-[GroupDocs.Merger](https://products.groupdocs.com/merger/net) allows developers to combine multiple BMP documents in the preferred order and save them as a single file.
+[GroupDocs.Merger](https://products.groupdocs.com/merger/net) allows developers to combine multiple TIFF documents in the preferred order and save them as a single file.
 
-## About BMP File Format
+## About TIFF File Format
 
-Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths.
+TIFF, Tag Image File Format, is a computer file used to store raster graphics and image information. A favorite among photographers, TIFFs are a handy way to store high-quality images before editing if you want to avoid lossy file formats.
 
 ### Download and Configure
 
@@ -48,13 +48,13 @@ Use the [downloads section](https://downloads.groupdocs.com/merger/net) to downl
 PM> Install-Package GroupDocs.Merger
 ```
 
-### Source BMP images
+### Source TIFF images
 
-!["Sample1.bmp"](/merger/net/images/jpg/sample1.jpg)
-!["Sample2.bmp"](/merger/net/images/jpg/sample2.jpg)
-!["Sample3.bmp"](/merger/net/images/jpg/sample3.jpg)
+!["Sample1.tiff"](/merger/net/images/jpg/sample1.jpg)
+!["Sample2.tiff"](/merger/net/images/jpg/sample2.jpg)
+!["Sample3.tiff"](/merger/net/images/jpg/sample3.jpg)
 
-### How to merge BMP files in vertical mode
+### How to merge TIFF files in vertical mode
 
 The following example demonstrates how to merge image files in vertical mode with several lines of C# code:
 
@@ -65,27 +65,27 @@ The following example demonstrates how to merge image files in vertical mode wi
 
 ```csharp
 // Load the source image file
-using (Merger merger = new Merger(@"c:\sample1.bmp"))
+using (Merger merger = new Merger(@"c:\sample1.tiff"))
 {
     // Define image join options with vertical join mode
     ImageJoinOptions joinOptions = new ImageJoinOptions(ImageJoinMode.Vertical);
     // Add another image file to merge
-    merger.Join(@"c:\sample2.bmp", joinOptions);
+    merger.Join(@"c:\sample2.tiff", joinOptions);
     // Add next image file to merge
-    merger.Join(@"c:\sample3.bmp", joinOptions);
+    merger.Join(@"c:\sample3.tiff", joinOptions);
     // Merge image files and save result
-    merger.Save(@"c:\merged.bmp");
+    merger.Save(@"c:\merged.tiff");
 }
 ```
 
-### Result merged BMP image
+### Result merged TIFF image
 
-!["Merged.bmp"](/merger/net/images/jpg/merged_vertical.jpg)
+!["Merged.tiff"](/merger/net/images/jpg/merged_vertical.jpg)
 
 ### Code Examples
 
 Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!
 
-### Merge BMP Live Demo
+### Merge TIFF Live Demo
 
-GroupDocs.Merger for .NET provides an online [**BMP Merger App**](https://products.groupdocs.app/merger/images/bmp), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for .NET provides an online [**TIFF Merger App**](https://products.groupdocs.app/merger/images/tiff), which allows you to try it for free and check its quality and accuracy.

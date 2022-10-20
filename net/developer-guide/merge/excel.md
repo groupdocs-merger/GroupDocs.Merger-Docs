@@ -3,7 +3,7 @@ id: merge-excel
 url: merger/net/merge/excel
 title: Merge Excel spreadsheets
 linkTitle: Merge Excel
-weight: 4
+weight: 60
 description: "Follow this guide and learn how to merge MS Excel spreadsheets using CSharp programming language."
 keywords: Merge Excel files, Merge Spreadsheets, Merge XLS, Merge XLSX
 productName: GroupDocs.Merger for .NET

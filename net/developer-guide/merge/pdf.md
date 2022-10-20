@@ -5,7 +5,7 @@ title: Merge PDF
 description: "Learn how to merge PDF files, combine PDF files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge PDF files in C#, Combine PDF files programmatically
 productName: GroupDocs.Merger for .NET
-weight: 1
+weight: 30
 structuredData:
     productCode: merger
     productPlatform: net

@@ -5,7 +5,7 @@ title: Merge TEX
 description: "Learn how to merge TEX files, combine TEX files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge TEX files in C#, Combine TEX files programmatically
 productName: GroupDocs.Merger for .NET
-weight: 22
+weight: 80
 structuredData:
     productCode: merger
     productPlatform: net

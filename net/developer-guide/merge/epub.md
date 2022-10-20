@@ -5,7 +5,7 @@ title: Merge EPUB
 description: "Learn how to merge EPUB files, combine EPUB files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge EPUB files in C#, Combine EPUB files programmatically
 productName: GroupDocs.Merger for .NET
-weight: 23
+weight: 90
 structuredData:
     productCode: merger
     productPlatform: net

@@ -2,7 +2,7 @@
 id: merge-powerpoint
 url: merger/net/merge/powerpoint
 title: Merge PowerPoint Presentations
-weight: 3
+weight: 50
 description: "This article demonstrates how to merge PowerPoint presentation files of PPT, PPTX, ODP and may other formats with couple C# code lines and GroupDocs.Merger for .NET."
 keywords: Merge Presentations, Merge PPT files, Merge PPTX files
 productName: GroupDocs.Merger for .NET

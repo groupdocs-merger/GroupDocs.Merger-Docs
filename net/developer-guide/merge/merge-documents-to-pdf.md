@@ -2,7 +2,7 @@
 id: merge-documents-to-pdf
 url: merger/net/merge-documents-to-pdf
 title: Merge documents to PDF
-weight: 102
+weight: 130
 description: "This section describes how to import OLE objects into PDF documents using C#/.NET"
 keywords: 
 productName: GroupDocs.Merger for .NET

@@ -5,7 +5,7 @@ title: Merge images
 description: "Learn how to merge image files, combine image files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge image files in C#, Combine image files programmatically
 productName: GroupDocs.Merger for .NET
-weight: 1
+weight: 20
 structuredData:
     productCode: merger
     productPlatform: net
@@ -65,6 +65,9 @@ This section describes how to merge different image file formats using GroupDocs
 * [How to merge JPG images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-jpg-images-using-csharp.md" >}})
 * [How to merge PNG images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-png-images-using-csharp.md" >}})
 * [How to merge BMP images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-bmp-images-using-csharp.md" >}})
+* [How to merge TIF images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-tif-images-using-csharp.md" >}})
+* [How to merge GIF images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-gif-images-using-csharp.md" >}})
+* [How to merge TIFF images in C\#]({{< ref "merger/net/getting-started/use-cases/how-to-merge-tiff-images-using-csharp.md" >}})
 
 ### Code Examples
 
@@ -72,4 +75,4 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 ### Merge Images Live Demo
 
-GroupDocs.Merger for .NET provides an online [**JPG Merger App**](https://products.groupdocs.app/merger/images/jpg) or  [**PNG Merger App**](https://products.groupdocs.app/merger/images/png) or  [**BMP Merger App**](https://products.groupdocs.app/merger/images/bmp), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for .NET provides an online [**JPG Merger App**](https://products.groupdocs.app/merger/images/jpg) or  [**PNG Merger App**](https://products.groupdocs.app/merger/images/png) or  [**BMP Merger App**](https://products.groupdocs.app/merger/images/bmp) or  [**GIF Merger App**](https://products.groupdocs.app/merger/images/gif) or  [**TIFF Merger App**](https://products.groupdocs.app/merger/images/tiff), which allows you to try it for free and check its quality and accuracy.

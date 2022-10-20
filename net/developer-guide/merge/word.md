@@ -6,7 +6,7 @@ linkTitle: Merge Word documents
 description: "Learn this article and check how to merge Microsoft Office Word documents in .NET applications using C# programming language."
 keywords: Merge Word files, Combine DOCX files, Merge DOC files
 productName: GroupDocs.Merger for .NET
-weight: 2
+weight: 40
 hideChildren: True
 toc: True
 structuredData:

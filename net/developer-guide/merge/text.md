@@ -5,7 +5,7 @@ title: Merge text files
 description: "Learn how to merge TXT files, combine TXT files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge TXT files in C#, Combine TXT files programmatically
 productName: GroupDocs.Merger for .NET
-weight: 8
+weight: 70
 structuredData:
     productCode: merger
     productPlatform: net
