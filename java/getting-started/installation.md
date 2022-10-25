@@ -4,14 +4,14 @@ url: merger/java/installation
 title: Installation
 weight: 4
 description: "This guide explains how to install GroupDocs.Merger for Java to your environment"
-keywords: 
+keywords:
 productName: GroupDocs.Merger for Java
 hideChildren: False
 toc: True
 ---
 ## Installation from GroupDocs Repository using Maven
 
-GroupDocs hosts all Java APIs on [GroupDocs Repository](https://repository.groupdocs.com/). You can easily use [GroupDocs.Merger for Java](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger) API directly in your Maven projects with simple configurations.
+GroupDocs hosts all Java APIs on [GroupDocs Repository](https://releases.groupdocs.com/java/repo/). You can easily use [GroupDocs.Merger for Java](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/) API directly in your Maven projects with simple configurations.
 
 ### Specify GroupDocs Repository Configuration
 
@@ -22,7 +22,7 @@ First, you need to specify GroupDocs repository configuration/location in your M
 	<repository>
 		<id>GroupDocs Artifact Repository</id>
         	<name>GroupDocs Artifact Repository</name>
-        	<url>https://repository.groupdocs.com/repo/</url>
+        	<url>https://releases.groupdocs.com/java/repo/</url>
 	</repository>
 </repositories>
 ```
