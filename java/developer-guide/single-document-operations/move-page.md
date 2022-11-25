@@ -11,10 +11,10 @@ hideChildren: False
 [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) provides a move page feature which allows you to manipulate page ordering by moving any page(s) to new position within a document.   
 This can be done by following the steps below:
 
-*   Initialise [MoveOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/MoveOptions) class and specify current and new page numbers;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
-*   Call [movePage](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#movePage(com.groupdocs.merger.domain.options.interfaces.IMoveOptions)) method and pass [MoveOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/MoveOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
+*   Initialise [MoveOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/MoveOptions) class and specify current and new page numbers;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
+*   Call [movePage](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#movePage(com.groupdocs.merger.domain.options.interfaces.IMoveOptions)) method and pass [MoveOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/MoveOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates on how to move page to a new position:
 

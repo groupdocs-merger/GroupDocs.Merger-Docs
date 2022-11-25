@@ -38,9 +38,9 @@ structuredData:
 You can easily combine multiple EPUB files into one using [GroupDocs.Merger](https://products.groupdocs.com/merger/java) library API and all the files content will be preserved.
 The following example demonstrates how to merge EPUB files with several lines of C# code:
 
-* Create an instance of [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class and pass source EPUB file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another EPUB file to merge with [join](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other EPUB documents you want to merge.
-* Call [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged EPUB file as parameter.
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class and pass source EPUB file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another EPUB file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other EPUB documents you want to merge.
+* Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged EPUB file as parameter.
 
 ```java
 // Load the source EPUB file

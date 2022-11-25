@@ -11,9 +11,9 @@ hideChildren: False
 [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to split text file into several resultant text files. The default behavior is to split each line into separate file.  
 Here are the steps on how to split text file as described:
 
-*   Initialize [TextSplitOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/TextSplitOptions) class with output files path format, desired [TextSplitMode](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/TextSplitMode) and line numbers;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
-*   Call [split](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#split(com.groupdocs.merger.domain.options.interfaces.ITextSplitOptions)) method and pass [TextSplitOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/TextSplitOptions) object to itfor saving resultant text files.
+*   Initialize [TextSplitOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/TextSplitOptions) class with output files path format, desired [TextSplitMode](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/TextSplitMode) and line numbers;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
+*   Call [split](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#split(com.groupdocs.merger.domain.options.interfaces.ITextSplitOptions)) method and pass [TextSplitOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/TextSplitOptions) object to itfor saving resultant text files.
 
 ### Split text file to several one-line files (by exact line numbers)
 

@@ -33,7 +33,7 @@ There are few bugs in this regular monthly release. The most notable are:
 
 ### The existing Join method of the Merger class was expanded
 
-The existing **[Join](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream))** method of the GroupDocs.Merger for Java product was expanded, please refer to the following documentation articles for more details:
+The existing **[Join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream))** method of the GroupDocs.Merger for Java product was expanded, please refer to the following documentation articles for more details:
 
 *   [How to merge image files]({{< ref "merger/java/developer-guide/merge/images.md" >}});
 *   [How to merge Word documents without starting from a new page]({{< ref "merger/java/developer-guide/merge/word.md#how-to-merge-word-documents-without-starting-from-a-new-page" >}}).

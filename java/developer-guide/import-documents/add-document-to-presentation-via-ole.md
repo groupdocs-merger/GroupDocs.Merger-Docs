@@ -17,10 +17,10 @@ The "Object Linking and Embedding" technology helps to embed some other document
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/java)** provides an ability to add other single document as embedded document to Presentation.   
 Here are the steps for it:
 
-*   Initialise [OlePresentationOptions](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OlePresentationOptions) class with embedded file path and page number;
-*   Instantiate [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) object with source document path or stream;
-*   Call [importDocument](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions)) method and pass [OlePresentationOptions](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OlePresentationOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
+*   Initialise [OlePresentationOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OlePresentationOptions) class with embedded file path and page number;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) object with source document path or stream;
+*   Call [importDocument](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions)) method and pass [OlePresentationOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OlePresentationOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates how to add other single document as embedded document to Presentation:
 

@@ -12,8 +12,8 @@ hideChildren: False
 
 The following are the steps to load password-protected documents.
 
-*   Instantiate [LoadOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/LoadOptions) object and specify source document password;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream and [LoadOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/LoadOptions) object created at previous step.
+*   Instantiate [LoadOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/LoadOptions) object and specify source document password;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream and [LoadOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/LoadOptions) object created at previous step.
 
 The following code sample shows how to load password-protected documents.
 

@@ -50,9 +50,9 @@ XLSX is well-known format for Microsoft Excel documents that was introduced by M
 
 The following example demonstrates how to merge XLSX files with several lines of java code:
 
-* Create an instance of [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class and pass source XLSX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another XLSX file to merge with [join](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other XLSX documents you want to merge.
-* Call [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged XLSX file as parameter.
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class and pass source XLSX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another XLSX file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other XLSX documents you want to merge.
+* Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged XLSX file as parameter.
 
 ```java
 // Load the source XLSX file

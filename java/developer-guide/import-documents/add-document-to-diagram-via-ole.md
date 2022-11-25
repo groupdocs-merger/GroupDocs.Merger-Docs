@@ -17,10 +17,10 @@ The OLE technology provided by Microsoft allows to insert some other document co
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/java)** provides an ability to add other single document as embedded document to Presentation.   
 Here are the steps for it:
 
-*   Initialise [OleDiagramOptions](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OleDiagramOptions) class with embedded file path and page number;
-*   Instantiate [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) object with source document path or stream;
-*   Call [importDocument](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions)) method and pass [OleDiagramOptions](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OleDiagramOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and pass desired file path to save resultant document.
+*   Initialise [OleDiagramOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OleDiagramOptions) class with embedded file path and page number;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) object with source document path or stream;
+*   Call [importDocument](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions)) method and pass [OleDiagramOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OleDiagramOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates how to add other single document as embedded document to Diagram page:
 

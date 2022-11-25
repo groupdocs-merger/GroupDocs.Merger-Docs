@@ -8,7 +8,7 @@ keywords: Load document from local disk, Load document from file path, Load docu
 productName: GroupDocs.Merger for Java
 hideChildren: False
 ---
-When the source document is located on the local disk [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows you to load it via [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) class constructor specifying absolute or relative path to it.  
+When the source document is located on the local disk [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows you to load it via [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) class constructor specifying absolute or relative path to it.  
 The following code snippet shows how to load documents from local disk.
 
 ```java

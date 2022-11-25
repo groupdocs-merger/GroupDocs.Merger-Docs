@@ -41,9 +41,9 @@ structuredData:
 
 The following example demonstrates how to merge TEX files with several lines of java code:
 
-* Create an instance of [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class and pass source TEX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another TEX file to merge with [join](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other TEX documents you want to merge.
-* Call [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged TEX file as parameter.
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class and pass source TEX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another TEX file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other TEX documents you want to merge.
+* Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged TEX file as parameter.
 
 ```java
 // Load the source TEX file

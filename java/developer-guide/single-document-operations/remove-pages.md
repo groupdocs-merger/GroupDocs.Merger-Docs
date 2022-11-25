@@ -11,10 +11,10 @@ hideChildren: False
 [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) provides an ability to remove single page or a collection of specific page numbers from the source document.   
 Here are the steps to remove document page(s):
 
-*   Initialise [RemoveOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RemoveOptions) class with page numbers to remove;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or stream;
-*   Call [removePages](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#removePages(com.groupdocs.merger.domain.options.interfaces.IRemoveOptions)) method and pass [RemoveOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RemoveOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
+*   Initialise [RemoveOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RemoveOptions) class with page numbers to remove;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or stream;
+*   Call [removePages](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#removePages(com.groupdocs.merger.domain.options.interfaces.IRemoveOptions)) method and pass [RemoveOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RemoveOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates how to remove document pages:
 

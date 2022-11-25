@@ -17,9 +17,9 @@ Please check the guide below and learn how to add PDF document attachment in 3 s
 
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/java)** provides an ability to add PDF document attachment. Here are the steps for it:
 
-*   Instantiate [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) object with source document path or stream;
-*   Call [importDocument](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions)) method and pass [PdfAttachmentOptions](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/PdfAttachmentOptions) object to it with a file path to document that is being embedded into PDF;
-*   Call [save](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) object with source document path or stream;
+*   Call [importDocument](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions)) method and pass [PdfAttachmentOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/PdfAttachmentOptions) object to it with a file path to document that is being embedded into PDF;
+*   Call [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates how to add add PowerPoint presentation attachment to PDF document:
 

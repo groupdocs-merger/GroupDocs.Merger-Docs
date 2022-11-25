@@ -41,9 +41,9 @@ When it's required to organize several text files into one file it's possible to
 
 The workflow of combining files together is quite simple:
 
-* Create an instance of [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class and pass source TXT file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another TXT file to merge with [join](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other TXT documents you want to merge.
-* Call [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged TXT file as parameter.
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class and pass source TXT file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another TXT file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other TXT documents you want to merge.
+* Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged TXT file as parameter.
 
 The following example demonstrates how to merge TXT files with several lines of java code:
 

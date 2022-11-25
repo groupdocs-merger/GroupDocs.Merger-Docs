@@ -12,10 +12,10 @@ hideChildren: False
 
 Here are the steps to join several document parts:
 
-* Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
-* Instantiate [JoinOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/JoinOptions) object and specify desired page numbers or page range to join;
-* Call [join](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#join(java.lang.String,%20com.groupdocs.merger.domain.options.interfaces.IJoinOptions)) method and pass joined document file path or InputStream to it specifying [JoinOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/JoinOptions) object as parameter. Repeat this step for every joined document part.
-* Call [save](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
+* Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
+* Instantiate [JoinOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/JoinOptions) object and specify desired page numbers or page range to join;
+* Call [join](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#join(java.lang.String,%20com.groupdocs.merger.domain.options.interfaces.IJoinOptions)) method and pass joined document file path or InputStream to it specifying [JoinOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/JoinOptions) object as parameter. Repeat this step for every joined document part.
+* Call [save](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to join document parts:
 
