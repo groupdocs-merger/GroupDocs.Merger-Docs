@@ -11,11 +11,11 @@ hideChildren: False
 [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to update password from password-protected document. The resultant document will have new password.  
 Here are the steps to update document password:
 
-*   Initialize [LoadOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/LoadOptions) class specifying current password;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream and pass [LoadOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/LoadOptions) object to it;
-*   Initialize [UpdatePasswordOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/UpdatePasswordOptions) class specifying new document password;
-*   Call [updatePassword](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#updatePassword(com.groupdocs.merger.domain.options.interfaces.IUpdatePasswordOptions)) method and pass [UpdatePasswordOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/UpdatePasswordOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
+*   Initialize [LoadOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/LoadOptions) class specifying current password;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream and pass [LoadOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/LoadOptions) object to it;
+*   Initialize [UpdatePasswordOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/UpdatePasswordOptions) class specifying new document password;
+*   Call [updatePassword](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#updatePassword(com.groupdocs.merger.domain.options.interfaces.IUpdatePasswordOptions)) method and pass [UpdatePasswordOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/UpdatePasswordOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to update document password:
 

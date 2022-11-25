@@ -52,7 +52,7 @@ There are a few fixed bugs under .Net Core platform in this regular monthly rele
 
 ### New ImportDocument method of Merger class was expanded
 
-**[ImportDocument](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions))** method of GroupDocs.Merger for Java product was expanded, please refer to the following documentation articles for more details: 
+**[ImportDocument](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions))** method of GroupDocs.Merger for Java product was expanded, please refer to the following documentation articles for more details: 
 
 *   [Supported Document Types]({{< ref "merger/java/getting-started/supported-document-formats.md" >}})
 *   [Import documents]({{< ref "merger/java/developer-guide/import-documents/_index.md" >}}).

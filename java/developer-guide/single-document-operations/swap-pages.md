@@ -12,10 +12,10 @@ hideChildren: False
 
 Here are the steps to swap document pages:
 
-*   Initialize [SwapOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/SwapOptions) class with page numbers to swap;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
-*   Call [swapPages](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#swapPages(com.groupdocs.merger.domain.options.interfaces.ISwapOptions)) method and pass [SwapOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/SwapOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
+*   Initialize [SwapOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/SwapOptions) class with page numbers to swap;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
+*   Call [swapPages](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#swapPages(com.groupdocs.merger.domain.options.interfaces.ISwapOptions)) method and pass [SwapOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/SwapOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to split document:
 

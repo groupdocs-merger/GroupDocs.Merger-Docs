@@ -12,7 +12,7 @@ There might be the case when source or target document is not physically located
 The following are the steps to be followed:
 
 *   Obtain document InputStream; 
-*   Pass opened source document stream to [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) class constructor.
+*   Pass opened source document stream to [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) class constructor.
 
 Following code snippet describes this case.
 

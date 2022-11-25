@@ -11,10 +11,10 @@ hideChildren: False
 [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to change page rotation angle by setting it to 90, 180 or 270 degrees for specific or all document pages.  
 Here are the steps to change page rotation:
 
-*   Initialize [RotateOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RotateOptions) class with desired rotation angle and page numbers;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
-*   Call [rotatePages](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#rotatePages(com.groupdocs.merger.domain.options.interfaces.IRotateOptions)) method and pass [RotateOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RotateOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
+*   Initialize [RotateOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RotateOptions) class with desired rotation angle and page numbers;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
+*   Call [rotatePages](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#rotatePages(com.groupdocs.merger.domain.options.interfaces.IRotateOptions)) method and pass [RotateOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RotateOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to change page rotation:
 

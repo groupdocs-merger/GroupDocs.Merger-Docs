@@ -9,8 +9,8 @@ productName: GroupDocs.Merger for Java
 hideChildren: False
 ---
 [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to get the list of all [supported file types]({{< ref "merger/java/getting-started/supported-document-formats.md" >}}) by following the below steps:
-*   Call [getSupportedFileTypes](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain/FileType#getSupportedFileTypes()) method of [FileType](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain/FileType) class;
-*   Enumerate through the collection of [FileType](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain/FileType) objects.
+*   Call [getSupportedFileTypes](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain/FileType#getSupportedFileTypes()) method of [FileType](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain/FileType) class;
+*   Enumerate through the collection of [FileType](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain/FileType) objects.
 
 The following code sample demonstrates how to get supported file formats list.
 

@@ -16,9 +16,9 @@ OLE is an abbreviation for "Object Linking and Embedding" technology that is pro
 
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/java)** provides an ability to insert OLE objects into word processing documents of Microsoft Word and Open Document formats. Here is how to do this in a 3 easy steps:
 
-*   Instantiate [Merger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) object with source document path or stream;
-*   Call [importDocument](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions)) method and pass [OleWordProcessingOptions](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OleWordProcessingOptions) object with embedded file path and page number;
-*   Call [save](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) object with source document path or stream;
+*   Call [importDocument](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#importDocument(com.groupdocs.merger.domain.options.interfaces.IImportDocumentOptions)) method and pass [OleWordProcessingOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/OleWordProcessingOptions) object with embedded file path and page number;
+*   Call [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.lang.String)) method and pass desired file path to save resultant document.
 
 The following code sample demonstrates how to embed PDF file into DOCX document as OLE object
 

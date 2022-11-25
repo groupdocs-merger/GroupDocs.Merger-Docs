@@ -10,9 +10,9 @@ hideChildren: False
 ---
 [**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to get document information which includes:
 
-*   [FileType](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.result/IDocumentInfo#getType())
-*   [PageCount](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.result/IDocumentInfo#getPageCount())
-*   [Page info ](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.result/IPageInfo)for each document page.
+*   [FileType](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.result/IDocumentInfo#getType())
+*   [PageCount](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.result/IDocumentInfo#getPageCount())
+*   [Page info ](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.result/IPageInfo)for each document page.
 
   
 The following code sample demonstrates how to get document information.

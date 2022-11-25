@@ -14,10 +14,10 @@ hideChildren: False
 
 Here are the steps to extract document pages:
 
-*   Initialize [ExtractOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/ExtractOptions) class with page numbers that should appear in the resultant document;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
-*   Call [extractPages](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#extractPages(com.groupdocs.merger.domain.options.interfaces.IExtractOptions)) method and pass [ExtractOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/ExtractOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
+*   Initialize [ExtractOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/ExtractOptions) class with page numbers that should appear in the resultant document;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
+*   Call [extractPages](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#extractPages(com.groupdocs.merger.domain.options.interfaces.IExtractOptions)) method and pass [ExtractOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/ExtractOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to extract document pages **by specifying exact page numbers**:
 

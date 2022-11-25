@@ -74,4 +74,4 @@ Supported image formats for document preview are:
 
 ## Logging while processing document
 
-GroupDocs.Merger allows to log document manipulation processes info through [ILogger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.logging/ILogger) interface. There is ability to use built-in [ConsoleLogger](https://apireference.groupdocs.com/merger/java/com.groupdocs.merger.logging/ConsoleLogger) or implement own logging logic.
+GroupDocs.Merger allows to log document manipulation processes info through [ILogger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.logging/ILogger) interface. There is ability to use built-in [ConsoleLogger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.logging/ConsoleLogger) or implement own logging logic.

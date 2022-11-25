@@ -12,10 +12,10 @@ hideChildren: False
 
 Here are the steps to change page orientation:
 
-*   Initialize [OrientationOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/OrientationOptions) class with desired orientation mode and page numbers;
-*   Instantiate [Merger](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
-*   Call [changeOrientation](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#changeOrientation(com.groupdocs.merger.domain.options.interfaces.IOrientationOptions)) method and pass [OrientationOptions](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/OrientationOptions) object to it;
-*   Call [save](https://apireference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
+*   Initialize [OrientationOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/OrientationOptions) class with desired orientation mode and page numbers;
+*   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
+*   Call [changeOrientation](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#changeOrientation(com.groupdocs.merger.domain.options.interfaces.IOrientationOptions)) method and pass [OrientationOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/OrientationOptions) object to it;
+*   Call [save](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#save(java.lang.String)) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to change page orientation:
 
