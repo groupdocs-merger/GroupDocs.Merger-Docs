@@ -20,7 +20,7 @@ First, you need to specify GroupDocs repository configuration/location in your M
 ```java
 <repositories>
 	<repository>
-		<id>GroupDocs Artifact Repository</id>
+			<id>GroupDocs Artifact Repository</id>
         	<name>GroupDocs Artifact Repository</name>
         	<url>https://releases.groupdocs.com/java/repo/</url>
 	</repository>
@@ -36,7 +36,7 @@ Then define GroupDocs.Merger for Java API dependency in your `pom.xml` as fol
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-merger</artifactId>
-        <version>22.7</version>
+        <version>22.12</version>
     </dependency>
 </dependencies>
 ```
