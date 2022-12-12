@@ -33,7 +33,7 @@ There are few fixed bugs and a new feature in this regular monthly release. The 
 
 ### The existing Join method of the Merger class was expanded
 
-The existing **[Join](https://reference.groupdocs.com/merger/java/groupdocs.merger/merger/join/) ** method of the GroupDocs.Merger for Java product was expanded, please refer to the following documentation articles for more details:
+The existing **[Join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#join-java.io.InputStream-) ** method of the GroupDocs.Merger for Java product was expanded, please refer to the following documentation articles for more details:
 
 *   [How to merge TIF image files]({{< ref "merger/java/getting-started/use-cases/how-to-merge-tif-images-using-java.md" >}});
 *   [How to merge GIF image files]({{< ref "merger/java/getting-started/use-cases/how-to-merge-gif-images-using-java.md" >}});
