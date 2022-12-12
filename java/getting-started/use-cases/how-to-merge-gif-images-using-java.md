@@ -1,7 +1,7 @@
 ---
 id: how-to-merge-gif-images-using-java
 url: merger/java/getting-started/use-cases/how-to-merge-gif-images-using-java
-title: How to merge BMP images using Java
+title: How to merge GIF images using Java
 description: "Learn how to merge GIF image files, combine GIF image files into one file programmatically in java language using GroupDocs.Merger for Java library."
 keywords: Merge GIF image files in Java, Combine GIF image files programmatically
 productName: GroupDocs.Merger for Java
