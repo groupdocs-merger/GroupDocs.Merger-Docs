@@ -66,7 +66,7 @@ using (Merger merger = new Merger(@"c:\sample1.tif"))
 }
 ```
 
-NOTE: You may merge other TIF formats like TIF in the same way as shown above. For this provide files by specifying their names with extension.
+NOTE: You may merge other TIF formats like TIFF in the same way as shown above. For this provide files by specifying their names with extension.
 
 ### Code Examples
 
