@@ -3,51 +3,49 @@ id: installation
 url: merger/java/installation
 title: Installation
 weight: 4
-description: "This guide explains how to install GroupDocs.Merger for Java to your environment"
-keywords:
+description: "GroupDocs.Merger for Java installation"
+keywords: "groupdocs merger java, installation, maven"
 productName: GroupDocs.Merger for Java
 hideChildren: False
 toc: True
 ---
-## Installation from GroupDocs Repository using Maven
 
-GroupDocs hosts all Java APIs on [GroupDocs Repository](https://releases.groupdocs.com/java/repo/). You can easily use [GroupDocs.Merger for Java](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/) API directly in your Maven projects with simple configurations.
+## Install using Maven
 
-### Specify GroupDocs Repository Configuration
+All Java packages are hosted at [GroupDocs Artifact Repository](https://repository.groupdocs.com/). You can easily reference GroupDocs.Merger for Java API directly in your Maven project using following steps.
 
-First, you need to specify GroupDocs repository configuration/location in your Maven `pom.xml` as follows: 
+### Add GroupDocs Artifact Repository
 
-```java
+First, you need to specify repository configuration/location in your Maven `pom.xml` as follows:
+
+{{< tabs "example1">}}
+{{< tab "pom.xml" >}}
+```xml
 <repositories>
 	<repository>
-			<id>GroupDocs Artifact Repository</id>
+		<id>GroupDocs Artifact Repository</id>
         	<name>GroupDocs Artifact Repository</name>
         	<url>https://releases.groupdocs.com/java/repo/</url>
 	</repository>
 </repositories>
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
-### Define GroupDocs.Merger for Java API Dependency
+### Add GroupDocs.Merger as a dependency
 
 Then define GroupDocs.Merger for Java API dependency in your `pom.xml` as follows:
 
-```java
+{{< tabs "example2">}}
+{{< tab "pom.xml" >}}
+```xml
 <dependencies>
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-merger</artifactId>
-        <version>22.12</version>
+        <version>22.11</version>
     </dependency>
 </dependencies>
 ```
-
-After performing above-mentioned steps, GroupDocs.Merger for Java dependency will finally be added to your Maven project.
-
-## Install from official GroupDocs website
-
-You can follow the steps below to reference GroupDocs.Merger for Java downloaded from official website [Downloads section](https://downloads.groupdocs.com/merger/java):
-
-1. Unpack zip archive .
-2. Switch to **lib** folder.
-3. Run **install.bat** (for Windows) or **install.sh** (for Linux) file to install the library in your local maven repository.
-4. After this you should add the merger **dependency** block to your *pom.xm*l project file.
+{{< /tab >}}
+{{< /tabs >}}
