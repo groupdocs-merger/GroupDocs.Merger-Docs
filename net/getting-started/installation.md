@@ -2,7 +2,7 @@
 id: installation
 url: merger/net/installation
 title: Installation
-weight: 4
+weight: 5
 description: "This guide explains how to install GroupDocs.Merger for .NET to your environment"
 keywords: 
 productName: GroupDocs.Merger for .NET

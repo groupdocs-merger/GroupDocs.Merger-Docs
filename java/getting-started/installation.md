@@ -2,7 +2,7 @@
 id: installation
 url: merger/java/installation
 title: Installation
-weight: 4
+weight: 5
 description: "GroupDocs.Merger for Java installation"
 keywords: "groupdocs merger java, installation, maven"
 productName: GroupDocs.Merger for Java

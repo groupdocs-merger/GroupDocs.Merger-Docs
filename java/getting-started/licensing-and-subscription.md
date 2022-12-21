@@ -2,7 +2,7 @@
 id: licensing-and-subscription
 url: merger/java/licensing-and-subscription
 title: Licensing and Subscription
-weight: 5
+weight: 6
 description: "This article explains evaluation limitations and licensing of GroupDocs.Merger for Java"
 keywords: 
 productName: GroupDocs.Merger for Java

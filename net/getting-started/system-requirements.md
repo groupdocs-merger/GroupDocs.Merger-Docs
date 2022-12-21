@@ -2,7 +2,7 @@
 id: system-requirements
 url: merger/net/system-requirements
 title: System Requirements
-weight: 3
+weight: 4
 description: "This article explains GroupDocs.Merger for .NET system requirements. Please note that GroupDocs.Merger for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed including."
 keywords: 64-bit operating, Mono framework
 productName: GroupDocs.Merger for .NET

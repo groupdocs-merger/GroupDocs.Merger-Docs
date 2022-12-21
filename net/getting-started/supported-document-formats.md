@@ -3,8 +3,8 @@ id: supported-document-formats
 url: merger/net/supported-document-formats
 title: Supported Document Types
 weight: 2
-description: "This section describes GroupDocs.Merger for .NET supported document types. The Library supports DOCX, XLSX, PDF, JPG and many more."
-keywords: DOCX, XLSX, PDF, JPG
+description: "This section describes GroupDocs.Merger for .NET supported document types. The Library supports PDF, DOCX, XLSX, PPTX and many more."
+keywords: PDF, DOCX, XLSX, PPTX
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---
