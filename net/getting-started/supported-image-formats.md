@@ -2,7 +2,7 @@
 id: supported-image-formats
 url: merger/net/supported-image-formats
 title: Supported Image Types
-weight: 3
+weight: 4
 description: "This section describes GroupDocs.Merger for .NET supported image types. The Library supports JPG, BMP, PNG, TIF and many more."
 keywords: JPG, BMP, PNG, TIF
 productName: GroupDocs.Merger for .NET

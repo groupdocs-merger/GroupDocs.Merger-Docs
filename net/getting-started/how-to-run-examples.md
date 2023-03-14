@@ -2,7 +2,7 @@
 id: how-to-run-examples
 url: merger/net/how-to-run-examples
 title: How to Run Examples
-weight: 7
+weight: 8
 description: "This article describes how to run GroupDocs.Merger for .NET code examples."
 keywords: 
 productName: GroupDocs.Merger for .NET
