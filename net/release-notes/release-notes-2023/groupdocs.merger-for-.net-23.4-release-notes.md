@@ -1,8 +1,8 @@
 ---
-id: groupdocs-merger-for-net-latest-release-notes
-url: merger/net/release-notes/latest
-title: Latest release (April 2023)
-weight: 1
+id: groupdocs-merger-for-net-23-4-release-notes
+url: merger/net/groupdocs-merger-for-net-23-4-release-notes
+title: GroupDocs.Merger for .NET 23.4 Release Notes
+weight: 100
 description: ""
 keywords: 
 productName: GroupDocs.Merger for .NET

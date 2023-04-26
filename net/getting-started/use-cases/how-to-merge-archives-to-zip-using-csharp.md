@@ -63,7 +63,7 @@ using (Merger merger = new Merger(@"c:\sample1.zip"))
     // Add another archive file to merge
     merger.Join(@"c:\sample2.tar");
     // Add next archive file to merge
-    merger.Join(@"c:\sample3.tar");
+    merger.Join(@"c:\sample3.rar");
     // Merge archive files and save result
     merger.Save(@"c:\merged.zip");
 }
