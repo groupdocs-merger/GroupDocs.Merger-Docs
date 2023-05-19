@@ -59,7 +59,7 @@ By using GroupDocs.Merger for .NET you can merge multiple files into one file, s
 </ul>
 <p>WHAT'S NEW?</p>
 <ul>
-	<li><a href='{{< ref "merger/net/release-notes" >}}'>GroupDocs.Merger for .NET Release Notes</a></li>
+	<li><a href='https://releases.groupdocs.com/merger/net/release-notes/'>GroupDocs.Merger for .NET Release Notes</a></li>
 </ul>
 <p>TECHNICAL SUPPORT</p>
 <ul>
