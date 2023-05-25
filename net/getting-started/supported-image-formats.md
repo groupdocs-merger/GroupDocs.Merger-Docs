@@ -19,3 +19,5 @@ The following table indicates the file formats that GroupDocs.Merger can work w
 | [GIF](https://docs.fileformat.com/image/gif/) | Graphical Interchange Format | ![(tick)](/merger/net/images/check.png) |   |   | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |
 | [TIF](https://docs.fileformat.com/image/tiff/) | Tagged Image Format | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |   | ![(tick)](/merger/net/images/check.png) |
 | [TIFF](https://docs.fileformat.com/image/tiff/) | Tagged Image File Format | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |   | ![(tick)](/merger/net/images/check.png) |
+| [SVG](https://docs.fileformat.com/image/svg/) | Scalar Vector Graphics | ![(tick)](/merger/net/images/check.png) |   |   | ![(tick)](/merger/net/images/check.png) |   |
+| [SVGZ](https://docs.fileformat.com/image/svgz/) | Compressed Scalar Vector Graphics | ![(tick)](/merger/net/images/check.png) |   |   | ![(tick)](/merger/net/images/check.png) |   |
