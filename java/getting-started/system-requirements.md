@@ -2,7 +2,7 @@
 id: system-requirements
 url: merger/java/system-requirements
 title: System Requirements
-weight: 4
+weight: 5
 description: "This article explains GroupDocs.Merger for Java system requirements."
 keywords: 
 productName: GroupDocs.Merger for Java

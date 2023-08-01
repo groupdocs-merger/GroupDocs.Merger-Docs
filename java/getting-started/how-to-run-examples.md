@@ -2,7 +2,7 @@
 id: how-to-run-examples
 url: merger/java/how-to-run-examples
 title: How to Run Examples
-weight: 7
+weight: 8
 description: "This section decsribes how to get started with GroupDocs.Merger for Java library"
 keywords: 
 productName: GroupDocs.Merger for Java

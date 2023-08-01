@@ -2,7 +2,7 @@
 id: installation
 url: merger/java/installation
 title: Installation
-weight: 5
+weight: 6
 description: "GroupDocs.Merger for Java installation"
 keywords: "groupdocs merger java, installation, maven"
 productName: GroupDocs.Merger for Java
@@ -43,7 +43,7 @@ Then define GroupDocs.Merger for Java API dependency in your `pom.xml` as fol
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-merger</artifactId>
-        <version>22.11</version>
+        <version>23.8</version>
     </dependency>
 </dependencies>
 ```
