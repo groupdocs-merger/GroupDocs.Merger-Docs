@@ -33,7 +33,7 @@ structuredData:
           archiveWidth: 646
 ---
 
-## ZIP Merger .NET API
+## ZIP Merger Java API
 
 [GroupDocs.Merger](https://products.groupdocs.com/merger/java) allows developers to combine multiple archive documents in the preferred order and save them as a single ZIP file.
 
@@ -46,9 +46,9 @@ A file with .zip extension is an archive that can hold one or more files or dire
 
 The following example demonstrates how to merge archives to ZIP file with several lines of Java code:
 
-* Create an instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass source archive file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another archive file to merge with [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join) method. Repeat this step for other archive documents you want to merge.
-* Call [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged archive file as parameter.
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/) class and pass source archive file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+* Add another archive file to merge with [Join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#join-java.lang.String-) method. Repeat this step for other archive documents you want to merge.
+* Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/) class [Save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#save-java.io.OutputStream-) method and specify the filename for the merged archive file as parameter.
 
 ```java
 // Load the source archive file

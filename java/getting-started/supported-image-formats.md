@@ -10,7 +10,7 @@ hideChildren: False
 ---
 The following table indicates the file formats that GroupDocs.Merger can work with.
 
-| Format | Description | Join | Split | Extract pages | Move page | Remove pages | Swap pages | Change page orientation | Rotate pages | Cross-format merge to PDF |
+| Format | Description | Join | Split | Extract pages | Cross-format image merging | Cross-format merge to PDF |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [JPG](https://docs.fileformat.com/image/jpeg/) | JPG Image File | ![(tick)](/merger/net/images/check.png) |   |   | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |
 | [JPEG](https://docs.fileformat.com/image/jpeg/) | JPEG Image File | ![(tick)](/merger/net/images/check.png) |   |   | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |
