@@ -50,7 +50,20 @@ Use the [downloads section](https://downloads.groupdocs.com/merger/net) to obtai
 PM> Install-Package GroupDocs.Merger
 ```
 
-### How to merge several MP3 files into a single file
+### Source Audio Files
+
+<audio controls="controls">
+  <source type="audio/mp3" src="/merger/net/images/audio/sample1.mp3"></source>  
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+<audio controls="controls">
+  <source type="audio/mp3" src="/merger/net/images/audio/sample2.mp3"></source>  
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
+
+### How To Merge Several MP3 Files Into A Single File
 
 The following example demonstrates how to merge multiple audio files with several lines of C# code:
 
@@ -64,17 +77,22 @@ using (var merger = new GroupDocs.Merger.Merger(@"c:\sample1.mp3"))
 {
     // Add another MP3 file to merge
     merger.Join(@"c:\sample2.mp3");
-    // Add next audio file to merge
-    merger.Join(@"c:\sample3.mp3");
     // Merge MP3 files and save result
     merger.Save(@"c:\merged.mp3");
 }
 ```
 
+### Result Of Joining MP3 Files
+
+<audio controls="controls">
+  <source type="audio/mp3" src="/merger/net/images/audio/merged.mp3"></source>  
+  <p>Your browser does not support the audio element.</p>
+</audio>
+
 ### Code Examples
 
-Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!
+Explore C# source code of our backend and frontend [examples and use-cases]({{< ref "merger/net/showcases.md" >}}). You can experiment with them at no cost!
 
 ### Merge MP3 Live Demo
 
-GroupDocs.Merger for .NET provides an online [**MP3 Merger App**](https://products.groupdocs.app/merger/mp3), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for .NET offers an online [**MP3 Merger App**](https://products.groupdocs.app/merger/mp3) that enables you to test it without charge, assessing its quality and precision.
