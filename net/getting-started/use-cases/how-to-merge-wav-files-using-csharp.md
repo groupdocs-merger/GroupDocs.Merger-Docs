@@ -3,7 +3,7 @@ id: how-to-merge-wav-files-using-csharp
 url: merger/net/getting-started/use-cases/how-to-merge-wav-files-using-csharp
 title: How to merge WAV files using C#
 description: "Learn how to merge WAV audio files, combine WAV audio files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
-keywords: Merge WAV audio files in C#, Combine WAV audio files programmatically
+keywords: Merge WAV audio files in C#, Combine WAV audio files programmatically, Join WAV audio files in C#, Combine WAV audio files in C#, Concatenate WAV audio files in C#
 productName: GroupDocs.Merger for .NET
 weight: 8
 structuredData:
@@ -49,6 +49,16 @@ Use the [downloads section](https://downloads.groupdocs.com/merger/net) to obtai
 ```shell
 PM> Install-Package GroupDocs.Merger
 ```
+### Source audio files
+
+<audio controls="controls">
+  <source type="audio/wav" src="/merger/net/images/audio/sample1.wav"></source>  
+  <p>Your browser does not support the audio element.</p>
+</audio>
+<audio controls="controls">
+  <source type="audio/wav" src="/merger/net/images/audio/sample2.wav"></source>  
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 ### How to merge several WAV files into a single file
 
@@ -64,12 +74,17 @@ using (var merger = new GroupDocs.Merger.Merger(@"c:\sample1.wav"))
 {
     // Add another WAV file to merge
     merger.Join(@"c:\sample2.wav");
-    // Add next audio file to merge
-    merger.Join(@"c:\sample3.wav");
     // Merge WAV files and save result
     merger.Save(@"c:\merged.wav");
 }
 ```
+
+### Result of joining WAV files
+
+<audio controls="controls">
+  <source type="audio/wav" src="/merger/net/images/audio/merged.wav"></source>  
+  <p>Your browser does not support the audio element.</p>
+</audio>
 
 ### Code Examples
 
