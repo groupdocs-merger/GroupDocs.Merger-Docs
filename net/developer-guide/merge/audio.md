@@ -36,12 +36,12 @@ structuredData:
 
 ## How to merge audio files in C\#
 
-[GroupDocs.Merger](https://products.groupdocs.com/merger/net) facilitates developers to combine multiple audio files according to their preferred sequence and save them as a single audio file. This eliminates the need for manual operations with desktop software, saving you valuable time. GroupDocs.Merger allows combining audio files with various extensions, including WAV and MP3.
+[GroupDocs.Merger](https://products.groupdocs.com/merger/net) facilitates developers to combine multiple audio files according to their preferred sequence and save them as a single audio file. This eliminates the need for manual operations with desktop software, saving you valuable time. Currently, GroupDocs.Merger allows combining audio files having the same extensions. For example, WAV file with other WAV files, or MP3 file with other MP3 files.
 
 Here's a C# code snippet demonstrating how to concatenate audio files:
 
 * Create an instance of the [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass the source audio file path as a constructor parameter. You may specify absolute or relative file paths as per your requirements.
-* Add another audio file to merge with the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join) method. Repeat this step for other audio files you want to merge.
+* Add another audio file to merge with the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join) method. Audio file should be of the same format as the initial one. Repeat this step for other audio files you want to merge.
 * Call the [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the resulting audio file as a parameter.
 
 ```csharp
@@ -50,8 +50,6 @@ using (var merger = new GroupDocs.Merger.Merger(@"c:\sample1.wav"))
 {
     // Add another WAV file to merge
     merger.Join(@"c:\sample2.wav");
-    // Add another MP3 file to merge
-    merger.Join(@"c:\sample.mp3");
     // Merge audio files and save result
     merger.Save(@"c:\merged.wav");
 }
