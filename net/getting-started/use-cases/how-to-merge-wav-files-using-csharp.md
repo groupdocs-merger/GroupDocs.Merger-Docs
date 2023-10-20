@@ -35,7 +35,7 @@ structuredData:
 
 ## WAV Merger .NET API
 
-[GroupDocs.Merger](https://products.groupdocs.com/merger/net) allows developers to combine multiple WAV audio files in the preferred order and save them as a single file.
+Developers can use [GroupDocs.Merger](https://products.groupdocs.com/merger/net) to concatenate multiple WAV audio files in the desired sequence and save them as a single  file.
 
 ## About WAV File Format
 
@@ -49,20 +49,21 @@ Use the [downloads section](https://downloads.groupdocs.com/merger/net) to obtai
 ```shell
 PM> Install-Package GroupDocs.Merger
 ```
-### Source audio files
+### Source Audio Files
 
 <audio controls="controls">
   <source type="audio/wav" src="/merger/net/images/audio/sample1.wav"></source>  
   <p>Your browser does not support the audio element.</p>
 </audio>
+
 <audio controls="controls">
   <source type="audio/wav" src="/merger/net/images/audio/sample2.wav"></source>  
   <p>Your browser does not support the audio element.</p>
 </audio>
 
-### How to merge several WAV files into a single file
+### How To Merge Several WAV Files Into A Single File
 
-The following example demonstrates how to merge multiple audio files with several lines of C# code:
+The following example demonstrates how to combine multiple audio files with several lines of C# code:
 
 * Create an instance of the [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass the source audio file path as a constructor parameter. You may specify absolute or relative file paths as per your requirements.
 * Add another audio file to merge with the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join) method. Repeat this step for other audio files you want to merge.
@@ -79,7 +80,7 @@ using (var merger = new GroupDocs.Merger.Merger(@"c:\sample1.wav"))
 }
 ```
 
-### Result of joining WAV files
+### Result Of Joining WAV Files
 
 <audio controls="controls">
   <source type="audio/wav" src="/merger/net/images/audio/merged.wav"></source>  
@@ -90,6 +91,6 @@ using (var merger = new GroupDocs.Merger.Merger(@"c:\sample1.wav"))
 
 Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!
 
-### Merge WAV Live Demo
+### Combining WAV Live Demo
 
 GroupDocs.Merger for .NET provides an online [**WAV Merger App**](https://products.groupdocs.app/merger/wav), which allows you to try it for free and check its quality and accuracy.
