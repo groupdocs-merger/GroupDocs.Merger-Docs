@@ -90,4 +90,4 @@ Please find more [use-cases and complete java sources]({{< ref "merger/java/show
 
 ### Merge GIF Live Demo
 
-GroupDocs.Merger for Java provides an online [**GIF Merger App**](https://products.groupdocs.app/merger/images/gif), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for Java provides an online [**GIF Merger App**](https://products.groupdocs.app/merger/gif), which allows you to try it for free and check its quality and accuracy.

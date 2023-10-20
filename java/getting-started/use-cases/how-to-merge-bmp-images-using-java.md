@@ -89,4 +89,4 @@ Please find more [use-cases and complete Java sources]({{< ref "merger/java/show
 
 ### Merge BMP Live Demo
 
-GroupDocs.Merger for Java provides an online [**BMP Merger App**](https://products.groupdocs.app/merger/images/bmp), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for Java provides an online [**BMP Merger App**](https://products.groupdocs.app/images/bmp), which allows you to try it for free and check its quality and accuracy.

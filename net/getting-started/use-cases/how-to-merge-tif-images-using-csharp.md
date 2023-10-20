@@ -39,7 +39,7 @@ structuredData:
 
 ### About TIF File Format
 
-TIF (or TIFF) is an image format used for containing high quality graphics. It stands for “Tagged Image File Format” or “Tagged Image Format”. The format was created by Aldus Corporation but Adobe acquired the format later and made subsequent update in this format. TIF file is capable of holding both lossy jpeg compression and lossless image data. It can also contain vector based graphics data. TIF file format is widely supported in image editing applications. For that it’s a very popular image format among Graphic artists, Photographers, and Publishing authorities. PaintShop Pro is one of the most popular applications available for handling TIF images.
+TIF (or TIFF) is an image format used for containing high quality graphics. It stands for “Tagged Image File Format” or “Tagged Image Format”. The format was created by Aldus Corporation, but Adobe acquired the format later and made subsequent update in this format. TIF file is capable of holding both lossy JPEG compression and lossless image data. It can also contain vector based graphics data. TIF file format is widely supported in image editing applications. For that it’s a very popular image format among Graphic artists, Photographers, and Publishing authorities. PaintShop Pro is one of the most popular applications available for handling TIF images.
 
 ### Download and Configure
 

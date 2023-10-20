@@ -91,4 +91,4 @@ Please find more [use-cases and complete Java sources]({{< ref "merger/java/show
 
 ### Merge JPG Live Demo
 
-GroupDocs.Merger for Java provides an online [**JPG Merger App**](https://products.groupdocs.app/merger/images/jpg), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for Java provides an online [**JPG Merger App**](https://products.groupdocs.app/merger/jpg), which allows you to try it for free and check its quality and accuracy.

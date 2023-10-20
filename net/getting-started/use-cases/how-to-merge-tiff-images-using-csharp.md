@@ -88,4 +88,4 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 ### Merge TIFF Live Demo
 
-GroupDocs.Merger for .NET provides an online [**TIFF Merger App**](https://products.groupdocs.app/merger/images/tiff), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for .NET provides an online [**TIFF Merger App**](https://products.groupdocs.app/merger/tiff), which allows you to try it for free and check its quality and accuracy.
