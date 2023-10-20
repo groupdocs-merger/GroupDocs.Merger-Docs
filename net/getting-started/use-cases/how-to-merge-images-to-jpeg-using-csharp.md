@@ -90,4 +90,4 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 ### Merge JPEG Live Demo
 
-GroupDocs.Merger for .NET provides an online [**Image to JPEG Merger App**](https://products.groupdocs.app/merger/images/image-to-jpeg), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for .NET provides an online [**Image to JPEG Merger App**](https://products.groupdocs.app/merger/image-to-jpeg), which allows you to try it for free and check its quality and accuracy.

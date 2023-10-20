@@ -67,4 +67,4 @@ Please find more [use-cases and complete Java sources]({{< ref "merger/java/show
 
 ### Merge Archives Live Demo
 
-GroupDocs.Merger for Java provides an online [**ZIP Merger App**](https://products.groupdocs.app/merger/zip) or  [**TAR Merger App**](https://products.groupdocs.app/merger/tar) , which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for Java provides online [**ZIP Merger App**](https://products.groupdocs.app/merger/zip) and [**TAR Merger App**](https://products.groupdocs.app/merger/tar), which allow you to try it for free and check its quality and accuracy.

@@ -75,4 +75,9 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 ### Merge Images Live Demo
 
-GroupDocs.Merger for .NET provides an online [**JPG Merger App**](https://products.groupdocs.app/merger/images/jpg) or  [**PNG Merger App**](https://products.groupdocs.app/merger/images/png) or  [**BMP Merger App**](https://products.groupdocs.app/merger/images/bmp) or  [**GIF Merger App**](https://products.groupdocs.app/merger/images/gif) or  [**TIFF Merger App**](https://products.groupdocs.app/merger/images/tiff), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger offers the following free online tools to test its quality and accuracy:
+* [**JPG Merger App**](https://products.groupdocs.app/merger/jpg)
+* [**PNG Merger App**](https://products.groupdocs.app/merger/png)
+* [**BMP Merger App**](https://products.groupdocs.app/merger/bmp)
+* [**GIF Merger App**](https://products.groupdocs.app/merger/gif)
+* [**TIFF Merger App**](https://products.groupdocs.app/merger/tiff)

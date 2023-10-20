@@ -71,4 +71,7 @@ Please find more [use-cases and complete Java sources]({{< ref "merger/java/show
 
 ### Merge Images Live Demo
 
-GroupDocs.Merger for Java provides an online [**JPG Merger App**](https://products.groupdocs.app/merger/images/jpg) or  [**PNG Merger App**](https://products.groupdocs.app/merger/images/png) or  [**BMP Merger App**](https://products.groupdocs.app/merger/images/bmp), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger offers the following free online tools to test its quality and accuracy:
+* [**JPG Merger App**](https://products.groupdocs.app/merger/jpg)
+* [**PNG Merger App**](https://products.groupdocs.app/merger/png)
+* [**BMP Merger App**](https://products.groupdocs.app/merger/bmp)

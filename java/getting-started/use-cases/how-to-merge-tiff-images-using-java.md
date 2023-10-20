@@ -90,4 +90,4 @@ Please find more [use-cases and complete java sources]({{< ref "merger/java/show
 
 ### Merge TIFF Live Demo
 
-GroupDocs.Merger for Java provides an online [**TIFF Merger App**](https://products.groupdocs.app/merger/images/tiff), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for Java provides an online [**TIFF Merger App**](https://products.groupdocs.app/merger/tiff), which allows you to try it for free and check its quality and accuracy.

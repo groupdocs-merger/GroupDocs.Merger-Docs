@@ -88,4 +88,4 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 ### Merge GIF Live Demo
 
-GroupDocs.Merger for .NET provides an online [**GIF Merger App**](https://products.groupdocs.app/merger/images/gif), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for .NET provides an online [**GIF Merger App**](https://products.groupdocs.app/merger/gif), which allows you to try it for free and check its quality and accuracy.

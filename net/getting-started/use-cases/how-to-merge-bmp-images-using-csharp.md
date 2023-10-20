@@ -39,7 +39,7 @@ structuredData:
 
 ## About BMP File Format
 
-Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths.
+Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome and colored formats with various color depths.
 
 ### Download and Configure
 
@@ -88,4 +88,4 @@ Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcas
 
 ### Merge BMP Live Demo
 
-GroupDocs.Merger for .NET provides an online [**BMP Merger App**](https://products.groupdocs.app/merger/images/bmp), which allows you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for .NET provides an online [**BMP Merger App**](https://products.groupdocs.app/merger/bmp), which allows you to try it for free and check its quality and accuracy.
