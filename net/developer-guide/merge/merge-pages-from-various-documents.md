@@ -12,10 +12,10 @@ hideChildren: False
 
  Here are the steps to join several document parts:
 
-*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
-*   Instantiate [JoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/joinoptions) object and specify desired page numbers or page range to join;
-*   Call [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join_3) method and pass joined document file path or stream to it specifying [JoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/joinoptions) object as parameter. Repeat this step for every joined document part.
-*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
+*   Instantiate the [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Instantiate the [PageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagejoinoptions/) object and specify desired page numbers or page range to join;
+*   Call the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join_3) method and pass joined document file path or stream to it specifying [JoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/joinoptions) object as parameter. Repeat this step for every joined document part.
+*   Call the [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
 
 The following code sample demonstrates how to join document parts:
 
@@ -24,7 +24,7 @@ string filePath = @"c:\sample.docx";
 string filePath2 = @"c:\sample2.docx";
 string filePathOut = @"c:\output\result.docx";
 
-JoinOptions joinOptions = new JoinOptions(1, 4, RangeMode.OddPages);
+PageJoinOptions joinOptions = new PageJoinOptions(1, 4, RangeMode.OddPages);
 
 using (Merger merger = new Merger(filePath, loadOptions))
 {
