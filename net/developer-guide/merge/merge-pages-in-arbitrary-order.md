@@ -1,7 +1,7 @@
 ---
 id: merge-pages-in-arbitrary-order
 url: merger/net/merge-pages-in-arbitrary-order
-title: Merge pages in arbitrary order
+title: Merge pages in the arbitrary order
 weight: 120
 description: "This article explains how to merge arbitrary pages from different documents into a single PDF, DOCX, Excel or PowerPoint document using GroupDocs.Merger for .NET."
 keywords: Merge PDF pages into one PDF document, Combine document pages into single document, Merge pages into document using GroupDocs.Merger for .NET
