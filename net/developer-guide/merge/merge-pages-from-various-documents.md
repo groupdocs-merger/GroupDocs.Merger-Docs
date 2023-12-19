@@ -8,14 +8,20 @@ keywords: Merge PDF pages into one PDF document, Combine document pages into sin
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---
-**[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** allows to merge the source document with specific document pages from joined document into one resultant document by specifying desired page numbers or page ranges. Joined documents should be of the same format.
+With **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** you can combine different pages from multiple source documents into a single document. 
+
+* To merge the entire first document along with specific pages from the second and subsequent documents, you can make use of the [PageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagejoinoptions/) object, which is explained on this page.
+
+* To merge arbitrary pages from all the source documents, you can use the [PageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/) object, which is explained in detail in the [Merge pages in the arbitrary order]({{< ref "merger/net/developer-guide/merge/merge-pages-in-arbitrary-order.md" >}}) section.
+
+Using the [PageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagejoinoptions/) object, you can merge the source document with specific document pages from the joined documents into one resultant document by specifying desired page numbers or page ranges. Joined documents should be of the same format.
 
  Here are the steps to join several document parts:
 
-*   Instantiate the [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
-*   Instantiate the [PageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagejoinoptions/) object and specify desired page numbers or page range to join;
-*   Call the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join_3) method and pass joined document file path or stream to it specifying [JoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/joinoptions) object as parameter. Repeat this step for every joined document part.
-*   Call the [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
+*   Create a [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object and provide the path or stream of the source file.
+*   Create a [PageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagejoinoptions/) object and specify desired page numbers or page ranges to join.
+*   Use the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join_3) to add another source document. Provide the path or stream of the source file and the [PageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagejoinoptions) object as parameters. Repeat this step for every joined document part.
+*   Save the resulting document by calling the [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method and providing a file path.
 
 The following code sample demonstrates how to join document parts:
 

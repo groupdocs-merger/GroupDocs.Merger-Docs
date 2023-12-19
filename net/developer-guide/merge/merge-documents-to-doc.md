@@ -2,7 +2,7 @@
 id: merge-documents-to-doc
 url: merger/net/merge-documents-to-doc
 title: Merge documents to DOC
-weight: 120
+weight: 130
 description: "This section describes how to import OLE objects into Word DOC/DOCX documents using C#/.NET"
 keywords: 
 productName: GroupDocs.Merger for .NET
