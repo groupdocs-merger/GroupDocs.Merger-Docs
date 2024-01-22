@@ -2,7 +2,7 @@
 id: licensing-and-subscription
 url: merger/net/licensing-and-subscription
 title: Licensing and  Subscription
-weight: 7
+weight: 9
 description: "This article explains evaluation limitations and licensing of GroupDocs.Merger for .NET. Please note that you can avail a Free Trial and a 30-day Temporary License for evaluation"
 keywords: Free Trial, Temporary License for evaluation
 productName: GroupDocs.Merger for .NET

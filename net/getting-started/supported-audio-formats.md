@@ -2,7 +2,7 @@
 id: supported-audio-formats
 url: merger/net/supported-audio-formats
 title: Supported Audio Types
-weight: 1
+weight: 2
 description: "This section describes GroupDocs.Merger for .NET supported audio types. The Library supports WAV, MP3 and many more."
 keywords: WAV, MP3
 productName: GroupDocs.Merger for .NET

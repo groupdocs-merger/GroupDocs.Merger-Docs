@@ -2,7 +2,7 @@
 id: merger-use-cases
 url: merger/net/getting-started/use-cases
 title: Merger Use Cases
-weight: 7
+weight: 10
 description: "This section will describe typical problems with merging files and ways to solve them using GroupDocs.Merger for .NET library"
 keywords: 
 productName: GroupDocs.Merger for .NET
