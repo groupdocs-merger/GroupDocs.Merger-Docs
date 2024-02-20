@@ -33,7 +33,7 @@ structuredData:
           imageWidth: 646
 ---
 
-## WAV Merger .NET API
+## WAV Merger Java API
 
 Developers can use [GroupDocs.Merger](https://products.groupdocs.com/merger/java) to concatenate multiple WAV audio files in the desired sequence and save them as a single  file.
 
