@@ -19,7 +19,7 @@ All Java packages are hosted at [GroupDocs Artifact Repository](https://reposit
 First, you need to specify repository configuration/location in your Maven `pom.xml` as follows:
 
 {{< tabs "example1">}}
-{{< tab "pom.xml" >}}
+{{< tab "Maven" >}}
 ```xml
 <repositories>
 	<repository>
@@ -30,6 +30,39 @@ First, you need to specify repository configuration/location in your Maven `pom
 </repositories>
 ```
 {{< /tab >}}
+{{< tab "Gradle" >}}
+```xml
+repositories {
+    maven {
+        url "https://repository.groupdocs.com/repo/"
+    }
+}
+```
+{{< /tab >}}
+{{< tab "Kotlin" >}}
+```xml
+repositories {
+    maven(url = "https://repository.groupdocs.com/repo/")
+}
+```
+{{< /tab >}}
+{{< tab "Ivy" >}}
+```xml
+<ivysettings>
+    <settings defaultResolver="chain"/>
+    <resolvers>
+        <chain name="chain">
+            <ibiblio name="GroupDocs Repository" m2compatible="true" root="https://releases.groupdocs.com/java/repo/"/>
+        </chain>
+    </resolvers>
+</ivysettings>
+```
+{{< /tab >}}
+{{< tab "Sbt" >}}
+```xml
+resolvers += Resolver.url("GroupDocs Repository", url("https://releases.groupdocs.com/java/repo/"))
+```
+{{< /tab >}}
 {{< /tabs >}}
 
 ### Add GroupDocs.Merger as a dependency
@@ -37,15 +70,41 @@ First, you need to specify repository configuration/location in your Maven `pom
 Then define GroupDocs.Merger for Java API dependency in your `pom.xml` as follows:
 
 {{< tabs "example2">}}
-{{< tab "pom.xml" >}}
+{{< tab "Maven" >}}
 ```xml
 <dependencies>
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-merger</artifactId>
-        <version>23.8</version>
+        <version>24.2</version>
     </dependency>
 </dependencies>
+```
+{{< /tab >}}
+{{< tab "Gradle" >}}
+```xml
+dependencies {
+    implementation 'com.groupdocs:groupdocs-merger:24.2'
+}
+```
+{{< /tab >}}
+{{< tab "Kotlin" >}}
+```xml
+dependencies {
+    implementation("com.groupdocs:groupdocs-merger:24.2")
+}
+```
+{{< /tab >}}
+{{< tab "Ivy" >}}
+```xml
+<dependency org="com.groupdocs" name="groupdocs-merger" rev="24.2">
+   <artifact name="groupdocs-merger" ext="jar"/>
+</dependency>
+```
+{{< /tab >}}
+{{< tab "Sbt" >}}
+```xml
+libraryDependencies += "com.groupdocs" % "groupdocs-merger" % "24.2"
 ```
 {{< /tab >}}
 {{< /tabs >}}
