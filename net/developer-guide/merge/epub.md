@@ -33,7 +33,7 @@ structuredData:
           imageWidth: 646
 ---
 
-## How to merge EPUB files in CSharp
+## How to merge EPUB files in C\#
 
 You can easily combine multiple EPUB files into one using [GroupDocs.Merger](https://products.groupdocs.com/merger/net) library API and all the files content will be preserved.
 The following example demonstrates how to merge EPUB files with several lines of C# code:
