@@ -77,6 +77,26 @@ using (Merger merger = new Merger(@"c:\sample1.doc"))
 }
 ```
 
+## How to merge Word documents with pre-defined Compliance mode
+
+There is an additional option for Word document joining that allows to merge those documents with pre-defined Compliance mode for the Word Ooxml formats such as .docx, .docm, .dotx, .dotm etc.
+
+Below is code snippet in C# that demonstrates how to merge DOCX files into single file with ISO/IEC 29500:2008 Strict compliance level.
+
+```csharp
+// Load the source DOCX file
+using (Merger merger = new Merger(@"c:\sample1.docx"))
+{
+    // Define Word join options
+    WordJoinOptions joinOptions = new WordJoinOptions();
+    joinOptions.Compliance = WordJoinCompliance.Iso29500_2008_Strict;
+    // Add another DOCX file to merge
+    merger.Join(@"c:\sample2.docx", joinOptions);
+    // Merge DOCX files and save result
+    merger.Save(@"c:\merged.docx");
+}
+```
+
 ## How to merge TXT files
 
 A file with .TXT extension represents a text document that contains plain text in the form of lines. Paragraphs in a text document are recognized by carriage returns and are used for better arrangement of file contents. A standard text document can be opened in any text editor or word processing application on different operating systems. All the text contained in such a file is in human-readable format and represented by a sequence of characters.
