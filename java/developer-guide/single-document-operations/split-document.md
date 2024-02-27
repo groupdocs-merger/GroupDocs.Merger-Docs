@@ -8,22 +8,22 @@ keywords: Split document, Split PDF, Split Word, Split DOC, Split Presentation, 
 productName: GroupDocs.Merger for Java
 hideChildren: False
 ---
-[**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to split source document into several resultant documents. Document splitting can be performed in different ways by specifying page numbers array or start/end page numbers and setting different [PageSplitOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/PageSplitOptions) modes.  
+[**GroupDocs.Merger**](https://products.groupdocs.com/merger/java) allows to split source document into several resultant documents. Document splitting can be performed in different ways by specifying page numbers array or start/end page numbers and setting different [SplitOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/splitoptions/) modes.  
 Here are the possible use cases:
 
-1.  **Page numbers array** specified and splitting mode is set to [PageSplitMode.Pages](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/PageSplitMode#Pages) - specified page numbers indicate exact page numbers, which will be saved to the separate one-page documents.  
+1.  **Page numbers array** specified and splitting mode is set to [SplitMode.Pages](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/splitmode/#Pages) - specified page numbers indicate exact page numbers, which will be saved to the separate one-page documents.  
     *Ex:* Array{ 3, 6, 8 } will produce 3 documents with 3rd, 6th and 8th pages.    
 	
-2.  **Page numbers array** specified and splitting mode is set to [PageSplitMode.Interval](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/PageSplitMode#Interval) - specified page numbers indicate the boundaries of the page intervals, which will be saved to the separate multi-page documents.  
+2.  **Page numbers array** specified and splitting mode is set to [SplitMode.Interval](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/splitmode/#Interval) - specified page numbers indicate the boundaries of the page intervals, which will be saved to the separate multi-page documents.  
     *Ex:* Array{ 3, 6, 8 } will produce 4 page intervals 1-2, 3-5, 6-7, 8-10.  
 
-There is also an ability to set parameter [RangeMode](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RangeMode) and obtain only even or odd pages from desired pages range.  
+There is also an ability to set parameter [RangeMode](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/RangeMode) and obtain only even or odd pages from desired pages range.  
   
 The steps to split document to multiple on-page documents are the following:
 
-*   Initialize [PageSplitOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/PageSplitOptions) class with output files path format;
+*   Initialize [SplitOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/splitoptions/) class with output files path format;
 *   Instantiate [Merger](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger) object with source document path or InputStream;
-*   Call [split](https://reference.groupdocs.com/java/merger/com.groupdocs.merger/Merger#split(com.groupdocs.merger.domain.options.interfaces.IPageSplitOptions)) method and pass [PageSplitOptions](https://reference.groupdocs.com/java/merger/com.groupdocs.merger.domain.options/PageSplitOptions) object to itfor saving resultant documents.
+*   Call [split](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#split-com.groupdocs.merger.domain.options.interfaces.ISplitOptions-) method and pass [SplitOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/splitoptions/) object to itfor saving resultant documents.
 
 ### Split the document to several one-page documents (by exact page numbers)
 The following code sample demonstrates how to split document to three one-page documents with 3rd, 6th and 8th pages:
@@ -32,7 +32,7 @@ The following code sample demonstrates how to split document to three one-page d
 String filePath = "c:\sample.docx";
 String filePathOut = "c:\output\document_{0}.{1}";
 
-PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, new int[] { 3, 6, 8 });
+SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 });
 Merger merger = new Merger(filePath);
 merger.split(splitOptions);
 ```
@@ -53,7 +53,7 @@ The following code sample demonstrates how to split document to several one-page
 String filePath = "c:\sample.docx";
 String filePathOut = "c:\output\document_{0}.{1}";
 
-PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, 3, 7);  
+SplitOptions splitOptions = new SplitOptions(filePathOut, 3, 7);
 Merger merger = new Merger(filePath);
 merger.split(splitOptions);   
 ```
@@ -76,7 +76,7 @@ The following code sample demonstrates how to split document to several one-page
 String filePath = "c:\sample.docx";
 String filePathOut = "c:\output\document_{0}.{1}";
 
-PageSplitOptions splitOptions = new PageSplitOptions(filePathOut, 3, 7, RangeMode.OddPages);
+SplitOptions splitOptions = new SplitOptions(filePathOut, 3, 7, RangeMode.OddPages);
    
 Merger merger = new Merger(filePath);
 merger.split(splitOptions);
@@ -98,7 +98,7 @@ The following code sample demonstrates how to split document to several multi-p
 String filePath = "c:\sample.docx";
 String filePathOut = "c:\output\document_{0}.{1}";
 
-PageSplitOptions splitOptions = new PageSplitOptions(filePathOut,  PageSplitMode.Interval, new int[] { 3, 6, 8 },);
+SplitOptions splitOptions = new SplitOptions(filePathOut, new int[] { 3, 6, 8 }, SplitMode.Interval);
 
 Merger merger = new Merger(filePath);
 merger.split(splitOptions);
