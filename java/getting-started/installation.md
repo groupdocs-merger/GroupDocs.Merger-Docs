@@ -30,7 +30,7 @@ toc: True
 
 ## Installation from GroupDocs Repository
 
-All Java packages are hosted at [GroupDocs Artifact Repository](https://repository.groupdocs.com/). You can easily reference [GroupDocs.Merger for Java API](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/) directly in your project using following steps.
+All Java packages are hosted at [GroupDocs Artifact Repository](https://releases.groupdocs.com/java/repo/). You can easily reference [GroupDocs.Merger for Java API](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/) directly in your project using following steps.
 
 ### Add GroupDocs Artifact Repository
 
