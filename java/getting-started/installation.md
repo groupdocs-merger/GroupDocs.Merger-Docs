@@ -30,7 +30,7 @@ toc: True
 
 ## Installation from GroupDocs Repository
 
-All Java packages are hosted at [GroupDocs Artifact Repository](https://repository.groupdocs.com/). You can easily reference [GroupDocs.Merger for Java API](https://reference.groupdocs.com/merger/java/) directly in your project using following steps.
+All Java packages are hosted at [GroupDocs Artifact Repository](https://repository.groupdocs.com/). You can easily reference [GroupDocs.Merger for Java API](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/) directly in your project using following steps.
 
 ### Add GroupDocs Artifact Repository
 
@@ -87,8 +87,6 @@ resolvers += Resolver.url("GroupDocs Repository", url("https://releases.groupdoc
 
 Then define GroupDocs.Merger for Java API dependency in your project as follows:
 
-_The latest version of Merger API can be [found here](https://reference.groupdocs.com/merger/java/)_
-
 {{< tabs "example2">}}
 {{< tab "Maven" >}}
 ```xml
@@ -128,3 +126,5 @@ libraryDependencies += "com.groupdocs" % "groupdocs-merger" % "24.2"
 ```
 {{< /tab >}}
 {{< /tabs >}}
+
+_The latest version of Merger API can be [found here](https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-merger/)_
