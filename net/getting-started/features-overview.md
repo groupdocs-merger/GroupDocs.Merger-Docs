@@ -9,52 +9,52 @@ productName: GroupDocs.Merger for .NET
 hideChildren: False
 toc: true
 ---
-GroupDocs.Merger allows you to join multiple documents and manipulate single document structure across wide range of [supported document types]({{< ref "merger/net/getting-started/supported-document-formats.md" >}}). Below, the short list of possible actions:
+GroupDocs.Merger allows you to join multiple documents and manipulate single document structure across wide range of [supported document types]({{< ref "merger/net/getting-started/supported-document-formats.md" >}}), [supported audio types]({{< ref "merger/net/getting-started/supported-audio-formats.md" >}}), [supported archive types]({{< ref "merger/net/getting-started/supported-archive-formats.md" >}}) and [supported cross-merging types]({{< ref "merger/net/getting-started/supported-cross-merging-formats.md" >}}). Below, the short list of possible actions:
 
 ## Multiple document operations 
 
 ### Join Documents
 
-This feature lets you merge two or more documents into one document, join specific pages or page ranges from several source documents into single resultant document.
+This feature lets you [merge]({{< ref "merger/net/developer-guide/merge/_index.md" >}}) two or more documents into one document, join specific pages or page ranges from several source documents into single resultant document.
 
 ## Single document operations
 
 ### Split Document
 
-**Split** operation allows to divide a source document to several resultant documents.
+**Split** operation allows to [divide]({{< ref "merger/net/developer-guide/single-document-operations/split-document.md" >}}) a source document to several resultant documents.
 
 ### Move Page
 
-**MovePage** allows to move page to another position within a document.
+**MovePage** allows to [move page]({{< ref "merger/net/developer-guide/single-document-operations/move-page.md" >}}) to another position within a document.
 
 ### Remove Pages
 
-**RemovePages** feature provides an ability to remove single page or a collection of specific page numbers from the source document.
+**RemovePages** feature provides an ability to [remove]({{< ref "merger/net/developer-guide/single-document-operations/remove-pages.md" >}}) single page or a collection of specific page numbers from the source document.
 
 ### Rotate Pages
 
-**RotatePages** operation lets you rotate pages within document. You can rotate pages by setting rotation angle to 90,180 or 270 degrees.
+**RotatePages** operation lets you [rotate pages]({{< ref "merger/net/developer-guide/single-document-operations/rotate-pages.md" >}}) within document. You can rotate pages by setting rotation angle to 90,180 or 270 degrees.
 
 ### Swap Pages
 
-**SwapPages** operation allows to swap two pages positions within the source document. The result is a new document where two pages have their positions exchanged.
+**SwapPages** operation allows to [swap]({{< ref "merger/net/developer-guide/single-document-operations/swap-pages.md" >}}) two pages positions within the source document. The result is a new document where two pages have their positions exchanged.
 
 ### Extract Pages
 
-**ExtractPages** feature allows to extract specified page or page ranges from source document. The result is a new document that contains only specified pages from the source document.
+**ExtractPages** feature allows to [extract]({{< ref "merger/net/developer-guide/single-document-operations/extract-pages.md" >}}) specified page or page ranges from source document. The result is a new document that contains only specified pages from the source document.
 
 ### Change Pages Orientation
 
-**ChangeOrientation** operation lets you set page orientation (portrait, landscape) for specific or all pages of the document.
+**ChangeOrientation** operation lets you [set page orientation]({{< ref "merger/net/developer-guide/single-document-operations/change-page-orientation.md" >}}) (portrait, landscape) for specific or all pages of the document.
 
 ## Document security operations
 
 GroupDocs.Merger API allows to manage document password-protection through the following security operations:
 
-* Check for password-protection;
-* Set document password if document is not protected with password;
-* Update password if document is password-protected already;
-* Remove password if document is password-protected.
+* [Check for password-protection]({{< ref "merger/net/developer-guide/security-operations/check-document-password-protection.md" >}});
+* [Set document password]({{< ref "merger/net/developer-guide/security-operations/add-document-password.md" >}}) if document is not protected with password;
+* [Update password]({{< ref "merger/net/developer-guide/security-operations/update-document-password.md" >}}) if document is password-protected already;
+* [Remove password]({{< ref "merger/net/developer-guide/security-operations/remove-document-password.md" >}}) if document is password-protected.
 
 ## Document information extraction
 
