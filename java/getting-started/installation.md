@@ -10,13 +10,31 @@ hideChildren: False
 toc: True
 ---
 
-## Install using Maven
+## Operating Systems
 
-All Java packages are hosted at [GroupDocs Artifact Repository](https://repository.groupdocs.com/). You can easily reference GroupDocs.Merger for Java API directly in your Maven project using following steps.
+**[GroupDocs.Merger for Java](https://products.groupdocs.com/merger/java)** can be executed on any Operating System with Java JDK installed.
+
+- Windows Desktops and Servers
+- Linux
+- Mac OS
+
+## Supported Runtime
+
+**[GroupDocs.Merger for Java](https://products.groupdocs.com/merger/java)** supports Java run-time version 8 and above (Kotlin is supported as well).
+
+## Development Environments
+
+- NetBeans
+- IntelliJ IDEA
+- Eclipse
+
+## Installation from GroupDocs Repository
+
+All Java packages are hosted at [GroupDocs Artifact Repository](https://repository.groupdocs.com/). You can easily reference [GroupDocs.Merger for Java API](https://reference.groupdocs.com/merger/java/) directly in your project using following steps.
 
 ### Add GroupDocs Artifact Repository
 
-First, you need to specify repository configuration/location in your Maven `pom.xml` as follows:
+First, you need to specify repository configuration/location in your project as follows:
 
 {{< tabs "example1">}}
 {{< tab "Maven" >}}
@@ -67,7 +85,9 @@ resolvers += Resolver.url("GroupDocs Repository", url("https://releases.groupdoc
 
 ### Add GroupDocs.Merger as a dependency
 
-Then define GroupDocs.Merger for Java API dependency in your `pom.xml` as follows:
+Then define GroupDocs.Merger for Java API dependency in your project as follows:
+
+_The latest version of Merger API can be [found here](https://reference.groupdocs.com/merger/java/)_
 
 {{< tabs "example2">}}
 {{< tab "Maven" >}}
