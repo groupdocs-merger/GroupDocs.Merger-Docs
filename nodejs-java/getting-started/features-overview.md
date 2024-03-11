@@ -23,8 +23,3 @@ toc: True
 - Get the basic information about source document - file type, size, pages count, page height and width etc.
 - Document preview feature allows to generate image representations of document pages. This may be helpful for better understanding about document content and its structure. Preview can be generated for all document pages (by default) or for specific page numbers or page range.
 
-## Caching results
-
-GroupDocs.Merger for Node.js provides a document merger API that supports caching in order to boost document loading speed and optimize application performance.
-
-Documents cache is saved to a local disk by default. However, document merger API also provides document cache interfaces that can be implemented for 3rd party storage support - FTP, Amazon S3, Dropbox, Google Drive, Microsoft Azure, Redis or any other.
