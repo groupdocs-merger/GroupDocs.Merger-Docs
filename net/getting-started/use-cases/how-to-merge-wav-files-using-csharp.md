@@ -5,7 +5,7 @@ title: How to merge WAV files using C#
 description: "Learn how to merge WAV audio files, combine WAV audio files into one file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge WAV audio files in C#, Combine WAV audio files programmatically, Join WAV audio files in C#, Combine WAV audio files in C#, Concatenate WAV audio files in C#
 productName: GroupDocs.Merger for .NET
-weight: 8
+weight: 10
 structuredData:
     productCode: merger
     productPlatform: net

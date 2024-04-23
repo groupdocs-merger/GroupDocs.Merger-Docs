@@ -28,3 +28,5 @@ using (Merger merger = new Merger(@"c:\document1.pdf"))
 	merger.Save(@"c:\merged.pdf");
 }
 ```
+
+Also, please read the following article: [How to correctly merge streams to PDF]({{< ref "merger/net/getting-started/use-cases/how-to-correctly-merge-documents-using-csharp.md" >}})

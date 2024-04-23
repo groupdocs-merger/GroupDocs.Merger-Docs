@@ -18,19 +18,19 @@ structuredData:
         steps:
         - name: Load source archive files 
           text: Create an instance of Merger class and pass source archive file path as a constructor parameter. You may specify absolute or relative file path as per your requirements. 
-          archiveUrl: merger/net/archives/merge-files-step-1.png
-          archiveHeight: 157
-          archiveWidth: 645
+          imageUrl: merger/net/images/merge-files-step-1.png
+          imageHeight: 157
+          imageWidth: 645
         - name: Add other archive files
           text: Add other archive files you want to merge into a single document with Join method of Merger class.
-          archiveUrl: merger/net/archives/merge-files-step-2.png
-          archiveHeight: 144
-          archiveWidth: 603
+          imageUrl: merger/net/images/merge-files-step-2.png
+          imageHeight: 144
+          imageWidth: 603
         - name: Merge archive files and save result 
           text: Call Merger class Save method and pass the filename for the resultant archive file as parameter.
-          archiveUrl: merger/net/archives/merge-files-step-3.png
-          archiveHeight: 151
-          archiveWidth: 646
+          imageUrl: merger/net/images/merge-files-step-3.png
+          imageHeight: 151
+          imageWidth: 646
 ---
 
 ## ZIP Merger .NET API

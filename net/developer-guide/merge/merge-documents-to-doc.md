@@ -30,3 +30,4 @@ using (Merger merger = new Merger(@"c:\document1.doc"))
 }
 ```
 
+Also, please read the following article: [How to correctly merge streams to DOCX]({{< ref "merger/net/getting-started/use-cases/how-to-correctly-merge-documents-using-csharp.md" >}})

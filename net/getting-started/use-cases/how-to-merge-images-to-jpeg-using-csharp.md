@@ -5,7 +5,7 @@ title: How to merge images to JPEG using C#
 description: "Learn how to merge images to JPEG file, combine images into one JPEG file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge images to JPEG file in C#, Combine images to JPEG file programmatically
 productName: GroupDocs.Merger for .NET
-weight: 7
+weight: 8
 structuredData:
     productCode: merger
     productPlatform: net

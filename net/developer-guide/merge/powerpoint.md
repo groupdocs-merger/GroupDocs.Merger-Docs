@@ -60,6 +60,10 @@ using (Merger merger = new Merger(@"c:\sample1.ppsx"))
 
 NOTE: You may merge other Presentation formats like PPTX, PPT and PPS in the same way as shown above. For this provide files by specifying their names with extension.
 
+## How to merge PPTX streams
+
+Please read the following article: [How to correctly merge PPTX streams]({{< ref "merger/net/getting-started/use-cases/how-to-correctly-merge-documents-using-csharp.md" >}})
+
 ### Code Examples
 
 Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!

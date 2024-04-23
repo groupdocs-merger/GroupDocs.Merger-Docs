@@ -5,7 +5,7 @@ title: How to merge images to PDF using C#
 description: "Learn how to merge images to PDF file, combine images into one PDF file programmatically in C# language using GroupDocs.Merger for .NET library."
 keywords: Merge images to PDF file in C#, Combine images to PDF file programmatically
 productName: GroupDocs.Merger for .NET
-weight: 8
+weight: 9
 structuredData:
     productCode: merger
     productPlatform: net

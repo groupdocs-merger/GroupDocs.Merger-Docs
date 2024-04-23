@@ -131,6 +131,10 @@ using (Merger merger = new Merger(@"c:\sample1.rtf"))
 }
 ```
 
+## How to merge DOCX streams
+
+Please read the following article: [How to correctly merge DOCX streams]({{< ref "merger/net/getting-started/use-cases/how-to-correctly-merge-documents-using-csharp.md" >}})
+
 ### Code Examples
 
 Please find more [use-cases and complete C# sources](https://docs.groupdocs.com/merger/net/showcases/) of our backend and frontend examples and try them for free!
