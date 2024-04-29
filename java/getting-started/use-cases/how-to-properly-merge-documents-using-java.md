@@ -44,7 +44,7 @@ The following example demonstrates how to merge PDF files using file paths in Ja
 
 ```java
 // Load the source PDF file
-Merger merger = new Merger(@"c:\sample1.pdf");
+Merger merger = new Merger("c:\sample1.pdf");
 {
     // Add another PDF file to merge
     merger.join("c:\sample2.pdf");

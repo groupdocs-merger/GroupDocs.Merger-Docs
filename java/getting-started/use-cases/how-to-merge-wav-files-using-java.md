@@ -5,7 +5,7 @@ title: How to merge WAV files using Java
 description: "Learn how to merge WAV audio files, combine WAV audio files into one file programmatically in Java language using GroupDocs.Merger for Java library."
 keywords: Merge WAV audio files in Java, Combine WAV audio files programmatically, Join WAV audio files in Java, Combine WAV audio files in Java, Concatenate WAV audio files in Java
 productName: GroupDocs.Merger for Java
-weight: 8
+weight: 10
 structuredData:
     productCode: merger
     productPlatform: net
