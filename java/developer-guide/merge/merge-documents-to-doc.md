@@ -29,3 +29,5 @@ Merger merger = new Merger("c:\document1.doc"))
 	merger.save("c:\merged.doc");
 }
 ```
+
+Also, please read the following article: [How to properly merge streams to DOCX]({{< ref "merger/java/getting-started/use-cases/how-to-properly-merge-documents-using-java.md" >}})

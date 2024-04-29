@@ -57,6 +57,12 @@ merger.join("c:\sample2.ppsx");
 merger.save("c:\merged.ppsx");
 ```
 
+NOTE: You may merge other Presentation formats like PPTX, PPT and PPS in the same way as shown above. For this provide files by specifying their names with extension.
+
+## How to merge PPTX streams
+
+Please read the following article: [How to properly merge PPTX streams]({{< ref "merger/java/getting-started/use-cases/how-to-properly-merge-documents-using-java.md" >}})
+
 ### Code Examples
 
 Please find more [use-cases and complete Java sources]({{< ref "merger/java/showcases.md" >}}) of our backend and frontend examples and try them for free!

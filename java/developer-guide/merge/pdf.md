@@ -55,6 +55,8 @@ merger.join("c:\sample2.pdf");
 merger.save("c:\merged.pdf");
 ```
 
+Also, please read the following article: [How to properly merge PDF streams]({{< ref "merger/java/getting-started/use-cases/how-to-properly-merge-documents-using-java.md" >}})
+
 ### About PDF File Format
 
 Portable Document Format (PDF) is a type of document created by Adobe back in the 1990s. The purpose of this file format was to introduce a standard for representation of documents and other reference material in a format that is independent of application software, hardware as well as Operating System. PDF files can be opened in Adobe Acrobat Reader/Writer as well in most modern browsers like Chrome, Safari, Firefox via extensions/plug-ins.

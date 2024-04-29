@@ -5,7 +5,7 @@ title: How to merge images to PDF using Java
 description: "Learn how to merge images to PDF file, combine images into one PDF file programmatically in Java language using GroupDocs.Merger for Java library."
 keywords: Merge images to PDF file in Java, Combine images to PDF file programmatically
 productName: GroupDocs.Merger for Java
-weight: 8
+weight: 9
 structuredData:
     productCode: merger
     productPlatform: java

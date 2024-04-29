@@ -107,6 +107,10 @@ merger.join("c:\sample2.rtf");
 merger.save("c:\merged.rtf");
 ```
 
+## How to merge DOCX streams
+
+Please read the following article: [How to properly merge DOCX streams]({{< ref "merger/java/getting-started/use-cases/how-to-properly-merge-documents-using-java.md" >}})
+
 ### Code Examples
 
 Please find more [use-cases and complete Java sources](https://docs.groupdocs.com/merger/java/showcases/) of our backend and frontend examples and try them for free!

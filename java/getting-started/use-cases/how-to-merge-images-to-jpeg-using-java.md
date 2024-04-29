@@ -5,7 +5,7 @@ title: How to merge images to JPEG using Java
 description: "Learn how to merge images to JPEG file, combine images into one JPEG file programmatically in Java language using GroupDocs.Merger for Java library."
 keywords: Merge images to JPEG file in Java, Combine images to JPEG file programmatically
 productName: GroupDocs.Merger for Java
-weight: 7
+weight: 8
 structuredData:
     productCode: merger
     productPlatform: java
