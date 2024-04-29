@@ -45,42 +45,16 @@ The following example demonstrates how to merge PDF files using file paths in Ja
 ```java
 // Load the source PDF file
 Merger merger = new Merger("c:\sample1.pdf");
-{
-    // Add another PDF file to merge
-    merger.join("c:\sample2.pdf");
-    // Merge PDF files and save result
-    merger.save("c:\merged.pdf");
-}
+
+// Add another PDF file to merge
+merger.join("c:\sample2.pdf");
+// Merge PDF files and save result
+merger.save("c:\merged.pdf");
+
 ```
 
-# with File Streams
 
-There are also several ways to work with input streams of files that need to be merged using the GroupDocs.Merger product. The most reliable way to combine files without additional parameters is to use the java.io.FileInputStream class.
-
-The following example demonstrates how to merge DOCX file streams in Java code:
-
-* Create an instance of [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#Merger-java.io.InputStream-) class and pass the DOCX file stream as a constructor parameter.
-* Add another DOCX file stream to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#join-java.io.InputStream-) method.
-* Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#save-java.lang.String-) method and specify the filename for the merged DOCX file as parameter.
-
-```java
-String filePath1 = "c:/sample1.docx";
-String filePath2 = "c:/sample2.docx";
-
-FileInputStream fileStream1 = new FileInputStream(filePath1);
-FileInputStream fileStream2 = new FileInputStream(filePath2);
-
-// Load the source DOCX file stream
-Merger merger = new Merger(fileStream1);
-{
-    // Add another DOCX file stream to merge
-    merger.join(fileStream2);
-    // Merge DOCX file streams and save result
-    merger.save("c:\merged.docx");
-}
-```
-
-# with Input Streams
+# with File Input Streams
 
 There are situations, and quite often, when it is necessary to work with other classes inherited from java.io.InputStream, for example with FileInputStream or others. In this case, it is necessary to use additional parameters to specify the exact file type that is used in this case. Because the "GroupDocs.Merger for Java" product cannot always accurately determine the file type by its stream. Therefore, to avoid exceptions when merging PDF and other files, see the example below:
 
@@ -108,17 +82,17 @@ LoadOptions loadOptions = new LoadOptions(fileType1);
 
 // Load the source PPTX stream
 Merger merger = new Merger(fileStream1, loadOptions);
-{
-    // Define join options with PPTX file type
-    JoinOptions joinOptions = new JoinOptions(fileType2);
-    // Add another PPTX stream to merge
-    merger.join(fileStream2, joinOptions);
-    // Merge PPTX streams and save result
-    merger.save("c:\merged.pptx");
-}
+
+// Define join options with PPTX file type
+JoinOptions joinOptions = new JoinOptions(fileType2);
+// Add another PPTX stream to merge
+merger.join(fileStream2, joinOptions);
+// Merge PPTX streams and save result
+merger.save("c:\merged.pptx");
+
 ```
 
-# with Input Streams for cross-merging
+# with File Input Streams for cross-merging
 
 There may also be situations when it is necessary to combine different types of streams into PDF. In this case, you can use the example below:
 
@@ -143,12 +117,12 @@ LoadOptions loadOptions = new LoadOptions(FileType.DOCX, FileType.PDF);
 
 // Load the source DOCX stream as PDF
 Merger merger = new Merger(fileStream1, loadOptions);
-{
-    // Define join options with PPTX file type
-    JoinOptions joinOptions = new JoinOptions(FileType.PPTX);
-    // Add another PPTX stream to merge
-    merger.join(fileStream2, joinOptions);
-    // Merge document streams and save PDF result
-    merger.save("c:\merged.pdf");
-}
+
+// Define join options with PPTX file type
+JoinOptions joinOptions = new JoinOptions(FileType.PPTX);
+// Add another PPTX stream to merge
+merger.join(fileStream2, joinOptions);
+// Merge document streams and save PDF result
+merger.save("c:\merged.pdf");
+
 ```
