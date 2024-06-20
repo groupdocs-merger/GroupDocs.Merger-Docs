@@ -94,7 +94,7 @@ Then define GroupDocs.Merger for Java API dependency in your project as follo
     <dependency>
         <groupId>com.groupdocs</groupId>
         <artifactId>groupdocs-merger</artifactId>
-        <version>24.2</version>
+        <version>24.6</version>
     </dependency>
 </dependencies>
 ```
@@ -102,27 +102,27 @@ Then define GroupDocs.Merger for Java API dependency in your project as follo
 {{< tab "Gradle" >}}
 ```xml
 dependencies {
-    implementation 'com.groupdocs:groupdocs-merger:24.2'
+    implementation 'com.groupdocs:groupdocs-merger:24.6'
 }
 ```
 {{< /tab >}}
 {{< tab "Kotlin" >}}
 ```xml
 dependencies {
-    implementation("com.groupdocs:groupdocs-merger:24.2")
+    implementation("com.groupdocs:groupdocs-merger:24.6")
 }
 ```
 {{< /tab >}}
 {{< tab "Ivy" >}}
 ```xml
-<dependency org="com.groupdocs" name="groupdocs-merger" rev="24.2">
+<dependency org="com.groupdocs" name="groupdocs-merger" rev="24.6">
    <artifact name="groupdocs-merger" ext="jar"/>
 </dependency>
 ```
 {{< /tab >}}
 {{< tab "Sbt" >}}
 ```xml
-libraryDependencies += "com.groupdocs" % "groupdocs-merger" % "24.2"
+libraryDependencies += "com.groupdocs" % "groupdocs-merger" % "24.6"
 ```
 {{< /tab >}}
 {{< /tabs >}}
