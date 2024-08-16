@@ -14,3 +14,4 @@ The following table indicates the file formats that GroupDocs.Merger can work w
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ZIP](https://docs.fileformat.com/compression/zip/) | ZIP Archive File | ![(tick)](/merger/net/images/check.png) |   | ![(tick)](/merger/net/images/check.png) |
 | [TAR](https://docs.fileformat.com/compression/tar/) | TAR Archive File | ![(tick)](/merger/net/images/check.png) |   | ![(tick)](/merger/net/images/check.png) |
+| [7Z](https://docs.fileformat.com/compression/7z/) | 7Z Archive File | ![(tick)](/merger/net/images/check.png) |   | ![(tick)](/merger/net/images/check.png) |
