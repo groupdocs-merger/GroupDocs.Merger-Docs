@@ -24,8 +24,7 @@ using (Merger merger = new Merger(@"c:\document1.pdf"))
     merger.Join(@"c:\document2.doc");
     merger.Join(@"c:\document3.ppt");
     merger.Join(@"c:\document4.xls");
- 
-	merger.Save(@"c:\merged.pdf");
+    merger.Save(@"c:\merged.pdf");
 }
 ```
 

@@ -25,8 +25,7 @@ using (Merger merger = new Merger(@"c:\document1.doc"))
     merger.Join(@"c:\document3.xps");
     merger.Join(@"c:\document4.epub");
     merger.Join(@"c:\document5.tex");
- 
-	merger.Save(@"c:\merged.doc");
+    merger.Save(@"c:\merged.doc");
 }
 ```
 
