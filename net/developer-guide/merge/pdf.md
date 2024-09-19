@@ -56,7 +56,27 @@ using (Merger merger = new Merger(@"c:\sample1.pdf"))
 }
 ```
 
-Also, please read the following article: [How to correctly merge PDF streams]({{< ref "merger/net/getting-started/use-cases/how-to-correctly-merge-documents-using-csharp.md" >}})
+### How to merge PDF files with bookmarks in C\#
+
+Also, there is an ability to merge Pdf files with bookmarks, please see an according example below:
+
+```csharp
+// Load the source PDF file
+using (Merger merger = new Merger(@"c:\sample1.pdf"))
+{
+    // Init PdfJoinOptions with UseBookmarks flag
+    PdfJoinOptions pdfJoinOptions = new PdfJoinOptions();
+    pdfJoinOptions.UseBookmarks = true;
+    // Add another PDF file to merge
+    merger.Join(@"c:\sample2.pdf", pdfJoinOptions);
+    // Merge PDF files and save result
+    merger.Save(@"c:\merged.pdf");
+}
+```
+
+### How to correctly merge PDF streams in C\#
+
+You can read the following article: [How to correctly merge PDF streams]({{< ref "merger/net/getting-started/use-cases/how-to-correctly-merge-documents-using-csharp.md" >}})
 
 ### About PDF File Format
 
