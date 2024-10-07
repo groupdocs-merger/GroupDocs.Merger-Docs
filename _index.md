@@ -150,7 +150,7 @@ showFeedbackForm: false
     </div>
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even" style="margin-top: 1rem !important">
         <h3>
-            <a class="home-resource-link" rel="nofollow" href='{{< ref "/merger/java" >}}'> {{< icon-large "java" >}}
+            <a class="home-resource-link" rel="nofollow" href='{{< ref "/merger/nodejs-java" >}}'> {{< icon-large "java" >}}
                 <br/><br/> 
                 GroupDocs.Merger for Node.js via Java
             </a>
@@ -175,7 +175,7 @@ showFeedbackForm: false
                 </ul>
             </div>
         </div>
-        {{< button size="large" href="java" >}} MORE {{< icon "gdoc_keyboard_arrow_right" >}}{{< /button >}}
+        {{< button size="large" href="nodejs-java" >}} MORE {{< icon "gdoc_keyboard_arrow_right" >}}{{< /button >}}
     </div>
 </div>
 

@@ -44,7 +44,7 @@ By using GroupDocs.Merger for Python via .NET you can merge multiple files into 
 </ul>
 <p>DOWNLOAD</p>
 <ul>
-	<li><a href="https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger">GroupDocs.Merger for Python via .NET Repository</a></li>
+	<li><a href="https://pypi.org/project/groupdocs-merger-net/">GroupDocs.Merger for Python via .NET Repository</a></li>
 	</li><li><a href="https://downloads.groupdocs.com/merger/python-net">GroupDocs.Merger for Python via .NET Downloads</a></li>
 	<li><a href="https://github.com/groupdocs-merger/GroupDocs.Merger-for-Python-via-.NET">Download Examples and Demos from GitHub</a></li>
 </ul>

@@ -11,3 +11,14 @@ hideChildren: False
 toc: True
 ---
 
+## Install using Pypi repository
+
+Fetch the package and install GroupDocs.Merger. Run this command: 
+```batch
+pip install groupdocs.merger
+```
+
+If you already have GroupDocs.Merger installed and want to get the latest version, you have to run:
+```batch
+pip install --upgrade groupdocs.merger
+```
