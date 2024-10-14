@@ -44,6 +44,7 @@ The following table indicates the file formats that GroupDocs.Merger can work w
 | [XLTM](https://docs.fileformat.com/spreadsheet/xltm/) | Excel Open XML Macro-Enabled Spreadsheet Template | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |   |
 | [XLAM](https://docs.fileformat.com/spreadsheet/xlam/) | Excel Open XML Macro-Enabled Add-in | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |   |
 | [ODS](https://docs.fileformat.com/spreadsheet/ods/) | OpenDocument Spreadsheet | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |   |
+| [VSD](https://docs.fileformat.com/image/vsd/) | Visio Drawing File | ![(tick)](/merger/net/images/check.png) |   |   |
 | [VSDX](https://docs.fileformat.com/image/vsdx/) | Microsoft Visio Drawing | ![(tick)](/merger/net/images/check.png) |   |   |
 | [VSDM](https://docs.fileformat.com/image/vsdm/) | Microsoft Visio Macro-Enabled Drawing | ![(tick)](/merger/net/images/check.png) |   |   |
 | [VSSX](https://docs.fileformat.com/image/vssx/) | Microsoft Visio Stencil | ![(tick)](/merger/net/images/check.png) |   |   |
