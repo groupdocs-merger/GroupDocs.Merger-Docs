@@ -2,7 +2,7 @@
 id: remove-document-password
 url: merger/net/remove-document-password
 title: Remove document password
-weight: 3
+weight: 4
 description: "This article explains how to remove password for PDF, Word, Excel, PowerPoint documents by using GroupDocs.Merger for .NET."
 keywords: Remove document password protection, Remove PDF password, Remove Word document password, Remove Excel spreadsheet password, Remove PowerPoint presentation password
 productName: GroupDocs.Merger for .NET

@@ -2,7 +2,7 @@
 id: update-document-password
 url: merger/net/update-document-password
 title: Update document password
-weight: 4
+weight: 5
 description: "This article explains how to update password for PDF, Word, Excel, PowerPoint documents by using GroupDocs.Merger for .NET."
 keywords: Update document password protection, Update PDF password, Update Word document password, Update Excel spreadsheet password, Update PowerPoint password
 productName: GroupDocs.Merger for .NET

@@ -2,7 +2,7 @@
 id: check-document-password-protection
 url: merger/net/check-document-password-protection
 title: Check document password-protection
-weight: 2
+weight: 3
 description: "This article explains how to check whether PDF, Word, Excel, PowerPoint document is password protected or not, and how to do this using GroupDocs.Merger for .NET."
 keywords: Check document password protection, Check PDF protected, Check Word document protected, Check Excel document protected
 productName: GroupDocs.Merger for .NET
