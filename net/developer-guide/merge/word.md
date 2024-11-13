@@ -56,7 +56,7 @@ using (Merger merger = new Merger(@"c:\sample1.docx"))
     merger.Save(@"c:\merged.docx");
 }
 ```
-  
+
 ## How to merge Word documents without starting from a new page
 
 There is an additional option for Word document joining that allows to merge those documents without page breaking between them, i.e. the last page of the initial document will be merged with the first page of the next document as one page.
@@ -70,6 +70,27 @@ using (Merger merger = new Merger(@"c:\sample1.doc"))
     // Define Word join options
     WordJoinOptions joinOptions = new WordJoinOptions();
     joinOptions.Mode = WordJoinMode.Continuous;
+    // Add another DOC file to merge
+    merger.Join(@"c:\sample2.doc", joinOptions);
+    // Merge DOC files and save result
+    merger.Save(@"c:\merged.doc");
+}
+```
+
+
+## How to merge Word documents without section breaks
+
+There is also another additional option for merging Word documents, which allows you to merge these documents without breaking sections, i.e. all sections and pages of all merged documents will be merged without breaks.
+
+Below is code snippet in C# that demonstrates how to merge DOC files into single file without section breaks.
+
+```csharp
+// Load the source DOC file
+using (Merger merger = new Merger(@"c:\sample1.doc"))
+{
+    // Define Word join options
+    WordJoinOptions joinOptions = new WordJoinOptions();
+    joinOptions.Mode = WordJoinMode.DisableSectionBreaks;
     // Add another DOC file to merge
     merger.Join(@"c:\sample2.doc", joinOptions);
     // Merge DOC files and save result
