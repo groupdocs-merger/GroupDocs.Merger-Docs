@@ -47,9 +47,24 @@ Docx is a well-known format for Microsoft Word documents. Introduced from 2007 w
 Below is code snippet in java that demonstrates how to merge DOCX files into single file.
 
 ```java
-const merger = new groupdocs.merger.Merger('c:/sample1.docx');
-merger.join('c:/sample2.docx');
-merger.save('c:/merged.docx');
+const merger = new groupdocs.merger.Merger('c:/sample1.docx')
+merger.join('c:/sample2.docx')
+merger.save('c:/merged.docx')
+```
+
+## How to merge Word documents with pre-defined Compliance mode
+
+There is an additional option for Word document joining that allows to merge those documents with pre-defined Compliance mode for the Word Ooxml formats such as .docx, .docm, .dotx, .dotm etc.
+
+Below is code snippet in Java that demonstrates how to merge DOCX files into single file with ISO/IEC 29500:2008 Strict compliance level.
+
+```java
+const merger = new groupdocs.merger.Merger('c:/sample1.docx')
+const wordJoinOptionsCompliance = groupdocs.merger.WordJoinCompliance.Iso29500_2008_Strict
+const wordJoinOptions = new groupdocs.merger.WordJoinOptions()
+wordJoinOptions.Compliance = wordJoinOptionsCompliance
+merger.join('c:/sample2.docx')
+merger.save('c:/merged.docx')
 ```
 
 ## How to merge TXT files
@@ -59,9 +74,9 @@ A file with .TXT extension represents a text document that contains plain text i
 You can combine any number of text files like shows this java code sample:
 
 ```java
-const merger = new groupdocs.merger.Merger('c:/sample1.txt');
-merger.join('c:/sample2.txt');
-merger.save('c:/merged.txt');
+const merger = new groupdocs.merger.Merger('c:/sample1.txt')
+merger.join('c:/sample2.txt')
+merger.save('c:/merged.txt')
 ```
 
 ## How to merge RTF files
@@ -71,9 +86,9 @@ Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a 
 Joining multiple RTF documents into one is pretty the same as for any other formats - just specify files you want to merge and save the resultant document.
 
 ```java
-const merger = new groupdocs.merger.Merger('c:/sample1.rtf');
-merger.join('c:/sample2.rtf');
-merger.save('c:/merged.rtf');
+const merger = new groupdocs.merger.Merger('c:/sample1.rtf')
+merger.join('c:/sample2.rtf')
+merger.save('c:/merged.rtf')
 ```
 
 ### Code Examples
