@@ -145,7 +145,7 @@ using (Merger merger = new Merger(filePath))
                     pageBuilder.Documents[1].Pages[0], // Page 1 from the second document
                     pageBuilder.Documents[0].Pages[5], // Page 6 from the first document                    
                 };
-    // Append a page of pages
+    // Append a range of pages
     pageBuilder.AddPageRange(range);
 
     // Apply the page order
