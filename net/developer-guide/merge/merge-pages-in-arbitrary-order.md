@@ -37,7 +37,7 @@ Here are the steps to combine several pages from various documents specifying th
 
 
 ```csharp
-string filePath = @"c:\sample.docx";
+string filePath = @"c:\sample1.docx";
 string filePath2 = @"c:\sample2.docx";
 string filePathOut = @"c:\output\result.docx";
 
@@ -81,7 +81,7 @@ To combine several pages from various documents specifying the pages by their in
 *   Save the resulting document by calling the [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method and providing a file path.
 
 ```csharp
-string filePath = @"c:\sample.docx";
+string filePath = @"c:\sample1.docx";
 string filePath2 = @"c:\sample2.docx";
 string filePathOut = @"c:\output\result.docx";
 
@@ -127,7 +127,7 @@ Here are the steps to combine several pages from various documents specifying th
 
 
 ```csharp
-string filePath = @"c:\sample.docx";
+string filePath = @"c:\sample1.docx";
 string filePath2 = @"c:\sample2.docx";
 string filePathOut = @"c:\output\result.docx";
 
@@ -137,7 +137,7 @@ using (Merger merger = new Merger(filePath))
 
     PageBuilder pageBuilder = merger.CreatePageBuilder();
     // Specify a range of pages
-    IPageInfo range = new IPageInfo[] {
+    IPageInfo[] range = new IPageInfo[] {
                     pageBuilder.Documents[0].Pages[0], // Page 1 from the first document
                     pageBuilder.Documents[1].Pages[2], // Page 3 from the second document
                     pageBuilder.Documents[0].Pages[3], // Page 4 from the first document
