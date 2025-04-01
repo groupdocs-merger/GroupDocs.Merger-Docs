@@ -59,3 +59,11 @@ The following table indicates the file formats that GroupDocs.Merger can work w
 | [ERR](https://docs.fileformat.com/misc/err/) | Error Log File |   | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |   |   |   |   |   |   |   |   |   |
 | [CSV](https://docs.fileformat.com/spreadsheet/csv/) | Comma Separated Values File |   | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |   |   |   |   |   |   |   |   |   |
 | [TSV](https://docs.fileformat.com/spreadsheet/tsv/) | Tab Separated Values File |   | ![(tick)](/merger/net/images/check.png) | ![(tick)](/merger/net/images/check.png) |   |   |   |   |   |   |   |   |   |
+
+{{< alert style="tip" >}}
+
+**Can’t find your file format?**
+
+We’re here to help! Please post a request on our [Free Support Forum](https://forum.groupdocs.com/c/merger/32), and our team will assist you.
+
+{{< /alert >}}
