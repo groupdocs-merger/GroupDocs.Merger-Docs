@@ -44,9 +44,9 @@ By using GroupDocs.Merger for Node.js via Java you can merge multiple files into
 </ul>
 <p>DOWNLOAD</p>
 <ul>
-	<li><a href="https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-merger">GroupDocs.Merger for Node.js via Java Repository</a></li>
+	<li><a href="https://www.npmjs.com/package/@groupdocs/groupdocs.merger">GroupDocs.Merger for Node.js via Java Repository</a></li>
 	</li><li><a href="https://downloads.groupdocs.com/merger/nodejs-java">GroupDocs.Merger for Node.js via Java Downloads</a></li>
-	<li><a href="https://github.com/GroupDocs.Merger-for-Node.js-via-Java">Download Examples and Demos from GitHub</a></li>
+	<li><a href="https://github.com/groupdocs-merger/GroupDocs.Merger-for-Node.js-via-Java">Download Examples and Demos from GitHub</a></li>
 </ul>
 <--->
 <p><b>RESOURCES</b></p>
