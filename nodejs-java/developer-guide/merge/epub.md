@@ -42,7 +42,7 @@ The following example demonstrates how to merge EPUB files with several lines o
 * Add another EPUB file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other EPUB documents you want to merge.
 * Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged EPUB file as parameter.
 
-```java
+```js
 const inputFilePath = `c:/sample1.epub`;
 const merger = new groupdocs.merger.Merger(inputFilePath)
 const outputPath = `c:/merged.epub`;

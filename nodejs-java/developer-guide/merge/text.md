@@ -47,7 +47,7 @@ The workflow of combining files together is quite simple:
 
 The following example demonstrates how to merge TXT files with several lines of java code:
 
-```java
+```js
 const merger = new groupdocs.merger.Merger('c:/sample1.txt');
 merger.join('c:/sample2.txt');
 merger.save('c:/merged.txt');

@@ -17,7 +17,7 @@ hideChildren: False
   
 The following code sample demonstrates how to get document information.
 
-```java
+```js
 const merger = new groupdocs.merger.Merger('c:/sample.vsdx');
 const documentInformation = merger.getDocumentInfo();
 const documentType = documentInformation.getType();

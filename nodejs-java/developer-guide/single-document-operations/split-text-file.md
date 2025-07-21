@@ -19,7 +19,7 @@ Here are the steps on how to split text file as described:
 
 The following code sample demonstrates how to split text file to two one-page documents with 3rd, 6th lines from source file:
 
-```java
+```js
 const inputFilePath = `c:/sample.txt`;
 const merger = new groupdocs.merger.Merger(inputFilePath)
 const outputPath = `c:/output/text_{0}.{1}`;
@@ -40,7 +40,7 @@ This code snippet will produce:
 
 The following code sample demonstrates how to split text file to several multi-line files starting from 3rd and ending at 6th line numbers:
 
-```java
+```js
 const inputFilePath = `c:/sample.txt`;
 const merger = new groupdocs.merger.Merger(inputFilePath)
 const outputPath = `c:/output/text_{0}.{1}`;

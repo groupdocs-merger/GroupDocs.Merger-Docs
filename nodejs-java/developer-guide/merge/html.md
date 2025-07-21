@@ -45,7 +45,7 @@ The following in an example of how to merge HTML files programmatically:
 * Add another HTML file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other HTML documents you want to merge.
 * Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged HTML file as parameter.
 
-```java
+```js
 const merger = new groupdocs.merger.Merger('c:/sample1.html');
 merger.join('c:/sample2.html');
 merger.save('c:/merged.html');

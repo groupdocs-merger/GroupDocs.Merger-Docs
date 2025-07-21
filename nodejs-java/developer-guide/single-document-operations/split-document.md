@@ -28,7 +28,7 @@ The steps to split document to multiple on-page documents are the following:
 ### Split the document to several one-page documents (by exact page numbers)
 The following code sample demonstrates how to split document to three one-page documents with 3rd, 6th and 8th pages:
 
-```java
+```js
 const inputFilePath = `c:/sample.docx`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output\document_{0}.{1}`;
@@ -50,7 +50,7 @@ This code snippet will  produce:
 
 The following code sample demonstrates how to split document to several one-page documents starting from 3rd and ending at 7th page number:
 
-```java
+```js
 const inputFilePath = `c:/sample.docx`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output\document_{0}.{1}`;
@@ -72,7 +72,7 @@ This code snippet will  produce:
 
 The following code sample demonstrates how to split document to several one-page documents for odd pages starting from 3rd and ending at 7th page number:
 
-```java
+```js
 const inputFilePath = `c:/sample.docx`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const rangeMode = groupdocs.merger.RangeMode.OddPages;
@@ -92,7 +92,7 @@ This code snippet will produce:
 
 The following code sample demonstrates how to split document to several multi-page documents:
 
-```java
+```js
 const inputFilePath = `c:/sample.docx`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const java = require('java');

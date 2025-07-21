@@ -21,7 +21,7 @@ Here are the steps to extract document pages:
 
 The following code sample demonstrates how to extract document pages **by specifying exact page numbers**:
 
-```java
+```js
 const inputFilePath = `c:/sample.pdf`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output/result.pdf`;
@@ -34,7 +34,7 @@ merger.save(outputPath);
 
 The following code sample demonstrates how to extract document pages **by specifying page numbers range**:
 
-```java
+```js
 const inputFilePath = `c:/sample.pdf`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output/result.pdf`;

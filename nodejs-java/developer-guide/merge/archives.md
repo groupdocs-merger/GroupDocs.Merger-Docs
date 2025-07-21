@@ -45,7 +45,7 @@ The following example demonstrates how to merge archive files with several line
 * Add another archive file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#join-java.lang.String-) method. Repeat this step for other archive documents you want to merge.
 * Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#save-java.io.OutputStream-) method and specify the filename for the merged archive file as parameter.
 
-```java
+```js
 const inputFilePath = `c:/sample1.zip`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/merged.zip`;

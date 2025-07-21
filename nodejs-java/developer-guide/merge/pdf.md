@@ -45,7 +45,7 @@ The following example demonstrates how to merge PDF files with several lines of
 * Add another PDF file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other PDF documents you want to merge.
 * Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged PDF file as parameter.
 
-```java
+```js
 const merger = new groupdocs.merger.Merger('c:/sample1.pdf');
 merger.join('c:/sample2.pdf');
 merger.save('c:/merged.pdf');

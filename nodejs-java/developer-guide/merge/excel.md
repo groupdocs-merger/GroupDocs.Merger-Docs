@@ -54,7 +54,7 @@ The following example demonstrates how to merge XLSX files with several lines o
 * Add another XLSX file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other XLSX documents you want to merge.
 * Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged XLSX file as parameter.
 
-```java
+```js
 const merger = new groupdocs.merger.Merger('c:/sample1.xlsx');
 merger.join('c:/sample2.xlsx');
 merger.save('c:/merged.xlsx');

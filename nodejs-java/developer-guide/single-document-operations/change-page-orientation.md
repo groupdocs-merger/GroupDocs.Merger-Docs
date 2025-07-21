@@ -19,7 +19,7 @@ Here are the steps to change page orientation:
 
 The following code sample demonstrates how to change page orientation:
 
-```java
+```js
 const inputFilePath = `c:/sample.docx`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output/result.docx`;

@@ -18,7 +18,7 @@ This can be done by following the steps below:
 
 The following code sample demonstrates on how to move page to a new position:
 
-```java
+```js
 const inputFilePath = `c:/sample.xlsx`; 
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output/result.xlsx`;

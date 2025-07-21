@@ -18,7 +18,7 @@ Here are the steps to change page rotation:
 
 The following code sample demonstrates how to change page rotation:
 
-```java
+```js
 const inputFilePath = `c:/sample.pdf`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output/result.pdf`;

@@ -47,7 +47,7 @@ PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 a
 * Add another PPSX file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method. Repeat this step for other PPSX documents you want to merge.
 * Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged PPSX file as parameter.
 
-```java
+```js
 const merger = new groupdocs.merger.Merger('c:/sample1.ppsx');
 merger.join('c:/sample2.ppsx');
 merger.save('c:/merged.ppsx');

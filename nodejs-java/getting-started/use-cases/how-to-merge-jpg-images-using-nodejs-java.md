@@ -60,7 +60,7 @@ The following example demonstrates how to merge image files in vertical mode wi
 * Add another image file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#join(java.io.InputStream)) method and pass instance of [ImageJoinOptions](https://reference.groupdocs.com/merger/java/com.groupdocs.merger.domain.options/ImageJoinOptions) class as a method parameter. Repeat this step for other image documents you want to merge.
 * Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/Merger#save(java.io.OutputStream)) method and specify the filename for the merged image file as parameter.
 
-```java
+```js
 const merger = new groupdocs.merger.Merger('c:/sample1.jpg');
 const imageJoinModeVertical = groupdocs.merger.ImageJoinMode.Vertical;
 const imageJoinOptions = new groupdocs.merger.ImageJoinOptions(imageJoinModeVertical);

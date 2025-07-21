@@ -19,7 +19,7 @@ Here are the steps to swap document pages:
 
 The following code sample demonstrates how to split document:
 
-```java
+```js
 const inputFilePath = `c:/sample.pptx`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output/result.pptx`;

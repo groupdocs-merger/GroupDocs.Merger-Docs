@@ -50,7 +50,7 @@ The following example demonstrates how to merge archives to ZIP file with sever
 * Add another archive file to merge with [join](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#join-java.lang.String-) method. Repeat this step for other archive documents you want to merge.
 * Call [Merger](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/) class [save](https://reference.groupdocs.com/merger/java/com.groupdocs.merger/merger/#save-java.io.OutputStream-) method and specify the filename for the merged archive file as parameter.
 
-```java
+```js
 const merger = new groupdocs.merger.Merger(`c:/sample1.zip`);
 merger.join('c:/sample2.tar');
 merger.join('c:/sample3.rar');

@@ -18,7 +18,7 @@ Here are the steps to remove document page(s):
 
 The following code sample demonstrates how to remove document pages:
 
-```java
+```js
 const inputFilePath = `c:/sample.one`;
 const merger = new groupdocs.merger.Merger(inputFilePath);
 const outputPath = `c:/output/result.one`;

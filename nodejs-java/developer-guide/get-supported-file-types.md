@@ -14,7 +14,7 @@ hideChildren: False
 
 The following code sample demonstrates how to get supported file formats list.
 
-```java
+```js
 const supportedFileTypes = groupdocs.merger.FileType.getSupportedFileTypes().toArray();
 supportedFileTypes.forEach((fileType) => {
     console.log('\n' + fileType.getExtension());
