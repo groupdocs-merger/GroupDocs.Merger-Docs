@@ -11,7 +11,6 @@ hideChildren: False
 With **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** you can combine different pages from multiple source documents into a single document. 
 
 * To merge the entire first document along with specific pages from the second and subsequent documents, you can make use of the [PageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagejoinoptions/) object, which is explained on this page.
-
 * To merge arbitrary pages from all the source documents, you can use the [PageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/) object, which is explained in detail in the [Merge pages in the arbitrary order]({{< ref "merger/net/developer-guide/merge/merge-pages-in-arbitrary-order.md" >}}) section.
 
 Using the [PageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagejoinoptions/) object, you can merge the source document with specific document pages from the joined documents into one resultant document by specifying desired page numbers or page ranges. Joined documents should be of the same format.
@@ -32,7 +31,7 @@ string filePathOut = @"c:\output\result.docx";
 
 PageJoinOptions joinOptions = new PageJoinOptions(1, 4, RangeMode.OddPages);
 
-using (Merger merger = new Merger(filePath, loadOptions))
+using (Merger merger = new Merger(filePath))
 {
     merger.Join(filePath2, joinOptions);
     merger.Save(filePathOut);
