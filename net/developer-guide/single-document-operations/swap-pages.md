@@ -2,7 +2,7 @@
 id: swap-pages
 url: merger/net/swap-pages
 title: Swap pages
-weight: 5
+weight: 6
 description: "This article explains how to rearrange document pages for PDF, Word, Excel, PowerPoint and many other file types using GroupDocs.Merger for .NET."
 keywords: Swap document pages, Change document pages position, Rearrange document pages, Swap PDF pages, Swap Word document pages, Swap Excel worksheets, Rearrange PDF pages
 productName: GroupDocs.Merger for .NET

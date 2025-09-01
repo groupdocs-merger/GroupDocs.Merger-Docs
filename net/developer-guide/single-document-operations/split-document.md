@@ -2,7 +2,7 @@
 id: split-document
 url: merger/net/split-document
 title: Split document
-weight: 3
+weight: 4
 description: "This guide describes how to split document of PDF, Word, Excel, PowerPoint and many other formats into several resultant documents using GroupDocs.Merger API."
 keywords: Split document, Split PDF, Split Word, Split DOC, Split Presentation, Split Excel
 productName: GroupDocs.Merger for .NET
@@ -23,7 +23,7 @@ The steps to split document to multiple on-page documents are the following:
 
 *   Initialize [SplitOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/splitoptions) class with output files path format;
 *   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
-*   Call [Split](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/split) method and pass [SplitOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/splitoptions) object to itfor saving resultant documents.
+*   Call [Split](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/split) method and pass [SplitOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/splitoptions) object for saving resultant documents.
 
 ## Split the document to several one-page documents (by exact page numbers)
 
