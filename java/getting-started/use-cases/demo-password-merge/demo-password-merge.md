@@ -13,7 +13,7 @@ keywords:
 productName: GroupDocs.Merger for Java
 toc: true
 hideChildren: false
-draft: true
+draft: false
 ---
 
 # Password Merge Use Case
