@@ -1,6 +1,6 @@
 ---
 id: password-merge
-url: groupdocs.merger/java/password-merge
+url: merger/java/getting-started/use-cases/demo-password-merge/password-merge
 title: Password Merge for PDFs
 description: Automate unlocking, merging, and re‑protecting password‑protected PDFs with GroupDocs.Merger for Java.
 keywords:
