@@ -3,46 +3,74 @@ id: installation
 url: merger/net/installation
 title: Installation
 weight: 8
-description: "This guide explains how to install GroupDocs.Merger for .NET to your environment"
-keywords: 
+description: "How to install GroupDocs.Merger for .NET using NuGet, .NET CLI, or from the official website."
+keywords: GroupDocs.Merger, install, NuGet, .NET CLI, Visual Studio
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 toc: true
 ---
-## Install from Nuget
 
-NuGet is the easiest way to download and install GroupDocs.Merger for .NET. There are ways to install it in your project.
+This topic describes how to add the GroupDocs.Merger library to your .NET project.
 
-### Install via Package Manager GUI
+## Install from NuGet
 
-Follow these steps to reference GroupDocs.Merger using Package Manager GUI:
+GroupDocs.Merger is available on NuGet. Starting from version 26.4, the main `GroupDocs.Merger` package is a meta-package that automatically pulls in the correct runtime package for your project's target framework.
 
-* Open your solution/project in Visual Studio.
-* Click **Tools** -> **NuGet Package Manager** -> **Manage NuGet Packages for Solution**. You can also access the same option through the Solution Explorer. Right-click the solution or project and select Manage NuGet Packages from the context menu.
-* Select **Browse** tab and type "GroupDocs.Merger" in the search text box.
-* Click the **Install** button to install the latest version of the API into your project as shown in the following screenshot.  
-![](/merger/net/images/installation.png)
+### Using .NET CLI
+
+Open a terminal in your project folder and run:
+
+```bash
+dotnet add package GroupDocs.Merger
+```
 
 ### Using Package Manager Console
 
-You can follow the steps below to reference GroupDocs.Merger for .NET using the Package Manager Console:
+In Visual Studio, open **Tools** > **NuGet Package Manager** > **Package Manager Console** and run:
 
-* Open your solution/project in Visual Studio.
-* Select **Tools** -> **NuGet Package Manager** -> **Package Manager Console** from the menu to open package manager console.
-* Type the command "Install-Package GroupDocs.Merger" and press enter to install the latest release into your application.
-* After successful installation, GroupDocs.Merger will be referenced in your application.  
-![](/merger/net/images/installation_1.png)
+```powershell
+Install-Package GroupDocs.Merger
+```
 
-## Install from official GroupDocs website
+### Using PackageReference
 
-You can follow the steps below to reference GroupDocs.Merger for .NET downloaded from official website [Downloads section](https://downloads.groupdocs.com/merger/net):
+Add directly to your `.csproj` file:
 
-1. Unpack zip archive or follow MSI install wizard instructions.
-2. In the Solution Explorer, expand the project node you want to add a reference to.
-3. Right-click the **References** node for the project and select **Add Reference** from the menu.
-4. In the Add Reference dialog box, select the **.NET** tab (it's usually selected by default).
-5. If you have used MSI installer to install GroupDocs.Merger, you will see GroupDocs.Merger in the top pane. Select it and then click the **Select** button.
-6. If you have downloaded and unpacked the DLL only, click the **Browse** button and locate the GroupDocs.Merger.dll file.
-    You have referenced GroupDocs.Merger and it should appear in the **SelectedComponents** pane of the dialog box.
-7. Click **OK**.
-    GroupDocs.Merger reference appears under the **References** node of the project.
+```xml
+<PackageReference Include="GroupDocs.Merger" Version="26.4.0" />
+```
+
+## Runtime Packages
+
+The NuGet package includes assemblies for four target frameworks:
+
+| Target Framework      | Runtime Package              |
+|-----------------------|------------------------------|
+| .NET Framework 4.6.2  | `GroupDocs.Merger.Net462`    |
+| .NET 6.0              | `GroupDocs.Merger.Net60`     |
+| .NET 8.0              | `GroupDocs.Merger.Net80`     |
+| .NET 10.0             | `GroupDocs.Merger.Net100`    |
+
+In most cases, install only the main `GroupDocs.Merger` package — NuGet will resolve the correct runtime package automatically. You can also install a specific runtime package directly if needed:
+
+```bash
+dotnet add package GroupDocs.Merger.Net80
+```
+
+## Download from the Official Website
+
+You can also download the assemblies as a ZIP archive or MSI installer from the [GroupDocs Releases website](https://releases.groupdocs.com/merger/net/).
+
+1. Download the ZIP or MSI for the desired version.
+2. Extract files (ZIP) or run the installer (MSI).
+3. In your project, add a reference to the `GroupDocs.Merger.dll` file for the target framework you need (e.g., `lib/net8.0/GroupDocs.Merger.dll`).
+
+## Verify Installation
+
+After installing, verify that the package is accessible by printing the loaded assembly version:
+
+```csharp
+using GroupDocs.Merger;
+
+Console.WriteLine(typeof(Merger).Assembly.GetName().Version);
+```
