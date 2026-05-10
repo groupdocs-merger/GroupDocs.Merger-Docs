@@ -21,7 +21,7 @@ draft: true
 Password merge is a GroupDocs.Merger capability for Java that unlocks multiple password‑protected PDFs, merges them into a single document, and applies a unified credential. This workflow eliminates manual decryption steps and ensures the final archive complies with corporate security policies.
 
 {{< alert style="info" >}}
-💡 Full working example available on GitHub: **(no repository provided)**
+💡 Full working example available on GitHub: [repository](https://github.com/groupdocs-merger/merge-protected-pdfs-with-passwords-using-groupdocs-merger-java)
 {{< /alert >}}
 
 ## Overview
