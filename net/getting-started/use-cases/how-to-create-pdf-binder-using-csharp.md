@@ -1,7 +1,7 @@
 ---
 id: how-to-create-pdf-binder-using-csharp
 url: groupdocs.merger/net/how-to-create-pdf-binder-using-csharp
-title: PDF Binder Demo: Merging Multiple Formats into a Single PDF
+title: "PDF Binder Demo: Merging Multiple Formats into a Single PDF"
 weight: 500
 description: "An engineering walkthrough of four ways to wire GroupDocs.Merger for .NET into a real document pipeline — from a single-shot controller to a full microservice split."
 keywords: "GroupDocs.Merger, PDF merging, .NET, document consolidation, cross-format conversion, binder, DOCX, XLSX, PDF"
