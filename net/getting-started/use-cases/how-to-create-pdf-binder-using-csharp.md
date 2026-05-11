@@ -13,7 +13,7 @@ hideChildren: false
 draft: false
 ---
 
-![PDF binder produced from DOCX, XLSX, and PDF sources — captured from a live run](images/how-to-create-pdf-binder-using-csharp/result.gif)
+![PDF binder produced from DOCX, XLSX, and PDF sources — captured from a live run](/merger/net/images/how-to-create-pdf-binder-using-csharp/result.gif)
 
 ## Why this page exists
 
