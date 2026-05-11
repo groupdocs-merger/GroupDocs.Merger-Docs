@@ -10,7 +10,7 @@ structuredData:
   showOrganization: true
 toc: true
 hideChildren: false
-draft: true
+draft: false
 ---
 
 ![PDF binder produced from DOCX, XLSX, and PDF sources — captured from a live run](images/how-to-create-pdf-binder-using-csharp/result.gif)
