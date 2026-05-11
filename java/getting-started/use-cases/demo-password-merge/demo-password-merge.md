@@ -1,7 +1,7 @@
 ---
 id: password-merge
 url: merger/java/getting-started/use-cases/demo-password-merge/password-merge
-title: Password Merge for PDFs
+title: How to Password Merge for PDFs
 description: Automate unlocking, merging, and re‑protecting password‑protected PDFs with GroupDocs.Merger for Java.
 keywords:
   - GroupDocs.Merger
@@ -26,7 +26,7 @@ Password merge is a GroupDocs.Merger capability for Java that unlocks multiple p
 
 ## Overview
 
-Enterprises often receive batches of PDFs where each file is secured with a different password—think legal contracts, financial statements, or audit reports. Consolidating these documents into a searchable binder is essential for efficient review, but differing passwords block straightforward merging. By programmatically detecting protection, unlocking each file with its specific credential, and re‑securing the combined output with a single password, developers can automate this tedious process. The steps demonstrated below run in under two minutes on a typical developer laptop and require only the GroupDocs.Merger Java library (v24.6 released in 2024)【https://releases.groupdocs.com/merger/java/release-notes/latest/】.
+Enterprises often receive batches of PDFs where each file is secured with a different password—think legal contracts, financial statements, or audit reports. Consolidating these documents into a searchable binder is essential for efficient review, but differing passwords block straightforward merging. By programmatically detecting protection, unlocking each file with its specific credential, and re‑securing the combined output with a single password, developers can automate this tedious process. The steps demonstrated below run in under two minutes on a typical developer laptop and require only the GroupDocs.Merger Java library (v24.6 released in 2024) [Release Notes](https://releases.groupdocs.com/merger/java/release-notes/latest/).
 
 I needed this solution when my team had to bundle five investor contracts, each encrypted by a different reviewer, into a single archive for board approval.
 
@@ -93,7 +93,7 @@ public boolean isDocumentProtected(String path, String password) {
     }
 }
 ```
-*Key point:* `isPasswordSet()` is documented in the official API reference【https://reference.groupdocs.com/merger/java/】.
+*Key point:* `isPasswordSet()` is documented in the official [API Reference](https://reference.groupdocs.com/merger/java/).
 
 ### Step 2: Unlock All PDFs
 
@@ -195,7 +195,7 @@ A: Yes. The `isPasswordSet` method detects any encryption, and `removePassword` 
 A: The `Merger` constructor will throw an `IOException`. It is advisable to catch the exception, log the file name, and continue processing the remaining documents.
 
 **Q: Is it possible to preserve original metadata (author, creation date) after merging?**
-A: After merging, you can call `merger.updateMetadata(...)` before saving. This feature is documented in the API reference【https://reference.groupdocs.com/merger/java/}**.
+A: After merging, you can call `merger.updateMetadata(...)` before saving. This feature is documented in the [API Reference](https://reference.groupdocs.com/merger/java/).
 
 **Q: How large a batch can this approach handle?**
 A: The memory footprint is roughly the sum of all unlocked PDFs. For batches exceeding 500 MB, switch to a streaming approach: write each unlocked PDF to a temporary file and join using file paths instead of in‑memory byte arrays.
