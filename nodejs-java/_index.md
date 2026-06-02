@@ -7,6 +7,8 @@ description: "Use GroupDocs.Merger for Node.js via Java to merge several documen
 keywords: merge files in Node.js via Java
 productName: GroupDocs.Merger for Node.js via Java
 hideChildren: True
+toc: True
+layout: single
 structuredData:
     showOrganization: True
 ---

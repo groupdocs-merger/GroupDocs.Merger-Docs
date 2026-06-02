@@ -1,71 +1,92 @@
 ---
 id: product-overview
 url: merger/python-net/product-overview
-title: Product Overview
+title: GroupDocs.Merger for Python via .NET Overview
+linkTitle: Product overview
 weight: 1
-description: "GroupDocs.Merger for Python via .NET provides a wide range of document manipulation features - merge multiple files into one file, split single file to separate files, reorder, rotate and remove document pages without third-party tools."
+description: "GroupDocs.Merger for Python via .NET merges, splits, and reorganises documents — PDF, DOCX, XLSX, PPTX, images, and more — entirely on-premise without Microsoft Office."
+keywords: merger, merge, split, PDF, DOCX, XLSX, PPTX, images, eBook, page operations, password, preview, python, on-premise
 productName: GroupDocs.Merger for Python via .NET
 toc: True
 ---
 
-<img src="/merger/net/images/home.png" alt="groupdocs-merger-python-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+## What is GroupDocs.Merger?
 
-GroupDocs.Merger for Python via .NET is a cross-platform class library that empowers your applications with file merge features.
+GroupDocs.Merger for Python via .NET is a native Python library that merges, splits, and reorganises documents across **70+ supported formats** — DOCX, PDF, XLSX, PPTX, images, Visio diagrams, eBooks, archives, and more. It runs entirely on-premise, requires no Microsoft Office or Adobe Acrobat installation, and ships as a pre-built wheel on Windows, Linux, and macOS.
 
-GroupDocs.Merger supports most of the popular document formats such as PDF, DOCX, XLSX, PPTX, EPUB and others.
+Typical uses include:
 
-By using GroupDocs.Merger for Python via .NET you can merge multiple files into one file, split single file into several files, reorder, rotate and remove document pages  and no third-party applications required!
+- **Multi-document consolidation** — assemble a single report or package from multiple source files in one API call.
+- **Selective page merges** — pull specific pages or page ranges from several documents and combine them into a new document.
+- **Document assembly automation** — build dynamic documents programmatically as part of batch or pipeline workflows.
+- **Access control** — protect sensitive documents with passwords and manage password changes or removal.
+- **Page-level preparation** — reorder, rotate, extract, or remove individual pages before a document reaches its final destination.
 
-------
+## Key Capabilities
 
-## Benefits of using GroupDocs.Merger
+| Capability | Description |
+|---|---|
+| **Merge / Join** | Combine two or more documents — or selected pages from them — into a single output file. See [Merge Files]({{< ref "merger/python-net/developer-guide/merge" >}}). |
+| **Split** | Divide a document into individual pages or multi-page segments by page list or interval. See [Split Document]({{< ref "merger/python-net/developer-guide/single-document-operations/split-document.md" >}}). |
+| **Page Operations** | Extract, remove, swap, or move pages within a document. See [Single Document Operations]({{< ref "merger/python-net/developer-guide/single-document-operations" >}}). |
+| **Rotation / Orientation** | Rotate pages 90°, 180°, or 270° and change page orientation between portrait and landscape. See [Rotate Pages]({{< ref "merger/python-net/developer-guide/single-document-operations/rotate-pages.md" >}}) and [Change Page Orientation]({{< ref "merger/python-net/developer-guide/single-document-operations/change-page-orientation.md" >}}). |
+| **Password Security** | Add, update, remove, or check document passwords without opening the document in an editor. See [Security Operations]({{< ref "merger/python-net/developer-guide/security-operations" >}}). |
+| **Page Preview** | Generate PNG, JPEG, or BMP thumbnail images of individual document pages. See [Page Preview]({{< ref "merger/python-net/developer-guide/page-preview.md" >}}). |
+| **Document Inspection** | Read file type, page count, page dimensions, and other metadata without modifying the document. See [Get Document Information]({{< ref "merger/python-net/developer-guide/get-document-information.md" >}}). |
 
-Using GroupDocs.Merger for Python via .NET in your project gives you the following benefits:
+## Quick Example
 
-- Rich set of document manipulation features;
-- Platform independence;
-- Independence from third-party applications;
-- Performance and scalability;
-- Simple public API.
+{{< tabs "product-overview-quick-example" >}}
+{{< tab "merge_pdf_documents.py" >}}
+```python
+from groupdocs.merger import Merger
 
-### Rich set of document manipulation features
+def merge_pdf_documents():
+    # Load the first PDF as the merge base
+    with Merger("./input.pdf") as merger:
+        # Append the second PDF
+        merger.join("./input2.pdf")
+        # Save the merged PDF
+        merger.save("./output.pdf")
 
-GroupDocs.Merger for Python via .NET features can be divided into two main areas.
+if __name__ == "__main__":
+    merge_pdf_documents()
+```
+{{< /tab >}}
+{{< tab "With options" >}}
+```python
+from groupdocs.merger import Merger
+from groupdocs.merger.domain.options import PageJoinOptions, PdfJoinOptions
 
-#### Multiple document operations
+def merge_pdf_with_options():
+    # Load the first PDF as the merge base
+    with Merger("./input.pdf") as merger:
+        # Append only pages 1 and 3 from the second PDF
+        merger.join("./input2.pdf", PageJoinOptions([1, 3]))
 
-["File merge"]({{< ref "merger/python-net/developer-guide/merge" >}}) is the one main features of GroupDocs.Merger that allows you to combine several files together into a single files.
+        # Append a third PDF and preserve its bookmarks
+        pdf_join = PdfJoinOptions()
+        pdf_join.use_bookmarks = True
+        merger.join("./input3.pdf", pdf_join)
 
-You can merge whole documents or particular pages from your documents by using only GroupDocs.Merger for Python via .NET class-library.
+        # Save the result
+        merger.save("./output.pdf")
 
-#### Single document operations
+if __name__ == "__main__":
+    merge_pdf_with_options()
+```
+{{< /tab >}}
+{{< tab "input.pdf" >}}
+{{< tab-text >}}
+`input.pdf` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/product-overview/input.pdf) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< /tabs >}}
 
-With GroupDocs.Merger for Python via .NET you can split document into collection of documents, rotate or reorder document pages, remove pages from document, protect document with password or remove password-protection from document and many more.
+## Where to next
 
-### Platform Independence
-
-GroupDocs.Merger for Python via .NET covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems, such as Windows, Linux, and Mac OS, and various platforms. Read ["System Requirements"]({{< ref "merger/python-net/getting-started/system-requirements" >}}) for more details.
-
-You can use GroupDocs.Merger for Python via .NET to build any type of 32-bit or 64-bit Python via .NET application.
-
-### Independence from Other Applications
-
-GroupDocs.Merger does not require third-party applications, for example, Microsoft Office, to be installed on the machine in order to work. All GroupDocs components are completely independent. This makes GroupDocs.Merger a great alternative to automation in terms of security, stability, scalability/speed, price and features for working with documents and related tasks.
-
-### Performance and Scalability
-
-We do care about performance. GroupDocs.Merger is designed to be used to process thousands of files and utilize as minimum resources as possible. We do performance testing to make sure we do not have performance degradations from version to version.
-
-GroupDocs.Merger is a single Python via .NET package that can be deployed with any Python via .NET application by simply copying it or installing via NuGet. You do not need to worry about any other services or modules.
-
-### Simple Public API
-
-GroupDocs.Merger for Python via .NET public API was designed to be simple and intuitive. The methods are doing what you wold expect from them and nothing more.
-
-## Pricing and Policies
-
-Please visit the ["Licensing and Subscription"]({{< ref "merger/python-net/getting-started/licensing-and-subscription.md" >}}) page for information on licenses and review the ["Pricing Information"](https://purchase.groupdocs.com/pricing/merger/python-net) page for details on pricing.
-
-## Technical Support
-
-We do provide free and paid support for all of our users, including evaluation. For more information on GroupDocs.Merger technical support please check ["Technical Support"]({{< ref "technical-support" >}}) page.
+1. **Install the package** — [Installation]({{< ref "merger/python-net/getting-started/installation.md" >}}) walks through PyPI and offline wheel installation for Windows, Linux, and macOS.
+2. **Run your first example** — [Quick Start Guide]({{< ref "merger/python-net/getting-started/quick-start-guide" >}}) merges, extracts pages, and splits a document in under five minutes.
+3. **Explore runnable examples** — [How to Run Examples]({{< ref "merger/python-net/getting-started/how-to-run-examples.md" >}}) clones the GitHub repository and runs every documented scenario locally or in Docker.
+4. **Use it in depth** — the [Developer Guide]({{< ref "merger/python-net/developer-guide" >}}) covers every API surface with runnable, copy-paste code examples.
+5. **Plug it into AI pipelines** — [Agents and LLM Integration]({{< ref "merger/python-net/agents-and-llm-integration" >}}) explains the MCP server, `AGENTS.md`, and how to build AI-driven document assembly pipelines.

@@ -7,6 +7,8 @@ description: "Use GroupDocs.Merger for Java to merge several documents into one,
 keywords: merge files in Java
 productName: GroupDocs.Merger for Java
 hideChildren: True
+toc: True
+layout: single
 structuredData:
     showOrganization: True
 ---

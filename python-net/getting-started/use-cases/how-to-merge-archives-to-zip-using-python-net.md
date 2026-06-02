@@ -51,10 +51,12 @@ The following example demonstrates how to merge archives to ZIP file with sever
 * Call [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/) class [save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged archive file as parameter.
 
 ```python
-with gm.Merger("c:/sample1.zip") as merger:
-    merger.join("c:/sample2.tar")
-    merger.join("c:/sample3.rar")
-    merger.save("c:/merged.zip")
+from groupdocs.merger import Merger
+
+with Merger("./sample1.zip") as merger:
+    merger.join("./sample2.zip")
+    merger.join("./sample3.zip")
+    merger.save("./merged.zip")
 ```
 
 ### Code Examples

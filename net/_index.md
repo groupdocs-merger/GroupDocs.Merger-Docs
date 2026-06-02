@@ -7,6 +7,8 @@ description: "Use GroupDocs.Merger for .NET to merge several documents into one,
 keywords: merge files in .NET, merge file in C#
 productName: GroupDocs.Merger for .NET
 hideChildren: True
+toc: True
+layout: single
 structuredData:
     showOrganization: True
 ---

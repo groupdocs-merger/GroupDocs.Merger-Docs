@@ -13,14 +13,14 @@ structuredData:
     productCode: merger
     productPlatform: python-net
     appName: Merge XLSX files in Python via .NET
-    appDescription: Merge XLSX in a quick and efficient way using net language and GroupDocs.Merger for Python via .NET API, without the use of any third-party software like Microsoft or Open Office.
+    appDescription: Merge XLSX in a quick and efficient way using Python via .NET language and GroupDocs.Merger for Python via .NET API, without the use of any third-party software like Microsoft or Open Office.
     howTo:
-        name: How to merge XLSX in Python via .NET 
+        name: How to merge XLSX in Python via .NET
         description: Learn how to merge XLSX in Python via .NET language and GroupDocs.Merger for Python via .NET API, without the use of any third-party software like Microsoft or Open Office.
         url: merger/python-net/merge/[TRGT_LWR]/#how-to-merge-[TRGT_LWR]-files-in-python-net
         steps:
-        - name: Load source XLSX files 
-          text: Create an instance of Merger class and pass source XLSX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements. 
+        - name: Load source XLSX files
+          text: Create an instance of Merger class and pass source XLSX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
           imageUrl: merger/net/images/merge-files-step-1.png
           imageHeight: 157
           imageWidth: 645
@@ -29,41 +29,74 @@ structuredData:
           imageUrl: merger/net/images/merge-files-step-2.png
           imageHeight: 144
           imageWidth: 603
-        - name: Merge XLSX files and save result 
+        - name: Merge XLSX files and save result
           text: Call Merger class Save method and pass the filename for the resultant XLSX file as parameter.
           imageUrl: merger/net/images/merge-files-step-3.png
           imageHeight: 151
           imageWidth: 646
 ---
 
-A **spreadsheet** file contains data in the form of rows and columns. A spreadsheet file can be saved in several different file formats, each having a different file extension for unique representation. Data is stored in cells either in plain form such as text string, numbers, date, currency, etc. or as formulas that change a cell’s value when referenced cell values change.
+GroupDocs.Merger for Python via .NET allows you to combine multiple Excel spreadsheets into a single file programmatically. All worksheets, data, formulas, charts, and formatting are preserved — no Microsoft Excel or third-party software required.
 
-Common spreadsheet file extensions and their file formats include **XLSX** (Microsoft Excel Open XML Spreadsheet), **ODS** (OpenDocument Spreadsheet) and **XLS** (Microsoft Excel Binary File Format).
+Spreadsheet files store data in rows and columns and are saved in formats such as **XLSX** (Microsoft Excel Open XML Spreadsheet), **XLS** (Microsoft Excel Binary File Format), and **ODS** (OpenDocument Spreadsheet). XLSX is the default format introduced with Microsoft Office 2007, based on the Open Packaging Conventions (OOXML/ECMA-376 standard).
 
-XLSX is well-known format for Microsoft Excel documents that was introduced by Microsoft with the release of Microsoft Office 2007. Based on structure organized according to the Open Packaging Conventions as outlined in Part 2 of the OOXML standard ECMA-376, the new format is a zip package that contains a number of XML files. The underlying structure and files can be examined by simply unzipping the .xlsx file.
+## Steps to merge XLSX files
 
-## How to merge XLSX files programmatically
+1. Create an instance of the `Merger` class and pass the path to the first (base) XLSX file.
+2. Call `merger.join()` with the path to each additional XLSX file to append.
+3. Call `merger.save()` with the desired output path to write the merged file.
 
-[GroupDocs.Merger](https://products.groupdocs.com/merger/python-net) allows developers to merge XLSX files when it's needed to organize multiple
- XLSX files into single document or send fewer attachments etc. And you can do this without any third-party software or manual work involved.
- With GroupDocs.Merger it is possible to combine XLSX documents of any size and structure - all text, images, tables, graphs, forms and other content will be preserved.
-
-The following example demonstrates how to merge XLSX files with several lines of net code:
-
-* Create an instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/Merger) class and pass source XLSX file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another XLSX file to merge with [join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join) method. Repeat this step for other XLSX documents you want to merge.
-* Call [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged XLSX file as parameter.
-
+{{< tabs "merge-excel-example" >}}
+{{< tab "merge_excel_documents.py" >}}
 ```python
-with gm.Merger("c:/sample1.xlsx") as merger:
-    merger.join("c:/sample2.xlsx")
-    merger.save("c:/merged.xlsx")
+from groupdocs.merger import Merger
+
+def merge_excel_documents():
+    # Load the first document as the merge base
+    with Merger("./input.xlsx") as merger:
+        # Append the second Excel spreadsheet
+        merger.join("./input2.xlsx")
+        # Save the combined document
+        merger.save("./output.xlsx")
+
+if __name__ == "__main__":
+    merge_excel_documents()
 ```
+{{< /tab >}}
+{{< tab "input.xlsx" >}}
+{{< tab-text >}}
+`input.xlsx` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/developer-guide/merge/excel/input.xlsx) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "input2.xlsx" >}}
+{{< tab-text >}}
+`input2.xlsx` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/developer-guide/merge/excel/input2.xlsx) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.xlsx" >}}  
+```text
+Binary file (XLSX, 18 KB)
+```
+[Download full output](/merger/python-net/_output_files/developer-guide/merge/excel/merge_excel_documents/output.xlsx)
+{{< /tab >}}
+{{< /tabs >}}
 
-### Code Examples
+### Explanation
 
-Please find more [use-cases and complete Python via .NET sources]({{< ref "merger/python-net/showcases.md" >}}) of our backend and frontend examples and try them for free!
+- **Load base document**: `Merger("./input.xlsx")` opens the first Excel spreadsheet as the merge base inside a context manager.
+- **Append second document**: `merger.join("./input2.xlsx")` appends all worksheets from the second file. Call `join` again for each additional file.
+- **Save result**: `merger.save("./output.xlsx")` writes the merged spreadsheet to disk.
 
 ### Merge XLSX Live Demo
 
 GroupDocs.Merger for Python via .NET provides an online [**XLSX Merger App**](https://products.groupdocs.app/merger/xlsx), which allows you to try it for free and check its quality and accuracy.
+
+## API reference
+
+- [`Merger`](https://reference.groupdocs.com/merger/python-net/groupdocs.merger/merger/) — main class; `join`, `save` methods.
+
+## See also
+
+- [Merge PDF files]({{< ref "merger/python-net/developer-guide/merge/pdf.md" >}})
+- [Merge PowerPoint presentations]({{< ref "merger/python-net/developer-guide/merge/powerpoint.md" >}})
+- [More use-cases and complete Python via .NET sources]({{< ref "merger/python-net/showcases.md" >}})
