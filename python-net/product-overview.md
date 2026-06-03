@@ -36,7 +36,9 @@ Typical uses include:
 
 ## Quick Example
 
-{{< tabs "product-overview-quick-example" >}}
+Merge two PDF files into a single document with just a few lines of code:
+
+{{< tabs "product-overview-merge-pdf" >}}
 {{< tab "merge_pdf_documents.py" >}}
 ```python
 from groupdocs.merger import Merger
@@ -53,7 +55,28 @@ if __name__ == "__main__":
     merge_pdf_documents()
 ```
 {{< /tab >}}
-{{< tab "With options" >}}
+{{< tab "input.pdf" >}}
+{{< tab-text >}}
+`input.pdf` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/product-overview/input.pdf) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "input2.pdf" >}}
+{{< tab-text >}}
+`input2.pdf` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/product-overview/input2.pdf) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
+```text
+Binary file (PDF, 418 KB)
+```
+[Download full output](/merger/python-net/_output_files/product-overview/merge_pdf_documents/output.pdf)
+{{< /tab >}}
+{{< /tabs >}}
+
+For finer control, use the `*JoinOptions` classes to join only selected pages and preserve PDF bookmarks:
+
+{{< tabs "product-overview-merge-pdf-options" >}}
+{{< tab "merge_pdf_with_options.py" >}}
 ```python
 from groupdocs.merger import Merger
 from groupdocs.merger.domain.options import PageJoinOptions, PdfJoinOptions
@@ -80,6 +103,22 @@ if __name__ == "__main__":
 {{< tab-text >}}
 `input.pdf` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/product-overview/input.pdf) to download it.
 {{< /tab-text >}}
+{{< /tab >}}
+{{< tab "input2.pdf" >}}
+{{< tab-text >}}
+`input2.pdf` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/product-overview/input2.pdf) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "input3.pdf" >}}
+{{< tab-text >}}
+`input3.pdf` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/product-overview/input3.pdf) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
+```text
+Binary file (PDF, 418 KB)
+```
+[Download full output](/merger/python-net/_output_files/product-overview/merge_pdf_with_options/output.pdf)
 {{< /tab >}}
 {{< /tabs >}}
 
