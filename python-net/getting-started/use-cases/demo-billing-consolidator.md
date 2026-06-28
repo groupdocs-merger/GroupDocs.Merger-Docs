@@ -12,8 +12,6 @@ structuredData:
 draft: false
 ---
 
-# Billing Consolidator Demo
-
 {{< alert style="info" >}}
 💡 Full working example available on GitHub:
 [billing-consolidator-demo-using-groupdocs-merger-python](https://github.com/groupdocs-merger/billing-consolidator-demo-using-groupdocs-merger-python)
