@@ -9,7 +9,7 @@ productName: GroupDocs.Merger for Python via .NET
 toc: true
 structuredData:
   showOrganization: true
-draft: true
+draft: false
 ---
 
 # Billing Consolidator Demo
