@@ -13,7 +13,7 @@ structuredData:
     showOrganization: True
 ---
 
-<img src="/logo/128x128/groupdocs-merger-python.png" alt="GroupDocs.Merger for Python via .NET" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/logo/128x128/groupdocs-merger-python.png" alt="groupdocs-merger-python-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 <img src="https://img.shields.io/pypi/v/groupdocs-merger-net?label=GroupDocs.Merger%20PyPI" alt="PyPI package">
 <img src="https://img.shields.io/pypi/dm/groupdocs-merger-net?label=pypi%20downloads" alt="PyPI downloads">

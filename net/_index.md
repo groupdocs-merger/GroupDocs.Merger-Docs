@@ -12,7 +12,7 @@ layout: single
 structuredData:
     showOrganization: True
 ---
-<img src="/merger/net/images/home.png" alt="groupdocs-merger-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/logo/128x128/groupdocs-merger-net.png" alt="groupdocs-merger-net-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 GroupDocs.Merger for .NET is a cross-platform class library that empowers your applications with file merge features.
 
