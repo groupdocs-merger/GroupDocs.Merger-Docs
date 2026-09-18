@@ -60,14 +60,14 @@ Convert first, then assemble:
 
 > Convert the Word sections to PDF, then merge everything in file-name order.
 
-With both the [Conversion]({{< ref "conversion/mcp/_index.md" >}}) and Merger servers registered, that is one conversation.
+With both the [Conversion](/conversion/mcp/) and Merger servers registered, that is one conversation.
 
 ## Finishing touches other servers provide
 
 A pack usually needs more than assembly:
 
-* **Mark it** — a CONFIDENTIAL or DRAFT watermark: [GroupDocs.Watermark]({{< ref "watermark/mcp/_index.md" >}}).
-* **Sign it** — a digital signature on the final file: [GroupDocs.Signature]({{< ref "signature/mcp/_index.md" >}}).
-* **Clean it** — strip metadata before it leaves: [GroupDocs.Metadata]({{< ref "metadata/mcp/_index.md" >}}).
+* **Mark it** — a CONFIDENTIAL or DRAFT watermark: [GroupDocs.Watermark](/watermark/mcp/).
+* **Sign it** — a digital signature on the final file: [GroupDocs.Signature](/signature/mcp/).
+* **Clean it** — strip metadata before it leaves: [GroupDocs.Metadata](/metadata/mcp/).
 
 Each is a separate server with the same install pattern, and an agent that has them all can run the whole sequence from one prompt — locally, in the right order, with the file names it produced at each step.

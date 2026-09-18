@@ -45,7 +45,7 @@ The MCP tool exposes `file1`–`file4`, so one call combines at most four. For m
 
 ## Can I merge a PDF with a Word document?
 
-Not in one call. Inputs should be the **same format family** — all PDFs, or all DOCX — otherwise the merge is undefined. Convert first with the [GroupDocs.Conversion MCP server]({{< ref "conversion/mcp/_index.md" >}}), then merge the matching set.
+Not in one call. Inputs should be the **same format family** — all PDFs, or all DOCX — otherwise the merge is undefined. Convert first with the [GroupDocs.Conversion MCP server](/conversion/mcp/), then merge the matching set.
 
 ## How do I split a document in half?
 

@@ -18,6 +18,6 @@ What agents are asked for most:
 * **XLSX** — combine workbooks; `split` extracts by **worksheet position** in spreadsheet formats.
 * **PPTX** — join decks, or pull out the slides you need.
 
-**The rule that governs every merge: same format family.** All PDFs, or all DOCX, or all XLSX. This is not an arbitrary restriction — combining a spreadsheet with a presentation has no meaningful result. When sources differ, convert them to a common format first with the [GroupDocs.Conversion MCP server]({{< ref "conversion/mcp/_index.md" >}}), then merge the matching set.
+**The rule that governs every merge: same format family.** All PDFs, or all DOCX, or all XLSX. This is not an arbitrary restriction — combining a spreadsheet with a presentation has no meaningful result. When sources differ, convert them to a common format first with the [GroupDocs.Conversion MCP server](/conversion/mcp/), then merge the matching set.
 
 Unsure what you are holding? Ask — *"are these all the same format, and how many pages each?"* — and the agent answers via [`get_document_info`]({{< ref "merger/mcp/tools-reference/get-document-info.md" >}}).

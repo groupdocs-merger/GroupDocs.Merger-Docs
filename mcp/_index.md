@@ -55,7 +55,7 @@ Installation, prerequisites, and client configuration are platform-specific; the
 
 **Four documents per merge.** One `merge` call takes `file1`–`file4`. For more, merge in rounds and chain each result into the next call — an agent will do the bookkeeping if you ask.
 
-**Same format family.** All PDFs, or all DOCX. Mixing a Word file into a set of PDFs has no defined result; convert first with the [GroupDocs.Conversion MCP server]({{< ref "conversion/mcp/_index.md" >}}), then merge.
+**Same format family.** All PDFs, or all DOCX. Mixing a Word file into a set of PDFs has no defined result; convert first with the [GroupDocs.Conversion MCP server](/conversion/mcp/), then merge.
 
 {{< alert style="warning" >}}
 **Evaluation mode trims the result to three pages** and stamps a trial badge on each one — silently. A merge of four long PDFs comes back as three pages and looks like it worked. Check [`get_license_status`]({{< ref "merger/mcp/tools-reference/get-license-status.md" >}}) before a real run; see [Licensing]({{< ref "merger/mcp/getting-started/licensing.md" >}}).

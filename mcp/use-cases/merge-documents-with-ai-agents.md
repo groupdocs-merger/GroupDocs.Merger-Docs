@@ -53,7 +53,7 @@ All PDFs, or all DOCX. A mixed set has no defined merge. When you have both:
 
 > Convert the Word files to PDF first, then merge everything.
 
-That crosses two servers — [GroupDocs.Conversion]({{< ref "conversion/mcp/_index.md" >}}) then Merger — which an agent with both registered handles in one conversation.
+That crosses two servers — [GroupDocs.Conversion](/conversion/mcp/) then Merger — which an agent with both registered handles in one conversation.
 
 ## Check before you trust the result
 
