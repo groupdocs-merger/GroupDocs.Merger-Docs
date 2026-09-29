@@ -11,7 +11,7 @@ hideChildren: False
 The following table indicates the file formats that GroupDocs.Merger can work with.
 
 | Format | Description | Join | Split | Cross-format archive merging |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | [ZIP](https://docs.fileformat.com/compression/zip/) | ZIP Archive File | ![(tick)](/merger/net/images/check.png) |   | ![(tick)](/merger/net/images/check.png) |
 | [TAR](https://docs.fileformat.com/compression/tar/) | TAR Archive File | ![(tick)](/merger/net/images/check.png) |   | ![(tick)](/merger/net/images/check.png) |
 | [RAR](https://docs.fileformat.com/compression/rar/) | RAR Archive File |   |   | ![(tick)](/merger/net/images/check.png) |

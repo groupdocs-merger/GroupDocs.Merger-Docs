@@ -34,22 +34,27 @@ Install-Package GroupDocs.Merger
 
 ### Using PackageReference
 
-Add directly to your `.csproj` file:
+Add directly to your `.csproj` file, replacing `x.y.z` with the version you want to use (for example, the latest version listed on [NuGet](https://www.nuget.org/packages/GroupDocs.Merger)):
 
 ```xml
-<PackageReference Include="GroupDocs.Merger" Version="26.4.0" />
+<PackageReference Include="GroupDocs.Merger" Version="x.y.z" />
 ```
 
 ## Runtime Packages
 
-The NuGet package includes assemblies for four target frameworks:
+The `GroupDocs.Merger` package selects one of the following runtime packages based on your project's target framework:
 
-| Target Framework      | Runtime Package              |
-|-----------------------|------------------------------|
-| .NET Framework 4.6.2  | `GroupDocs.Merger.Net462`    |
-| .NET 6.0              | `GroupDocs.Merger.Net60`     |
-| .NET 8.0              | `GroupDocs.Merger.Net80`     |
-| .NET 10.0             | `GroupDocs.Merger.Net100`    |
+| Target Framework                  | Runtime Package                      |
+|-----------------------------------|--------------------------------------|
+| .NET Framework 4.6.2              | `GroupDocs.Merger.Net462`            |
+| .NET 6.0                          | `GroupDocs.Merger.Net60`             |
+| .NET 8.0                          | `GroupDocs.Merger.Net80`             |
+| .NET 10.0                         | `GroupDocs.Merger.Net100`            |
+| .NET 6.0 for Windows (`net6.0-windows`)   | `GroupDocs.Merger.Net60.Windows`     |
+| .NET 8.0 for Windows (`net8.0-windows`)   | `GroupDocs.Merger.Net80.Windows`     |
+| .NET 10.0 for Windows (`net10.0-windows`) | `GroupDocs.Merger.Net100.Windows`    |
+
+The `GroupDocs.Merger.Net60`, `GroupDocs.Merger.Net80` and `GroupDocs.Merger.Net100` packages run on Windows (x64, x86), Linux and macOS. To run on Windows ARM64, target `net6.0-windows`, `net8.0-windows` or `net10.0-windows` so that the `.Windows` runtime package is used.
 
 In most cases, install only the main `GroupDocs.Merger` package — NuGet will resolve the correct runtime package automatically. You can also install a specific runtime package directly if needed:
 
@@ -57,13 +62,21 @@ In most cases, install only the main `GroupDocs.Merger` package — NuGet will r
 dotnet add package GroupDocs.Merger.Net80
 ```
 
+{{< alert style="info" >}}
+**GroupDocs.Merger.LowCode** is a separate NuGet package (.NET 6.0 and later) with single-purpose products such as `JoinPdf` or `SplitDocx`. Install it only if you use those products:
+
+```bash
+dotnet add package GroupDocs.Merger.LowCode
+```
+{{< /alert >}}
+
 ## Download from the Official Website
 
 You can also download the assemblies as a ZIP archive or MSI installer from the [GroupDocs Releases website](https://releases.groupdocs.com/merger/net/).
 
 1. Download the ZIP or MSI for the desired version.
 2. Extract files (ZIP) or run the installer (MSI).
-3. In your project, add a reference to the `GroupDocs.Merger.dll` file for the target framework you need (e.g., `lib/net8.0/GroupDocs.Merger.dll`).
+3. In your project, add a reference to the `GroupDocs.Merger.dll` file for the target framework you need. The ZIP archive keeps the assemblies in the `lib` folder (for example, `lib/net8.0/GroupDocs.Merger.dll`), including the `-windows` builds; the MSI installer places them in the `bin` folder of the installation directory (`bin/net462`, `bin/net6.0`, `bin/net8.0`, `bin/net10.0`).
 
 ## Verify Installation
 
