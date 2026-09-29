@@ -2,9 +2,10 @@
 id: getting-started
 url: merger/python-net/getting-started
 title: Getting Started
+linkTitle: Getting Started
 weight: 2
-description: "This section decsribes how to get started with GroupDocs.Merger for Python via .NET library"
-keywords: 
+description: "Install GroupDocs.Merger for Python via .NET, merge your first documents, and explore the runnable examples repository on Windows, Linux, or macOS."
+keywords: getting started, installation, quick start, system requirements, licensing, supported formats, python, GroupDocs.Merger
 productName: GroupDocs.Merger for Python via .NET
 hideChildren: False
 ---

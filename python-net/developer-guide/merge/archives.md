@@ -7,60 +7,97 @@ keywords: Merge archive files in Python via .NET, Combine archive files programm
 productName: GroupDocs.Merger for Python via .NET
 toc: True
 weight: 15
+hideChildren: False
 structuredData:
     productCode: merger
     productPlatform: python-net
     appName: Merge archive files in Python via .NET
     appDescription: Merge archive in a quick and efficient way using Python via .NET language and GroupDocs.Merger for Python via .NET API, without the use of any third-party software like Microsoft or Open Office.
     howTo:
-        name: How to merge archive files in Python via .NET 
+        name: How to merge archive files in Python via .NET
         description: Learn how to merge archive files in Python via .NET language and GroupDocs.Merger for Python via .NET API, without the use of any third-party software like Microsoft or Open Office.
         url: merger/python-net/merge/[TRGT_LWR]/#how-to-merge-[TRGT_LWR]-files-in-python-net
         steps:
-        - name: Load source archive files 
-          text: Create an instance of Merger class and pass source archive file path as a constructor parameter. You may specify absolute or relative file path as per your requirements. 
-          archiveUrl: merger/net/archives/merge-files-step-1.png
-          archiveHeight: 157
-          archiveWidth: 645
+        - name: Load source archive files
+          text: Create an instance of Merger class and pass source archive file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
+          imageUrl: merger/net/images/merge-files-step-1.png
+          imageHeight: 157
+          imageWidth: 645
         - name: Add other archive files
           text: Add other archive files you want to merge into a single document with Join method of Merger class.
-          archiveUrl: merger/net/archives/merge-files-step-2.png
-          archiveHeight: 144
-          archiveWidth: 603
-        - name: Merge archive files and save result 
+          imageUrl: merger/net/images/merge-files-step-2.png
+          imageHeight: 144
+          imageWidth: 603
+        - name: Merge archive files and save result
           text: Call Merger class Save method and pass the filename for the resultant archive file as parameter.
-          archiveUrl: merger/net/archives/merge-files-step-3.png
-          archiveHeight: 151
-          archiveWidth: 646
+          imageUrl: merger/net/images/merge-files-step-3.png
+          imageHeight: 151
+          imageWidth: 646
 ---
 
-## How to merge archive files in Python via .NET
+GroupDocs.Merger for Python via .NET allows you to combine multiple archive files into a single archive programmatically. The library supports common archive formats such as **ZIP** and **TAR** — no external compression tools required.
 
-[GroupDocs.Merger](https://products.groupdocs.com/merger/python-net) allows developers to combine multiple ZIP documents in the preferred order and save them as a single file. You will not spend your time doing these operations manually on desktop software.
- With GroupDocs.Merger it is possible to combine archive documents of any archive extensions such as ZIP or TAR.
+## Steps to merge ZIP archives
 
-The following example demonstrates how to merge archive files with several lines of Python via .NET code:
+1. Create an instance of the `Merger` class and pass the path to the first (base) ZIP file.
+2. Call `merger.join()` with the path to each additional ZIP file to append.
+3. Call `merger.save()` with the desired output path to write the merged archive.
 
-* Create an instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/) class and pass source archive file path as a constructor parameter. You may specify absolute or relative file path as per your requirements.
-* Add another archive file to merge with [join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join) method. Repeat this step for other archive documents you want to merge.
-* Call [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/) class [save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged archive file as parameter.
-
+{{< tabs "merge-archives-example" >}}
+{{< tab "merge_archive_documents.py" >}}
 ```python
-with gm.Merger("c:/sample1.zip") as merger:
-    merger.join("c:/sample2.zip")
-    merger.save("c:/merged.zip")
+from groupdocs.merger import Merger
+
+def merge_archive_documents():
+    # Load the first archive as the merge base
+    with Merger("./input.zip") as merger:
+        # Append the second archive
+        merger.join("./input2.zip")
+        # Save the combined archive
+        merger.save("./output.zip")
+
+if __name__ == "__main__":
+    merge_archive_documents()
 ```
+{{< /tab >}}
+{{< tab "input.zip" >}}
+{{< tab-text >}}
+`input.zip` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/developer-guide/merge/archives/input.zip) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "input2.zip" >}}
+{{< tab-text >}}
+`input2.zip` is a sample file used in this example. Click [here](/merger/python-net/_sample_files/developer-guide/merge/archives/input2.zip) to download it.
+{{< /tab-text >}}
+{{< /tab >}}
+{{< tab "output.zip" >}}  
+```text
+Binary file (ZIP, 1 KB)
+```
+[Download full output](/merger/python-net/_output_files/developer-guide/merge/archives/merge_archive_documents/output.zip)
+{{< /tab >}}
+{{< /tabs >}}
 
-### Merge different archive file formats
+### Explanation
 
-This section describes how to merge different archive file formats using GroupDocs.Merger API. Please look at the articles listed below:
+- **Load base archive**: `Merger("./input.zip")` opens the first ZIP archive as the merge base inside a context manager.
+- **Append second archive**: `merger.join("./input2.zip")` appends all entries from the second archive. Call `join` again for each additional file.
+- **Save result**: `merger.save("./output.zip")` writes the merged archive to disk.
 
-* [How to merge archives to ZIP in Python via .NET]({{< ref "merger/python-net/getting-started/use-cases/how-to-merge-archives-to-zip-using-python-net.md" >}})
+## Merge different archive file formats
 
-### Code Examples
-
-Please find more [use-cases and complete Python via .NET sources]({{< ref "merger/python-net/showcases.md" >}}) of our backend and frontend examples and try them for free!
+- [How to merge archives to ZIP in Python via .NET]({{< ref "merger/python-net/getting-started/use-cases/how-to-merge-archives-to-zip-using-python-net.md" >}})
 
 ### Merge Archives Live Demo
 
-GroupDocs.Merger for Python via .NET provides online [**ZIP Merger App**](https://products.groupdocs.app/merger/zip) and [**TAR Merger App**](https://products.groupdocs.app/merger/tar), which allow you to try it for free and check its quality and accuracy.
+GroupDocs.Merger for Python via .NET provides online [**ZIP Merger App**](https://products.groupdocs.app/merger/zip) and [**TAR Merger App**](https://products.groupdocs.app/merger/tar), which allow you to try them for free and check their quality and accuracy.
+
+## API reference
+
+- [`Merger`](https://reference.groupdocs.com/merger/python-net/groupdocs.merger/merger/) — main class; `join`, `save` methods.
+
+## See also
+
+- [Merge PDF files]({{< ref "merger/python-net/developer-guide/merge/pdf.md" >}})
+- [Get document information]({{< ref "merger/python-net/developer-guide/get-document-information.md" >}})
+- [More use-cases and complete Python via .NET sources]({{< ref "merger/python-net/showcases.md" >}})

@@ -1,112 +1,181 @@
 ---
-id: licensing-and-evaluation
-url: merger/python-net/licensing-and-evaluation
-title: Licensing and evaluation
-weight: 5
-keywords: free, free trial, evaluation, groupdocs merger net
-description: "GroupDocs.Merger for Python provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation."
+id: licensing-and-subscription
+url: merger/python-net/getting-started/licensing-and-subscription
+title: Licensing and Subscription
+linkTitle: Licensing and Subscription
+weight: 6
+keywords: GroupDocs.Merger, licensing, trial, evaluation, temporary license, metered licensing, set_license, python
+description: "Apply a license to GroupDocs.Merger for Python via .NET — from file, from stream, via environment variable, or with a metered key."
 productName: GroupDocs.Merger for Python via .NET
 hideChildren: False
 toc: True
 aliases:
+    - /merger/python-net/licensing-and-evaluation/
     - /merger/python-net/licensing-and-subscription/
 ---
 
-To study the system, you may want quick access to the API. To make this easier, GroupDocs.Merger provides different plans for purchase and offers a Free Trial and a 30-day Temporary License for evaluation.
+GroupDocs.Merger offers a Free Trial and a 30-day Temporary License for evaluation, along with several purchase plans. If you want to dive straight into the code, the Free Trial is fully functional (see the limitations below) and does not require any setup.
 
 {{< alert style="info" >}}
-
-Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the [Purchase Policies and FAQ](https://purchase.groupdocs.com/policies) section.
-
+Please note that general policies and practices guide you on evaluating, licensing, and purchasing our products. See the [Purchase Policies and FAQ](https://purchase.groupdocs.com/policies/) section for details.
 {{< /alert >}}
 
-## Purchased License
+## Free Trial or Temporary License
 
-After buying, apply the license file or include it as an embedded resource. 
-
-License needs to be set:
-- Only once per application domain
-- Before using any other GroupDocs.Merger classes
-    
-### License Applying Options
-
-Licenses can be applied from different locations:
-
-*   Explicit path
-*   The folder containing the _GroupDocs.Merger.dll_ file
-*   The folder containing the assembly that called _GroupDocs.Merger.dll_
-*   The folder containing the entry assembly (your _.exe_)
-*   As a Metered License that allows you to pay for your usage. For details, see the [Metered Licensing FAQ](https://purchase.groupdocs.com/faqs/licensing/metered/).
-
-When you reference _GroupDocs.Merger.dll_ in the application, the library is copied to your output directory (unless **Copy Local** in the properties for that entry is set to false). The easiest way to set a license is often to place the license file in the same folder as _GroupDocs.Merger.dll_ and specify just the filename without the path.
-
-Use the [setLicense](https://reference.groupdocs.com/merger/net/groupdocs.merger/license/setlicense/) method to license a component.
-
-Calling `setLicense` multiple times is not harmful, it simply wastes processor time.
-
-Calling [setMeteredKey](https://reference.groupdocs.com/merger/net/groupdocs.merger/metered/setmeteredkey/) multiple times is not harmful either but wastes processor time and can accumulate consumption improperly.
-
-#### Apply the License
-
-After obtaining the license, set it. This section explains how to do this. When developing your application, call the `setLicense` method in your startup code before using the GroupDocs.Merger classes.
-
-##### Set a License from a File
-
-The following code snippet shows how to set a license from file:
-
-{{< tabs "example1">}}
-{{< tab "JavaScript" >}}
-
-```python
-license_path = "path to the .lic file"
-license = gm.License()
-license.set_license(license_path)
-```
-
-{{< /tab >}}
-{{< /tabs >}}
-
-##### Set a License from a Stream
-
-The following code snippet shows how to set a license from a stream:
-
-{{< tabs "example2">}}
-{{< tab "JavaScript" >}}
-
-```python
-license_path = "path to the .lic file"
-with open(license_path, "rb") as stream:
-    gm.License().set_license(stream)
-```
-
-{{< /tab >}}
-{{< /tabs >}}
-
-### Changing the License File Name
-
-You do not have to name the license file "GroupDocs.Merger.lic". Feel free to rename it as you prefer, and use that name when setting the license in your application.
-
-### "Cannot find license filename" Exception
-
-When you buy and download a license from the GroupDocs website, the license file is named "GroupDocs.Merger.lic." Download it using your browser. Sometimes, browsers recognize it as XML and add the .xml extension, making the full file name "GroupDocs.Merger.lic.XML" on your computer.
-
-If Microsoft Windows is set to hide file extensions (which is the default in most installations), the license file will show as "GroupDocs.Merger.lic" in Windows Explorer. You might assume this is the actual file name and call the `setLicense` method with "GroupDocs.Merger.lic", but there is no such file, leading to an exception.
-
-To fix this issue, rename the file to remove the hidden .xml extension. Additionally, we suggest disabling the "Hide extensions" option in Microsoft Windows.
-
-## How to Evaluate GroupDocs.Merger
-
-You can also try GroupDocs.Merger without buying a license.
+You can try GroupDocs.Merger without purchasing a license.
 
 ### Free Trial
 
-The evaluation version is identical to the purchased one; it becomes licensed once you set the license. You can set the license using methods described in the following sections of this article.
+The evaluation version is identical to the full version — it simply becomes fully licensed when you apply a license. Instructions for setting a license are provided in the following sections.
 
 The evaluation version has the following limitations:
-
-- Rendering is limited to the first 2 pages.
-- Trial badges are added to the top of a rendered page.
+* Only the first few pages of each document are processed (a page/document-count cap applies).
+* Output carries an evaluation watermark — PDF output is watermarked, and other formats show an equivalent evaluation mark.
 
 ### Temporary License
 
-If you want to test GroupDocs.Merger without the limitations of the trial version,   request a 30-day Temporary License. For details, see the ["Get a Temporary License"](https://purchase.groupdocs.com/temporary-license) page.
+If you'd like to test GroupDocs.Merger without the limitations of the trial version, you can request a 30-day Temporary License. For more information, see the [Get a Temporary License](https://purchase.groupdocs.com/temporary-license) page.
+
+## How to Set Up a License
+
+{{< alert style="info" >}}
+For information on pricing, visit the [Pricing Information](https://purchase.groupdocs.com/pricing/) page.
+{{< /alert >}}
+
+Once you've obtained a license, follow these instructions to set it up.
+
+A license should be set:
+- Only once per application, and
+- Before using any other GroupDocs.Merger classes.
+
+{{< alert style="tip" >}}
+Though the license can be set multiple times per application, it is recommended to set it only once, as repeated calls to the `set_license` method will use unnecessary processing time.
+{{< /alert >}}
+
+### Set Environment Variable
+
+You can set the `GROUPDOCS_LIC_PATH` environment variable to the absolute path of the license file. GroupDocs.Merger will then read this value and apply the license automatically.
+
+{{< tabs "set-license-env-var">}}
+{{< tab "Windows (Command Prompt)" >}}
+```ps
+set GROUPDOCS_LIC_PATH "C:\path\to\your\license\file.lic"
+```
+{{< /tab >}}
+{{< tab "Windows (Powershell)" >}}
+```ps
+$env:GROUPDOCS_LIC_PATH="C:\path\to\your\license\file.lic"
+```
+{{< /tab >}}
+{{< tab "Linux" >}}
+```bash
+export GROUPDOCS_LIC_PATH="/path/to/your/license/file.lic"
+```
+{{< /tab >}}
+{{< tab "macOS" >}}
+```bash
+export GROUPDOCS_LIC_PATH="/path/to/your/license/file.lic"
+```
+{{< /tab >}}
+{{< /tabs >}}
+
+### Copy License into Project Root Folder
+
+GroupDocs.Merger can also read a license from the project's root directory. Consider a simple Python app structure:
+
+```Directory
+📂 my-app
+ ├──app.py
+ ├──input.docx
+ ├──groupdocs_merger_net-*.whl
+ └──GroupDocs.Merger.lic
+```
+
+When you run the application from the `my-app` folder, GroupDocs.Merger will check for files with a `.lic` extension in this folder and read the `GroupDocs.Merger.lic` file to apply the license.
+
+### Set License from a File
+
+The following code demonstrates setting a license from a file:
+
+```python
+import os
+from groupdocs.merger import License
+
+def set_license_from_file():
+    # Get absolute path to license file
+    license_path = os.path.abspath("./GroupDocs.Merger.lic")
+
+    # Check if license file exists
+    if not os.path.exists(license_path):
+        print(f"License file not found at: {license_path}")
+        return
+
+    # Instantiate License and set the license
+    license = License()
+    license.set_license(license_path)
+
+if __name__ == "__main__":
+    set_license_from_file()
+```
+
+### Set License from a Stream
+
+This example shows how to set a license from a stream:
+
+```python
+import os
+from groupdocs.merger import License
+
+def set_license_from_stream():
+    # Get absolute path to license file
+    license_path = os.path.abspath("./GroupDocs.Merger.lic")
+
+    # Check if license file exists
+    if not os.path.exists(license_path):
+        print(f"License file not found at: {license_path}")
+        return
+
+    # Create a readable stream
+    with open(license_path, "rb") as license_stream:
+        # Instantiate License and set the license
+        license = License()
+        license.set_license(license_stream)
+
+if __name__ == "__main__":
+    set_license_from_stream()
+```
+
+### Set Metered License
+
+A [Metered License](https://purchase.groupdocs.com/faqs/licensing/metered/) is also available as an alternative to a traditional license file. It is a usage-based licensing model that may be more suitable for customers who prefer to be billed based on actual API feature usage.
+
+The following sample demonstrates how to use metered licensing:
+
+```python
+from groupdocs.merger import Metered
+
+def set_metered_license():
+    # Set your public and private keys
+    public_key = "******"
+    private_key = "******"
+
+    # Check if keys are set
+    if not public_key or public_key == "******" or not private_key or private_key == "******":
+        print("Please set your public and private keys")
+        return
+
+    # Instantiate Metered and set keys
+    metered = Metered()
+    metered.set_metered_key(public_key, private_key)
+
+    # Get the amount of data processed
+    quantity = metered.get_consumption_quantity()
+    print("Quantity consumed: ", quantity)
+
+    # Get the number of credits used
+    credits_used = metered.get_consumption_credit()
+    print("Credits used: ", credits_used)
+
+if __name__ == "__main__":
+    set_metered_license()
+```

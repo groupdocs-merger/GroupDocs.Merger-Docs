@@ -61,12 +61,15 @@ The following example demonstrates how to merge image files in vertical mode wi
 * Call [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/Merger) class [save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged image file as parameter.
 
 ```python
-with gm.Merger("c:/sample1.jpg") as merger:
-    image_join_mode = gm.domain.options.ImageJoinMode.VERTICAL
-    image_join_options = gm.domain.options.ImageJoinOptions(image_join_mode)
-    merger.join("c:/sample2.jpg", join_options = image_join_options)
-    merger.join("c:/sample3.jpg", join_options = image_join_options)
-    merger.save("c:/merged.jpg")
+from groupdocs.merger import Merger
+from groupdocs.merger.domain import FileType
+from groupdocs.merger.domain.options import ImageJoinOptions, ImageJoinMode
+
+with Merger("./sample1.jpg") as merger:
+    image_join_options = ImageJoinOptions(FileType.JPEG, ImageJoinMode.VERTICAL)
+    merger.join("./sample2.jpg", image_join_options)
+    merger.join("./sample3.jpg", image_join_options)
+    merger.save("./merged.jpg")
 ```
 
 ### Result merged JPG image

@@ -7,10 +7,12 @@ description: "Use GroupDocs.Merger for Node.js via Java to merge several documen
 keywords: merge files in Node.js via Java
 productName: GroupDocs.Merger for Node.js via Java
 hideChildren: True
+toc: True
+layout: single
 structuredData:
     showOrganization: True
 ---
-<img src="/merger/java/images/home.png" alt="groupdocs-merger-nodejs-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
+<img src="/logo/128x128/groupdocs-merger-nodejs.png" alt="groupdocs-merger-nodejs-java-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>
 
 GroupDocs.Merger for Node.js via Java is a cross-platform class library that empowers your applications with file merge features.
 

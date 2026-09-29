@@ -1,0 +1,72 @@
+Zipped File .zip
+G-Zip Compressed File .gz
+7-Zip Compressed File .7z
+Consolidated Unix File Archive .tar
+Roshal ARchive Compressed File .rar
+Bzip2 Compressed File .bz2
+Visio Drawing File .vsd
+Visio Drawing .vsdx
+Visio Stencil File .vss
+Visio Stencil File .vssx
+Visio Macro-Enabled Drawing .vsdm
+Visio Drawing Template .vst
+Visio Drawing Template .vstx
+Visio Macro-Enabled Drawing Template .vstm
+Visio Macro-Enabled Stencil File .vssm
+Visio Stencil XML File .vsx
+Visio Template XML File .vtx
+Visio Drawing XML File .vdx
+Open eBook File .epub
+Tagged Image File .tif
+Tagged Image File Format .tiff
+JPEG Image .jpg
+JPEG Image .jpeg
+Portable Network Graphic .png
+Graphical Interchange Format File .gif
+Bitmap Image File .bmp
+Windows Enhanced Metafile .emf
+Windows Compressed Enhanced Metafile .emz
+PostScript File .ps
+Scalable Vector Graphics File .svg
+Scalable Vector Graphics File .svgz
+Hypertext Markup Language File .html
+MHTML Web Archive .mht
+MIME HTML File .mhtml
+OneNote Document .one
+Portable Document Format File .pdf
+XML Paper Specification File .xps
+LaTeX Source Document .tex
+PowerPoint Presentation .ppt
+PowerPoint Open XML Presentation .pptx
+PowerPoint Slide Show .pps
+PowerPoint Open XML Slide Show .ppsx
+OpenDocument Presentation .odp
+PowerPoint Open XML Macro-Enabled Presentation .pptm
+PowerPoint Open XML Presentation Template .potx
+PowerPoint Open XML Macro-Enabled Presentation Template .potm
+PowerPoint Open XML Macro-Enabled Slide .ppsm
+OpenDocument Presentation Template .otp
+Excel Spreadsheet .xls
+Excel Open XML Spreadsheet .xlsx
+Excel Open XML Macro-Enabled Spreadsheet .xlsm
+Excel Macro-Enabled Add-In .xlam
+Excel Binary Spreadsheet .xlsb
+Comma Separated Values File .csv
+Tab Separated Values File .tsv
+OpenDocument Spreadsheet .ods
+Microsoft Word Document .doc
+Microsoft Word Open XML Document .docx
+Word Open XML Macro-Enabled Document .docm
+Word Document Template .dot
+Word Open XML Document Template .dotx
+Word Open XML Macro-Enabled Document Template .dotm
+Rich Text Format File .rtf
+Plain Text File .txt
+Error Log File .err
+OpenDocument Text Document .odt
+OpenDocument Document Template .ott
+Excel Template File .xlt
+Excel Open XML Macro-Enabled Spreadsheet Template .xltm
+Excel Open XML Spreadsheet Template .xltx
+Waveform Audio File Format .wav
+Waveform Audio File Format .mp3

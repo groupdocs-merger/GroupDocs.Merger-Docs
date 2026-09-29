@@ -7,22 +7,48 @@ description: "This article explains how to merge files of PDF, Microsoft Word, E
 keywords: Merge files, Combine files, Merge documents, Merge document with GroupDocs.Merger for Python via .NET
 productName: GroupDocs.Merger for Python via .NET
 hideChildren: False
+toc: True
 structuredData:
     showOrganization: True
 ---
 
-If you decide to write from scratch a program for merging multiple documents into a single file, it’s not going to be a cakewalk. Even for those file types that have open-sourced their specifications, it could be a tricky and time-consuming process. You will have to learn all the format's peculiar properties, write your code and then check how it works over a wide range of files with different content, layout, internal structure, formatting etc.
+GroupDocs.Merger for Python via .NET lets you combine multiple documents of the same family into a single output file with just a few lines of Python code. All content — text, images, tables, graphs, forms, and embedded objects — is faithfully preserved in the result.
 
-When talking about proprietary formats the initial task becomes even more difficult - big companies don’t want you to know how everything works inside. Therefore, if you want to combine different files into one the possible solution is to reverse engineer needed formats.
+The library handles the complexities of each file format internally, so you do not need to understand proprietary format internals or rely on any third-party desktop software. The API is identical regardless of format: load the base document with `Merger`, call `join` once for every additional file, then call `save`.
 
-Happily it’s not the only way to solve the task because GroupDocs.Merger for Python via .NET library has already done the most difficult part of the work for you and provides a simple and convenient API to merge multiple files into one programmatically.
-
-All you have to do is to reference GroupDocs.Merger for Python via .NET inside your project and write a couple lines of net code. The list of supported file formats that you can merge together is quite wide and you can find it [here]({{< ref "merger/python-net/getting-started/supported-document-formats.md" >}}).
-  
 {{< alert style="info" >}}
-**Try online**  
-  
-You can try to merge files online and download results for free using GroupDocs.Merger [Live Demo](https://products.groupdocs.app/merger)
+**Try online**
+
+You can try merging files online and download the results for free using GroupDocs.Merger [Live Demo](https://products.groupdocs.app/merger).
 {{< /alert >}}
 
-Please check the articles listed below to learn more about how to merge PDF or Microsoft Word documents, Microsoft PowerPoint presentation or Excel spreadsheets and other file types.
+## Steps to merge documents
+
+1. Install the package: `pip install groupdocs-merger-net`.
+2. Import `Merger` from `groupdocs.merger`.
+3. Open the first (base) document with `Merger("./input.<ext>")` inside a `with` block.
+4. Call `merger.join("./input2.<ext>")` for each additional document to append.
+5. Call `merger.save("./output.<ext>")` to write the combined result.
+
+## Supported formats
+
+See the full list in [Supported Document Formats]({{< ref "merger/python-net/getting-started/supported-document-formats.md" >}}).
+
+## Per-format guides
+
+Choose the guide for the format you want to merge:
+
+- [Merge PDF files]({{< ref "merger/python-net/developer-guide/merge/pdf.md" >}})
+- [Merge Word documents]({{< ref "merger/python-net/developer-guide/merge/word.md" >}})
+- [Merge Excel spreadsheets]({{< ref "merger/python-net/developer-guide/merge/excel.md" >}})
+- [Merge PowerPoint presentations]({{< ref "merger/python-net/developer-guide/merge/powerpoint.md" >}})
+- [Merge images]({{< ref "merger/python-net/developer-guide/merge/images.md" >}})
+- [Merge text files]({{< ref "merger/python-net/developer-guide/merge/text.md" >}})
+- [Merge EPUB files]({{< ref "merger/python-net/developer-guide/merge/epub.md" >}})
+- [Merge HTML files]({{< ref "merger/python-net/developer-guide/merge/html.md" >}})
+- [Merge archives]({{< ref "merger/python-net/developer-guide/merge/archives.md" >}})
+
+## See also
+
+- [Split a document]({{< ref "merger/python-net/developer-guide/single-document-operations/split-document.md" >}})
+- [Get document information]({{< ref "merger/python-net/developer-guide/get-document-information.md" >}})

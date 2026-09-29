@@ -1,0 +1,248 @@
+{
+  "developer-guide/get-document-information#get-document-information-example": {
+    "type": "text",
+    "file": "read-document-info.txt",
+    "path": "developer-guide/get-document-information/read_document_info/read-document-info.txt",
+    "preview": "Type: Portable Document Format File\nPages: 2 Size: 86913 bytes\n  page 1: 595x841\n  page 2: 595x841",
+    "function": "read_document_info"
+  },
+  "developer-guide/get-supported-file-types#get-supported-file-types-example": {
+    "type": "text",
+    "file": "list-supported-file-types.txt",
+    "path": "developer-guide/get-supported-file-types/list_supported_file_types/list-supported-file-types.txt",
+    "preview": "Zipped File .zip\nG-Zip Compressed File .gz\n7-Zip Compressed File .7z\nConsolidated Unix File Archive .tar\nRoshal ARchive Compressed File .rar\nBzip2 Compressed File .bz2\nVisio Drawing File .vsd\nVisio Drawing .vsdx\nVisio Stencil File .vss\nVisio Stencil File .vssx\n[TRUNCATED]",
+    "function": "list_supported_file_types"
+  },
+  "developer-guide/loading-documents/load-from-local-disk#load-from-local-disk-example": {
+    "type": "text",
+    "file": "load-from-local-disk.txt",
+    "path": "developer-guide/loading-documents/load-from-local-disk/load_from_local_disk/load-from-local-disk.txt",
+    "preview": "Format: Portable Document Format File\nPages: 2\nSize: 86913 bytes",
+    "function": "load_from_local_disk"
+  },
+  "developer-guide/loading-documents/load-from-stream#load-from-stream-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/loading-documents/load-from-stream/load_from_stream/output.pdf",
+    "preview": "Binary file (PDF, 252 KB)",
+    "function": "load_from_stream"
+  },
+  "developer-guide/loading-documents/load-password-protected#load-password-protected-example": {
+    "type": "text",
+    "file": "load-password-protected.txt",
+    "path": "developer-guide/loading-documents/load-password-protected/load_password_protected/load-password-protected.txt",
+    "preview": "Format: Portable Document Format File\nPages: 2",
+    "function": "load_password_protected"
+  },
+  "developer-guide/merge/archives#merge-archives-example": {
+    "type": "file",
+    "file": "output.zip",
+    "path": "developer-guide/merge/archives/merge_archive_documents/output.zip",
+    "preview": "Binary file (ZIP, 1 KB)",
+    "function": "merge_archive_documents"
+  },
+  "developer-guide/merge/epub#merge-epub-example": {
+    "type": "file",
+    "file": "output.epub",
+    "path": "developer-guide/merge/epub/merge_epub_documents/output.epub",
+    "preview": "Binary file (EPUB, 49 KB)",
+    "function": "merge_epub_documents"
+  },
+  "developer-guide/merge/excel#merge-excel-example": {
+    "type": "file",
+    "file": "output.xlsx",
+    "path": "developer-guide/merge/excel/merge_excel_documents/output.xlsx",
+    "preview": "Binary file (XLSX, 18 KB)",
+    "function": "merge_excel_documents"
+  },
+  "developer-guide/merge/html#merge-html-example": {
+    "type": "file",
+    "file": "output.html",
+    "path": "developer-guide/merge/html/merge_html_documents/output.html",
+    "preview": "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /><meta http-equiv=\"Content-Style-Type\" content=\"text/css\" /><meta name=\"generator\" content=\"Aspose.Words for .NET 26.4.0\" /><title></title></head><body style=\"font-family:'Times New Roman'; font-size:12pt\"><div><p style=\"margin-top:0pt; margin-bottom:0pt\"><a name=\"Bookmark1\"><span>Text inside a bookmark 1</span></a></p><p style=\"margin-top:12pt; margin-bottom:3pt; page-break-after:avoid; font-size:16pt; -aw-outline-l\n[TRUNCATED]",
+    "function": "merge_html_documents"
+  },
+  "developer-guide/merge/pdf#merge-pdf-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/merge/pdf/merge_pdf_documents/output.pdf",
+    "preview": "Binary file (PDF, 252 KB)",
+    "function": "merge_pdf_documents"
+  },
+  "developer-guide/merge/pdf#merge-pdf-bookmarks-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/merge/pdf/merge_pdf_with_bookmarks/output.pdf",
+    "preview": "Binary file (PDF, 252 KB)",
+    "function": "merge_pdf_with_bookmarks"
+  },
+  "developer-guide/merge/powerpoint#merge-powerpoint-example": {
+    "type": "file",
+    "file": "output.pptx",
+    "path": "developer-guide/merge/powerpoint/merge_powerpoint_documents/output.pptx",
+    "preview": "Binary file (PPTX, 88 KB)",
+    "function": "merge_powerpoint_documents"
+  },
+  "developer-guide/merge/text#merge-text-example": {
+    "type": "file",
+    "file": "output.txt",
+    "path": "developer-guide/merge/text/merge_text_documents/output.txt",
+    "preview": "﻿EXAMPLE 1 EXAMPLE 1 EXAMPLE 1\nEXAMPLE 2 EXAMPLE 2 EXAMPLE 2\nEXAMPLE 3 EXAMPLE 3 EXAMPLE 3\nEXAMPLE 4 EXAMPLE 4 EXAMPLE 4\nEXAMPLE 5 EXAMPLE 5 EXAMPLE 5\nEXAMPLE 6 EXAMPLE 6 EXAMPLE 6\nEXAMPLE 1 EXAMPLE 1 EXAMPLE 1\nEXAMPLE 2 EXAMPLE 2 EXAMPLE 2\nEXAMPLE 3 EXAMPLE 3 EXAMPLE 3\nEXAMPLE 4 EXAMPLE 4 EXAMPLE 4\n[TRUNCATED]",
+    "function": "merge_text_documents"
+  },
+  "developer-guide/merge/word#merge-word-example": {
+    "type": "file",
+    "file": "output.docx",
+    "path": "developer-guide/merge/word/merge_word_documents/output.docx",
+    "preview": "Binary file (DOCX, 8 KB)",
+    "function": "merge_word_documents"
+  },
+  "developer-guide/merge/word#merge-word-continuous-example": {
+    "type": "file",
+    "file": "output.docx",
+    "path": "developer-guide/merge/word/merge_word_documents_continuous/output.docx",
+    "preview": "Binary file (DOCX, 8 KB)",
+    "function": "merge_word_documents_continuous"
+  },
+  "developer-guide/page-preview#page-preview-example": {
+    "type": "zip",
+    "file": "generate-page-previews-outputs.zip",
+    "path": "developer-guide/page-preview/generate_page_previews/generate-page-previews-outputs.zip",
+    "contents": [
+      "page-1.png",
+      "page-2.png"
+    ],
+    "preview": "page-1.png (46 KB)\npage-2.png (46 KB)",
+    "function": "generate_page_previews"
+  },
+  "developer-guide/security-operations/add-document-password#add-document-password-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/security-operations/add-document-password/add_document_password/output.pdf",
+    "preview": "Binary file (PDF, 86 KB)",
+    "function": "add_document_password"
+  },
+  "developer-guide/security-operations/add-password-to-pdf-with-permissions#add-pdf-permissions-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/security-operations/add-password-to-pdf-with-permissions/add_password_to_pdf_with_permissions/output.pdf",
+    "preview": "Binary file (PDF, 86 KB)",
+    "function": "add_password_to_pdf_with_permissions"
+  },
+  "developer-guide/security-operations/check-document-password-protection#check-password-example": {
+    "type": "text",
+    "file": "check-document-password-protection.txt",
+    "path": "developer-guide/security-operations/check-document-password-protection/check_document_password_protection/check-document-password-protection.txt",
+    "preview": "Is password set: True",
+    "function": "check_document_password_protection"
+  },
+  "developer-guide/security-operations/remove-document-password#remove-document-password-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/security-operations/remove-document-password/remove_document_password/output.pdf",
+    "preview": "Binary file (PDF, 85 KB)",
+    "function": "remove_document_password"
+  },
+  "developer-guide/security-operations/update-document-password#update-document-password-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/security-operations/update-document-password/update_document_password/output.pdf",
+    "preview": "Binary file (PDF, 87 KB)",
+    "function": "update_document_password"
+  },
+  "developer-guide/single-document-operations/change-page-orientation#change-page-orientation-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/single-document-operations/change-page-orientation/change_page_orientation/output.pdf",
+    "preview": "Binary file (PDF, 336 KB)",
+    "function": "change_page_orientation"
+  },
+  "developer-guide/single-document-operations/extract-pages#extract-pages-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/single-document-operations/extract-pages/extract_pages_by_numbers/output.pdf",
+    "preview": "Binary file (PDF, 250 KB)",
+    "function": "extract_pages_by_numbers"
+  },
+  "developer-guide/single-document-operations/move-page#move-page-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/single-document-operations/move-page/move_document_page/output.pdf",
+    "preview": "Binary file (PDF, 418 KB)",
+    "function": "move_document_page"
+  },
+  "developer-guide/single-document-operations/remove-pages#remove-pages-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/single-document-operations/remove-pages/remove_document_pages/output.pdf",
+    "preview": "Binary file (PDF, 335 KB)",
+    "function": "remove_document_pages"
+  },
+  "developer-guide/single-document-operations/rotate-pages#rotate-pages-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/single-document-operations/rotate-pages/rotate_document_pages/output.pdf",
+    "preview": "Binary file (PDF, 337 KB)",
+    "function": "rotate_document_pages"
+  },
+  "developer-guide/single-document-operations/split-document#split-document-example": {
+    "type": "zip",
+    "file": "split-document-outputs.zip",
+    "path": "developer-guide/single-document-operations/split-document/split_document/split-document-outputs.zip",
+    "contents": [
+      "page_1.pdf",
+      "page_2.pdf",
+      "page_3.pdf",
+      "part_0.pdf",
+      "part_1.pdf",
+      "part_2.pdf"
+    ],
+    "preview": "page_1.pdf (84 KB)\npage_2.pdf (84 KB)\npage_3.pdf (84 KB)\npart_0.pdf (84 KB)\npart_1.pdf (167 KB)\npart_2.pdf (168 KB)",
+    "function": "split_document"
+  },
+  "developer-guide/single-document-operations/split-text-file#split-text-file-example": {
+    "type": "zip",
+    "file": "split-text-file-by-lines-outputs.zip",
+    "path": "developer-guide/single-document-operations/split-text-file/split_text_file_by_lines/split-text-file-by-lines-outputs.zip",
+    "contents": [
+      "lines_0.txt",
+      "lines_1.txt",
+      "lines_2.txt"
+    ],
+    "preview": "lines_0.txt (36 bytes)\nlines_1.txt (67 bytes)\nlines_2.txt (98 bytes)",
+    "function": "split_text_file_by_lines"
+  },
+  "developer-guide/single-document-operations/swap-pages#swap-pages-example": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "developer-guide/single-document-operations/swap-pages/swap_document_pages/output.pdf",
+    "preview": "Binary file (PDF, 336 KB)",
+    "function": "swap_document_pages"
+  },
+  "getting-started/quick-start-guide#example1-merge-docx": {
+    "type": "file",
+    "file": "output.docx",
+    "path": "getting-started/quick-start-guide/merge_two_documents/output.docx",
+    "preview": "Binary file (DOCX, 8 KB)",
+    "function": "merge_two_documents"
+  },
+  "getting-started/quick-start-guide#example2-extract-pages": {
+    "type": "file",
+    "file": "output.pdf",
+    "path": "getting-started/quick-start-guide/extract_pages_from_pdf/output.pdf",
+    "preview": "Binary file (PDF, 85 KB)",
+    "function": "extract_pages_from_pdf"
+  },
+  "getting-started/quick-start-guide#example3-split-pdf": {
+    "type": "zip",
+    "file": "split-document-pages-outputs.zip",
+    "path": "getting-started/quick-start-guide/split_document_pages/split-document-pages-outputs.zip",
+    "contents": [
+      "page_1.pdf",
+      "page_2.pdf",
+      "page_3.pdf"
+    ],
+    "preview": "page_1.pdf (84 KB)\npage_2.pdf (84 KB)\npage_3.pdf (84 KB)",
+    "function": "split_document_pages"
+  }
+}
