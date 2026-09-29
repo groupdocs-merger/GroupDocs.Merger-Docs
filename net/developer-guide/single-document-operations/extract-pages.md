@@ -10,6 +10,10 @@ hideChildren: False
 ---
 **GroupDocs.Merger** allows to extract pages from source document. The result is a new document that contains only specified pages from the source document.
 
+{{< alert style="warning" >}}
+Specify at least one page number. Calling `ExtractPages` without page numbers (for example, with `new ExtractOptions()`) throws `GroupDocsMergerException` ("There are no page numbers to extract.").
+{{< /alert >}}
+
 Here are the steps to extract document pages:
 
 *   Initialize [ExtractOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/extractoptions) class with page numbers that should appear in the resultant document;

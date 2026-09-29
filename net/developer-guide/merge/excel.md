@@ -65,6 +65,55 @@ using (Merger merger = new Merger(@"c:\sample1.xlsx"))
 }
 ```
 
+## How to merge rows of several spreadsheets into a single sheet
+
+By default, each joined spreadsheet is added to the result as separate worksheets. To append the rows of the joined spreadsheets below the existing data instead — for example, to collect monthly reports into one table — use [SpreadsheetJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/spreadsheetjoinoptions/) with [SpreadsheetJoinMode](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/spreadsheetjoinmode/)`.Rows`:
+
+* Create an instance of [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) class and pass the first spreadsheet file path as a constructor parameter. This document is always taken in full.
+* Create an instance of [SpreadsheetJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/spreadsheetjoinoptions/) class, set `Mode` to `SpreadsheetJoinMode.Rows` and, if the joined files have header rows, set `SkipRows` to the number of rows to skip.
+* Add the other spreadsheets with [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join) method and pass the options as a parameter. The rows of each file are appended below the last row containing data of the matching worksheet.
+* Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save) method and specify the filename for the merged spreadsheet.
+
+The following code sample demonstrates how to merge rows of several spreadsheets into a single sheet:
+
+```csharp
+// Load the first spreadsheet
+using (Merger merger = new Merger(@"c:\january.xlsx"))
+{
+    // Append rows instead of adding worksheets, and skip the header row of each joined file
+    SpreadsheetJoinOptions joinOptions = new SpreadsheetJoinOptions
+    {
+        Mode = SpreadsheetJoinMode.Rows,
+        SkipRows = 1
+    };
+    merger.Join(@"c:\february.xlsx", joinOptions);
+    merger.Join(@"c:\march.xlsx", joinOptions);
+    // Save the merged spreadsheet
+    merger.Save(@"c:\q1.xlsx");
+}
+```
+
+### Matching worksheets
+
+When the spreadsheets have several worksheets, [SpreadsheetSheetMatching](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/spreadsheetsheetmatching/) set through the `SheetMatching` property controls where the rows go:
+
+* `ByIndex` (default) — the rows of the n-th worksheet of a joined file are appended to the n-th worksheet of the result. Worksheets beyond the number of result worksheets are added as new worksheets.
+* `FirstSheetOnly` — only the first worksheet of each joined file is appended, to the first worksheet of the result.
+
+`SkipRows` and `SheetMatching` have no effect when `Mode` is `SpreadsheetJoinMode.Worksheets`.
+
+### What is carried over
+
+Row-wise joining carries cell values, formulas (relative references are adjusted to the new position), cell styles, merged cells and row heights. Charts, pictures and other floating objects, pivot tables, tables, conditional formatting and data validation of the joined files are not carried over.
+
+Row-wise joining works for XLSX, XLS, XLSM, XLSB, XLTX, XLTM, XLT, XLAM and ODS, also when a joined spreadsheet has a different format than the first one (for example, XLS joined into XLSX).
+
+{{< alert style="warning" >}}
+* A negative `SkipRows` value throws `GroupDocsMergerException`.
+* Appending more rows than the output format allows (65,536 rows for XLS and XLT, 1,048,576 rows for the other formats) throws `GroupDocsMergerException`.
+* [ApplyPageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/applypagebuilder) throws `GroupDocsMergerException` while a spreadsheet joined in `Rows` mode is pending, because appended rows do not form separate pages.
+{{< /alert >}}
+
 ### Code Examples
 
 Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!

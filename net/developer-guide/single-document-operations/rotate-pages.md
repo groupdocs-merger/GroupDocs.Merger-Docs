@@ -8,15 +8,15 @@ keywords: Rotate PDF pages, Rotate document pages, Change PDF page rotation angl
 productName: GroupDocs.Merger for .NET
 hideChildren: False
 ---
-**[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** allows to change page rotation angle by setting it to 90, 180 or 270 degrees for specific or all document pages.  
+**[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** allows to change page rotation angle by setting it to 90, 180 or 270 degrees for specific or all document pages.  
 Here are the steps to change page rotation:
 
-*   Initialize [RotateOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/rotateoptions) class with desired rotation angle and page numbers;
-*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
-*   Call [RotatePages](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/rotatepages) method and pass [RotateOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/rotateoptions) object to it;
-*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
+*   Initialize [RotateOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/rotateoptions) class with desired rotation angle and page numbers;
+*   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
+*   Call [Rotate](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/rotate) method and pass [RotateOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/rotateoptions) object to it;
+*   Call [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method specifying file path to save resultant document.
 
-The following code sample demonstrates how to change page rotation:
+The following code sample demonstrates how to change page rotation:
 
 ```csharp
 string filePath = @"c:\sample.pdf";
@@ -26,7 +26,26 @@ RotateOptions rotateOptions = new RotateOptions(RotateMode.Rotate180, new int[] 
 
 using (Merger merger = new Merger(filePath))
 {
-    merger.RotatePages(rotateOptions);
+    merger.Rotate(rotateOptions);
+    merger.Save(filePathOut);
+}
+```
+
+## Rotate all pages
+
+When no page numbers are specified, every page of the document is rotated.
+
+The following code sample demonstrates how to rotate all document pages:
+
+```csharp
+string filePath = @"c:\sample.pdf";
+string filePathOut = @"c:\output\result.pdf";
+
+RotateOptions rotateOptions = new RotateOptions(RotateMode.Rotate90);
+
+using (Merger merger = new Merger(filePath))
+{
+    merger.Rotate(rotateOptions);
     merger.Save(filePathOut);
 }
 ```

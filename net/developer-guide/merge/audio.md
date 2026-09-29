@@ -36,7 +36,7 @@ structuredData:
 
 ## How to merge audio files in C\#
 
-[GroupDocs.Merger](https://products.groupdocs.com/merger/net) facilitates developers to combine multiple audio files according to their preferred sequence and save them as a single audio file. This eliminates the need for manual operations with desktop software, saving you valuable time. Currently, GroupDocs.Merger allows combining audio files having the same extensions. For example, WAV file with other WAV files, or MP3 file with other MP3 files.
+[GroupDocs.Merger](https://products.groupdocs.com/merger/net) facilitates developers to combine multiple audio files according to their preferred sequence and save them as a single audio file. This eliminates the need for manual operations with desktop software, saving you valuable time. Currently, GroupDocs.Merger allows combining audio files having the same extensions. For example, WAV file with other WAV files, or MP3 file with other MP3 files. In addition, an MP3 file can be joined into a WAV file.
 
 Here's a C# code snippet demonstrating how to concatenate audio files:
 
@@ -54,6 +54,10 @@ using (var merger = new GroupDocs.Merger.Merger(@"c:\sample1.wav"))
     merger.Save(@"c:\merged.wav");
 }
 ```
+
+{{< alert style="warning" >}}
+Joining an audio file into a format it cannot be joined into (for example, a WAV file into an MP3 file) throws `FileTypeNotSupportedException` ("Joining 'Wav' into 'Mp3' is not supported").
+{{< /alert >}}
 
 ### Merging Different Audio File Formats
 

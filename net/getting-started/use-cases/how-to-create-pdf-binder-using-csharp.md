@@ -27,7 +27,7 @@ Written for senior .NET developers and architects who need to embed merging into
 
 **What you'll need to follow along:**
 - .NET 6.0 SDK on your build agents.
-- GroupDocs.Merger NuGet package (v23.9 or later).
+- GroupDocs.Merger NuGet package (latest version).
 - A target runtime you've already profiled — these decisions depend on CPU and I/O characteristics.
 
 ## Four shapes at a glance
@@ -70,7 +70,7 @@ Console.WriteLine(
 return outputPath;
 ```
 
-Why this stays boring: `Merger` owns the file handles until `Dispose()`, `Join` appends each source, and the output format is decided by whichever file you opened first. Hand the SDK a PDF as `sourcePaths[0]` and the DOCX/XLSX on the tail end get converted in-flight — no temp files on your disk, no second library.
+Why this stays boring: `Merger` reads each source file and closes it right away, `Join` appends each source, and the output format is decided by whichever file you opened first. Hand the SDK a PDF as `sourcePaths[0]` and the DOCX/XLSX on the tail end get converted in-flight — no temp files on your disk, no second library.
 
 ### What it costs you
 
@@ -278,7 +278,7 @@ Merging on-prem (because the documents can't leave the building), metadata in th
 
 ### Compliance
 
-- For archival, ask the SDK for PDF/A-1b output via `SaveOptions`. Don't assume the input PDFs were compliant just because they opened.
+- For archival, validate the merged PDF against PDF/A with a dedicated tool; GroupDocs.Merger does not convert its output to PDF/A. Don't assume the input PDFs were compliant just because they opened.
 - Keep an audit record of `(requestId, sources, output, pageCount, timestamp)` for every merge. That's the record regulators want when they ask "what was in this binder."
 
 ## Monitoring and observability
@@ -308,7 +308,7 @@ Page on sustained `merge_duration_ms` above threshold (not spikes — spikes are
 ### Easy wins
 
 - Reuse `Merger` across batch operations where possible — init isn't free.
-- Turn on `SaveOptions.Compress` for output PDFs; the size reduction is usually meaningful.
+- Large source images make the merged PDF large; GroupDocs.Merger has no output compression option, so reduce image size before merging if file size matters.
 
 ## Decisions worth writing down
 
