@@ -58,6 +58,10 @@ using (Merger merger = new Merger(@"c:\sample1.jpg"))
 }
 ```
 
+{{< alert style="warning" >}}
+Joining an image into a document format it cannot be joined into (for example, a PNG image into a DOCX document) throws `FileTypeNotSupportedException` ("Joining 'Png' into 'Docx' is not supported").
+{{< /alert >}}
+
 ### Merge different image file formats
 
 This section describes how to merge different image file formats using GroupDocs.Merger API. Please look at the articles listed below:

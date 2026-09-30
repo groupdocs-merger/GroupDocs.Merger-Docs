@@ -158,7 +158,7 @@ Please read the following article: [How to correctly merge DOCX streams]({{< ref
 
 ### Code Examples
 
-Please find more [use-cases and complete C# sources](https://docs.groupdocs.com/merger/net/showcases/) of our backend and frontend examples and try them for free!
+Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!
 
 ### Merge Word files Live Demo
 

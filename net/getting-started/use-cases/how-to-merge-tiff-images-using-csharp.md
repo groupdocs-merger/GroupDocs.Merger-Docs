@@ -82,6 +82,43 @@ using (Merger merger = new Merger(@"c:\sample1.tiff"))
 
 !["Merged.tiff"](/merger/net/images/jpg/merged_vertical.jpg)
 
+### How to merge TIFF files page by page
+
+A TIFF file can contain several pages (frames). When you join TIFF files without [ImageJoinOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/imagejoinoptions), their pages are appended one after another into a multi-page TIFF:
+
+```csharp
+// Load the source TIFF file
+using (Merger merger = new Merger(@"c:\sample1.tiff"))
+{
+    // Append all pages of another TIFF file
+    merger.Join(@"c:\sample2.tiff");
+    // Save the multi-page result
+    merger.Save(@"c:\merged.tiff");
+}
+```
+
+To choose which pages to keep and in which order, use [PageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/). Pages can be taken from any of the files, including the first one. The document is identified by its index (starting from 0) and the page by its number (starting from 1):
+
+```csharp
+using (Merger merger = new Merger(@"c:\sample1.tiff"))
+{
+    merger.Join(@"c:\sample2.tiff");
+
+    PageBuilder pageBuilder = merger.CreatePageBuilder();
+    // Page 3 of the first file, page 2 of the second file, then page 1 of the first file
+    pageBuilder.AddPage(pageBuilder.Documents[0].Index, 3);
+    pageBuilder.AddPage(pageBuilder.Documents[1].Index, 2);
+    pageBuilder.AddPage(pageBuilder.Documents[0].Index, 1);
+
+    merger.ApplyPageBuilder(pageBuilder);
+    merger.Save(@"c:\merged.tiff");
+}
+```
+
+{{< alert style="warning" >}}
+`PageBuilder` is not available after a join with `ImageJoinOptions`: the images are then composed into one layout rather than a page sequence, so `CreatePageBuilder` and `ApplyPageBuilder` throw `GroupDocsMergerException`. Join TIFF files without `ImageJoinOptions` to compose them page by page.
+{{< /alert >}}
+
 ### Code Examples
 
 Please find more [use-cases and complete C# sources]({{< ref "merger/net/showcases.md" >}}) of our backend and frontend examples and try them for free!

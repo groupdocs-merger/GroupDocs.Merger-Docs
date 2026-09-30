@@ -20,6 +20,10 @@ Using the [PageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.mer
 
 To start using the `PageBuilder` class, you need to create an instance of it. You can then use the `AddPage` method to append a single page, or the `AddPageRange` method to append a range of pages. Once you have added all the pages in the required order, you can apply them to the documents by calling the `Merger.ApplyPageBuilder` method.
 
+{{< alert style="info" >}}
+`PageBuilder` works with paged formats such as PDF, Word processing documents and multi-page TIFF images. It is not available after a join with `ImageJoinOptions`, and while a spreadsheet joined with `SpreadsheetJoinMode.Rows` is pending: in both cases `CreatePageBuilder` or `ApplyPageBuilder` throws `GroupDocsMergerException`.
+{{< /alert >}}
+
 
 ## Specifying the required pages by their number
 
@@ -31,7 +35,7 @@ Here are the steps to combine several pages from various documents specifying th
 *   Create a [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object and provide the path or stream of the source file.
 *   Use the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join_3) to add another source document. Repeat this step for each document you want to merge.
 *   Create a [PageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/) object by calling the `Merger.CreatePageBuilder` method.
-*   Call the [AddPage](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/addpage) method and pass the `IPageInfo` object describing the appropriate page. Note that the `IPageInfo` object uses zero-based notation for both source documents and page numbers.  Repeat this step for every page you want to add.
+*   Call the [AddPage](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/addpage) method and pass the `IPageInfo` object describing the appropriate page. Note that the `Documents` and `Pages` collections are zero-based: `Documents[0].Pages[0]` is page 1 of the first document.  Repeat this step for every page you want to add.
 *   Use the [ApplyPageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/applypagebuilder) method to apply the specified order of pages to the merged document.
 *   Save the resulting document by calling the [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method and providing a file path.
 
@@ -66,17 +70,17 @@ using (Merger merger = new Merger(filePath))
 }
 ```
 
-## Specifying the required pages by their index
+## Specifying the required pages by document index and page number
 
-When adding many pages, specifying them by number is not optimal since in that case each call of the `AddPage` method invokes loading of document information. To improve performance, you can skip loading the document information and specify pages by their index instead.
+When adding many pages, taking them from the `Documents` and `Pages` collections is not optimal, since that requires loading document information. To improve performance, you can skip loading the document information and pass the document index and the page number directly.
 
-To combine several pages from various documents specifying the pages by their index:
+To combine several pages from various documents specifying the document index and the page number:
 
 *   Create a [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object and provide the path or stream of the source file.
 *   Use the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join_3) to add another source document. Repeat this step for each document you want to merge.
 *   Create a [PageBuilderOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/pagebuilderoptions/) object and set the `LoadDocumentInfo` property to `false`.
 *   Create a [PageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/) object by calling the `Merger.CreatePageBuilder` method and pass the `PageBuilderOptions` to it.
-*   Call the [AddPage](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/addpage) method and pass the source document index and the index number of the needed page. Repeat this step for every page you want to add.
+*   Call the [AddPage](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/addpage) method and pass the source document index (starting from 0) and the number of the needed page (starting from 1). Repeat this step for every page you want to add.
 *   Call the [ApplyPageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/applypagebuilder) method to apply the specified order of pages to the merged document.
 *   Save the resulting document by calling the [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method and providing a file path.
 
@@ -121,7 +125,7 @@ Here are the steps to combine several pages from various documents specifying th
 *   Create a [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object and provide the path or stream of the source file.
 *   Use the [Join](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/join/#join_3) to add another source document. Repeat this step for each document you want to merge.
 *   Create a [PageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/) object by calling the `Merger.CreatePageBuilder` method.
-*   Call the [AddPageRange](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/addpagerange) method and pass an array of `IPageInfo` objects describing the appropriate pages. Please note that `IPageInfo` objects use zero-based notation for source documents and page numbers.
+*   Call the [AddPageRange](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.builders/pagebuilder/addpagerange) method and pass an array of `IPageInfo` objects describing the appropriate pages. Please note that the `Documents` and `Pages` collections are zero-based: `Documents[0].Pages[0]` is page 1 of the first document.
 *   Use the [ApplyPageBuilder](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/applypagebuilder) method to apply the specified order of pages to the merged document.
 *   Save the resulting document by calling the [Save](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/save/#save_1) method and providing a file path.
 

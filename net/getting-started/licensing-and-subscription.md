@@ -62,6 +62,13 @@ using (FileStream fileStream = File.OpenRead("GroupDocs.Merger.lic"))
 }
 ```
 
+{{< alert style="warning" >}}
+`SetLicense` reports a license it cannot load instead of leaving the product in evaluation mode silently:
+
+* `SetLicense(string)` looks for the file at the given path, then next to the application's assemblies, then in the current directory. If the file is not found, it throws `InvalidOperationException` ("License not found: …"). A null or empty path throws `ArgumentException`.
+* `SetLicense(Stream)` throws `ArgumentNullException` when the stream is null or empty.
+{{< /alert >}}
+
 {{< alert style="info" >}}Calling [License](https://reference.groupdocs.com/merger/net/groupdocs.merger/license).[SetLicense](https://reference.groupdocs.com/merger/net/groupdocs.merger/license/setlicense) multiple times is not harmful but simply wastes processor time. If you are developing a Windows Forms or console application, call License.SetLicense in your startup code, before using GroupDocs.Merger classes.  
 When developing an ASP.NET application, you can call License.SetLicense from the Global.asax.cs (Global.asax.vb) file in the Application\_Start protected method. It is called once when the application starts.  
 Do not call [License](https://reference.groupdocs.com/merger/net/groupdocs.merger/license).[SetLicense](https://reference.groupdocs.com/merger/net/groupdocs.merger/license/setlicense) from within Page\_Load methods since it means the license will be loaded every time a web page is loaded.

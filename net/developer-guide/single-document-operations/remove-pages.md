@@ -11,6 +11,11 @@ hideChildren: False
 **[GroupDocs.Merger](https://products.groupdocs.com/merger/net)** provides an ability to remove single page or a collection of specific page numbers from the source document.   
 Here are the steps to remove document page(s):
 
+{{< alert style="warning" >}}
+Specify at least one page number. Calling `RemovePages` without page numbers (for example, with `new RemoveOptions()`) throws `GroupDocsMergerException` ("There are no page numbers to remove.").
+{{< /alert >}}
+
+
 *   Initialise [RemoveOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/removeoptions) class with page numbers to remove;
 *   Instantiate [Merger](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger) object with source document path or stream;
 *   Call [RemovePages](https://reference.groupdocs.com/merger/net/groupdocs.merger/merger/removepages) method and pass [RemoveOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/removeoptions) object to it;

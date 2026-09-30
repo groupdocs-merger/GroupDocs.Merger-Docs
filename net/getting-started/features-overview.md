@@ -15,7 +15,7 @@ GroupDocs.Merger allows you to join multiple documents and manipulate single doc
 
 ### Join Documents
 
-This feature lets you [merge]({{< ref "merger/net/developer-guide/merge/_index.md" >}}) two or more documents into one document, join specific pages or page ranges from several source documents into single resultant document.
+This feature lets you [merge]({{< ref "merger/net/developer-guide/merge/_index.md" >}}) two or more documents into one document, join specific pages or page ranges from several source documents into single resultant document. With [PageBuilder]({{< ref "merger/net/developer-guide/merge/merge-pages-in-arbitrary-order.md" >}}) you can combine pages from several documents in any order, and [spreadsheets]({{< ref "merger/net/developer-guide/merge/excel.md" >}}) can be joined row by row into a single sheet instead of as separate worksheets.
 
 ## Single document operations
 
@@ -33,7 +33,7 @@ This feature lets you [merge]({{< ref "merger/net/developer-guide/merge/_index.m
 
 ### Rotate Pages
 
-**RotatePages** operation lets you [rotate pages]({{< ref "merger/net/developer-guide/single-document-operations/rotate-pages.md" >}}) within document. You can rotate pages by setting rotation angle to 90,180 or 270 degrees.
+**Rotate** operation lets you [rotate pages]({{< ref "merger/net/developer-guide/single-document-operations/rotate-pages.md" >}}) within document. You can rotate pages by setting rotation angle to 90,180 or 270 degrees.
 
 ### Swap Pages
 
@@ -63,12 +63,12 @@ This may be quite useful for generating document preview.
 
 ## Preview document pages
 
-Document preview feature allows to generate image representations of document pages. This may be helpful for better understanding about document content and its structure. Preview can be generated for all document pages (by default) or for specific page numbers or page range.
+Document preview feature allows to generate image representations of document pages. This may be helpful for better understanding about document content and its structure. Preview can be generated for all document pages (by default) or for specific page numbers or page range, and at a specific image size.
 
 Supported image formats for document preview are:
 
 * PNG;
-* JPG;
+* JPEG;
 * BMP.
 
 ## Logging while processing document

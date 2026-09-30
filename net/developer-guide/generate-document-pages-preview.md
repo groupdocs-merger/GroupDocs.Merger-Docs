@@ -76,7 +76,31 @@ private static Stream CreatePageStream(int pageNumber)
 }
 ```
 
-## Generate document preview from stream with custom stream releasing delegate
+## Set the preview size
+
+Use the `Width` and `Height` properties of [PreviewOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/previewoptions) to get preview images of a specific size in pixels. The size is honoured for every supported document format:
+
+*   When both `Width` and `Height` are set, every preview image has exactly that size.
+*   When only one of them is set, the other is calculated from the page's aspect ratio.
+*   A negative `Width` or `Height` throws `GroupDocsMergerException`.
+
+The `Resolution` property sets the resolution of the rendered images.
+
+```csharp
+public static void GetPreviewOfSize()
+{
+    string filePath = @"c:\sample.docx";
+    using (Merger merger = new Merger(filePath))
+    {
+        PreviewOptions previewOption = new PreviewOptions(CreatePageStream, PreviewMode.JPEG);
+        // Every preview image will be 800 pixels wide; the height follows the page's aspect ratio
+        previewOption.Width = 800;
+        merger.GeneratePreview(previewOption);
+    }
+}
+```
+
+## Generate document preview with custom stream releasing delegate
 
 ```csharp
 public static void GetPreview()
