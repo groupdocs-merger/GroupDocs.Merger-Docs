@@ -77,3 +77,8 @@ with `GROUPDOCS_MCP_STORAGE_PATH` pointing at your documents folder — [per-cli
 * [Assemble a document pack]({{< ref "merger/mcp/use-cases/assemble-a-document-pack.md" >}}) — the repeatable multi-round workflow.
 * [Extract pages from a folder]({{< ref "merger/mcp/use-cases/extract-pages-in-bulk.md" >}}) — one prompt, many files.
 * [On-premise architecture]({{< ref "merger/mcp/use-cases/on-premise-document-merging.md" >}}) — why this beats an upload site.
+
+## Read more
+
+* [Why your AI agent should merge files with an engine, not by regenerating them](https://blog.groupdocs.com/merger/why-ai-agents-should-merge-documents-with-an-engine-mcp/) — the same scenario on the GroupDocs blog, with worked examples and the trade-offs.
+

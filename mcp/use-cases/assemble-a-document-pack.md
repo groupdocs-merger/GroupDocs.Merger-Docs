@@ -42,6 +42,8 @@ D:/Storage/Documents/
 
 A numeric prefix removes all ambiguity about sequence — for you and for the agent.
 
+Before a repeat run, set `GROUPDOCS_MCP_OUTPUT_PATH` to a separate folder ([configuration]({{< ref "merger/net/mcp/configuration.md" >}})). Outputs otherwise land in the storage folder, where the next *"every PDF in my documents folder"* run would merge last month's pack and the intermediate results back in.
+
 ## The prompt
 
 > Merge every PDF in my documents folder into one pack, in file-name order. Merge four at a time, chaining each result into the next call, and tell me the final file name.
@@ -67,7 +69,12 @@ With both the [Conversion](/conversion/mcp/) and Merger servers registered, that
 A pack usually needs more than assembly:
 
 * **Mark it** — a CONFIDENTIAL or DRAFT watermark: [GroupDocs.Watermark](/watermark/mcp/).
-* **Sign it** — a digital signature on the final file: [GroupDocs.Signature](/signature/mcp/).
 * **Clean it** — strip metadata before it leaves: [GroupDocs.Metadata](/metadata/mcp/).
+* **Sign it** — a digital signature on the final file: [GroupDocs.Signature](/signature/mcp/). Apply it last: any later change, including a watermark or a metadata strip, invalidates it.
 
 Each is a separate server with the same install pattern, and an agent that has them all can run the whole sequence from one prompt — locally, in the right order, with the file names it produced at each step.
+
+## Read more
+
+* [Enforce document pack assembly order with automated AI workflows using MCP](https://blog.groupdocs.com/merger/enforce-document-pack-assembly-automated-mcp/) — the same scenario on the GroupDocs blog, with worked examples and the trade-offs.
+

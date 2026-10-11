@@ -44,7 +44,7 @@ The agent calls [`split`]({{< ref "merger/mcp/tools-reference/split.md" >}}) per
 > Pull page 2 out of every contract, then merge all of them into one review file.
 > For each file, extract the signature page and put the results in the output folder.
 
-The second one chains straight into [`merge`]({{< ref "merger/mcp/tools-reference/merge.md" >}}) in rounds of four — a single combined document from one page of each source.
+The second one chains straight into [`merge`]({{< ref "merger/mcp/tools-reference/merge.md" >}}) in rounds of four — a single combined document from one page of each source. The signature-page prompt works when you say which page holds the signature: `split` extracts the page numbers it is given and does not search for content.
 
 ## Ask for the page count when the position is relative
 
@@ -59,3 +59,8 @@ Forty extracted pages beside forty originals is a folder nobody can navigate. Se
 * **Failures are per file.** A corrupt or password-protected document fails its own call; ask for the failures as a list so a batch of 40 does not hide two errors.
 * **Metered usage adds up.** Under [metered licensing]({{< ref "merger/mcp/getting-started/licensing.md" >}}#metered-pay-per-use-licensing) every call is billed processing.
 * **Evaluation mode trims merged output to three pages** — extraction of single pages is unaffected, but the moment you merge the results, the cap applies.
+
+## Read more
+
+* [The first page of every document in a folder: one prompt, one MCP server](https://blog.groupdocs.com/merger/extract-pages-from-many-documents-ai-agent/) — the same scenario on the GroupDocs blog, with worked examples and the trade-offs.
+

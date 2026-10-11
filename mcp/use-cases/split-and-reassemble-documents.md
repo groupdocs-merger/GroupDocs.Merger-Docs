@@ -63,3 +63,8 @@ In spreadsheet formats the page numbers address **worksheets**, not printed page
 ## The evaluation limit shows up here too
 
 A reassembled document is subject to the same three-page trim as any other merge output. If a rebuilt eight-page range comes back as three, check [`get_license_status`]({{< ref "merger/mcp/tools-reference/get-license-status.md" >}}) before looking for a bug.
+
+## Read more
+
+* [3 ways to rebuild a document from just the pages you need via MCP](https://blog.groupdocs.com/merger/split-reassemble-pages-ai-agent-mcp/) — the same scenario on the GroupDocs blog, with worked examples and the trade-offs.
+
