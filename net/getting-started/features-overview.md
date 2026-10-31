@@ -71,6 +71,10 @@ Supported image formats for document preview are:
 * JPEG;
 * BMP.
 
+## Control of external resources
+
+GroupDocs.Merger does not load the images, stylesheets and other resources a document references from outside itself unless you allow it. Through [LoadOptions](https://reference.groupdocs.com/merger/net/groupdocs.merger.domain.options/loadoptions/) you can [allow trusted locations or decide per resource]({{< ref "merger/net/developer-guide/loading/skip-external-resources.md" >}}).
+
 ## Logging while processing document
 
 GroupDocs.Merger allows to log document manipulation processes info through [ILogger](https://reference.groupdocs.com/merger/net/groupdocs.merger.logging/ilogger) interface. There is ability to use built-in [ConsoleLogger](https://reference.groupdocs.com/merger/net/groupdocs.merger.logging/consolelogger) or implement own logging logic.
