@@ -76,7 +76,7 @@ You can also download the assemblies as a ZIP archive or MSI installer from the 
 
 1. Download the ZIP or MSI for the desired version.
 2. Extract files (ZIP) or run the installer (MSI).
-3. In your project, add a reference to the `GroupDocs.Merger.dll` file for the target framework you need. The ZIP archive keeps the assemblies in the `lib` folder (for example, `lib/net8.0/GroupDocs.Merger.dll`), including the `-windows` builds; the MSI installer places them in the `bin` folder of the installation directory (`bin/net462`, `bin/net6.0`, `bin/net8.0`, `bin/net10.0`).
+3. In your project, add a reference to the `GroupDocs.Merger.dll` file for the target framework you need. The ZIP archive keeps the assemblies in the `lib` folder (for example, `lib/net8.0/GroupDocs.Merger.dll`), including the `-windows` builds; the MSI installer places them in the `bin` folder of the installation directory (for example, `bin/net8.0`), also including the `-windows` builds.
 
 ## Verify Installation
 
