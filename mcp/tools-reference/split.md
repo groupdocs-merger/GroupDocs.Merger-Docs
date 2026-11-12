@@ -21,7 +21,7 @@ toc: True
 
 | Name | Type | Required | Description |
 |---|---|---|---|
-| `file` | object | yes |  — [FileInput shape]({{< ref "merger/mcp/tools-reference/_index.md#the-fileinput-shape" >}}) |
+| `file` | object | yes | The document — see [FileInput shape]({{< ref "merger/mcp/tools-reference/_index.md#the-fileinput-shape" >}}) |
 | `pages` | string | yes | Page numbers to extract as separate documents (1-based), e.g. '3,6,8' |
 | `password` | string | no | Password for protected documents |
 

@@ -65,4 +65,4 @@ Ask your agent *"list your GroupDocs merge tools and the license status"* — it
 
 ## Still stuck?
 
-Post your config (redact license paths) and the client name in the [Merger forum](https://forum.groupdocs.com/c/merger/32) — we answer MCP questions daily. Bugs: [GitHub issues](https://github.com/groupdocs-merger/GroupDocs.Merger.Mcp/issues).
+Post your config (redact license paths) and the client name in the [Merger forum](https://forum.groupdocs.com/c/merger/32). Bugs: [GitHub issues](https://github.com/groupdocs-merger/GroupDocs.Merger.Mcp/issues).
