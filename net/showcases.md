@@ -3,7 +3,7 @@ id: showcases
 url: merger/net/showcases
 title: Showcases
 weight: 3
-description: "Code examples and live demostrations of GroupDocs.Merger for .NET"
+description: "Code examples and live demonstrations of GroupDocs.Merger for .NET"
 keywords: 
 productName: GroupDocs.Merger for .NET
 hideChildren: False
