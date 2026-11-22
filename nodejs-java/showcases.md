@@ -3,7 +3,7 @@ id: showcases
 url: merger/nodejs-java/showcases
 title: Showcases
 weight: 3
-description: "Code examples and live demostrations of GroupDocs.Merger for Node.js via Java"
+description: "Code examples and live demonstrations of GroupDocs.Merger for Node.js via Java"
 keywords: 
 productName: GroupDocs.Merger for Node.js via Java
 hideChildren: False

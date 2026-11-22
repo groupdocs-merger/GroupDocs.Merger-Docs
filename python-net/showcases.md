@@ -3,7 +3,7 @@ id: showcases
 url: merger/python-net/showcases
 title: Showcases
 weight: 3
-description: "Code examples and live demostrations of GroupDocs.Merger for Python via .NET"
+description: "Code examples and live demonstrations of GroupDocs.Merger for Python via .NET"
 keywords: 
 productName: GroupDocs.Merger for Python via .NET
 hideChildren: False

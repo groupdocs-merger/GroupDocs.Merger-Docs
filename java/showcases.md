@@ -3,7 +3,7 @@ id: showcases
 url: merger/java/showcases
 title: Showcases
 weight: 3
-description: "Code examples and live demostrations of GroupDocs.Merger for Java"
+description: "Code examples and live demonstrations of GroupDocs.Merger for Java"
 keywords: 
 productName: GroupDocs.Merger for Java
 hideChildren: False

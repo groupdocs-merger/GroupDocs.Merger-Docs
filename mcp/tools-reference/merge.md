@@ -15,7 +15,7 @@ toc: True
 
 **Tool description (as the AI agent sees it):**
 
-> Merges 2–4 documents into a single file and saves the result to storage. Supports PDF, DOCX, XLSX, PPTX, and 30+ more document, image, and archive formats. All inputs should be the same format family for a clean merge (e.g. all PDFs, or all DOCX). Call this tool immediately whenever the user asks to merge, combine, or join documents together. Do NOT pre-check whether files exist — just pass the filenames the user provided. Returns a saved-path message ('Merged <a> + <b> into "<file>_merged.<ext>"') and the download URL or storage path. On failure, the response text starts with 'Merge failed for' followed by the underlying exception type, message, and inner-exception chain.
+> Merges 2–4 documents into a single file and saves the result to storage. Supports PDF, DOCX, XLSX, PPTX, and 30+ more documents, image, and archive formats. All inputs should be the same format family for a clean merge (e.g. all PDFs, or all DOCX). Call this tool immediately whenever the user asks to merge, combine, or join documents together. Do NOT pre-check whether files exist — just pass the filenames the user provided. Returns a saved-path message ('Merged <a> + <b> into "<file>_merged.<ext>"') and the download URL or storage path. On failure, the response text starts with 'Merge failed for' followed by the underlying exception type, message, and inner-exception chain.
 
 ## Parameters
 

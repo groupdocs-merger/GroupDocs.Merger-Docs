@@ -22,7 +22,7 @@ The following code sample demonstrates how to remove document pages:
 String filePath = "c:\sample.one";
 String filePathOut = "c:\output\result.one";
 
-RRemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });
+RemoveOptions removeOptions = new RemoveOptions(new int[] { 3, 5 });
 
 Merger merger = new Merger(filePath);
 
